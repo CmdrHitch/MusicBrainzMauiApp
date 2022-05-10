@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0-android31.0": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -153,6 +165,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -1561,6 +1582,18 @@
       }
     },
     "net6.0-android31.0/android-arm": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -1712,6 +1745,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -3120,6 +3162,18 @@
       }
     },
     "net6.0-android31.0/android-arm64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -3271,6 +3325,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -4679,6 +4742,18 @@
       }
     },
     "net6.0-android31.0/android-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -4830,6 +4905,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -6238,6 +6322,18 @@
       }
     },
     "net6.0-android31.0/android-x86": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -6389,6 +6485,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -7797,6 +7902,18 @@
       }
     },
     "net6.0-android31.0/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -7948,6 +8065,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -9356,6 +9482,18 @@
       }
     },
     "net6.0-android31.0/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -9507,6 +9645,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -10915,6 +11062,18 @@
       }
     },
     "net6.0-android31.0/win10-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.8.8.2": {
         "type": "package",
         "compile": {
@@ -11066,6 +11225,15 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -12474,6 +12642,18 @@
       }
     },
     "net6.0-ios15.4": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12607,6 +12787,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -12644,6 +12833,18 @@
       }
     },
     "net6.0-ios15.4/android-arm": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12777,6 +12978,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -12814,6 +13024,18 @@
       }
     },
     "net6.0-ios15.4/android-arm64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12947,6 +13169,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -12984,6 +13215,18 @@
       }
     },
     "net6.0-ios15.4/android-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13117,6 +13360,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13154,6 +13406,18 @@
       }
     },
     "net6.0-ios15.4/android-x86": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13287,6 +13551,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13324,6 +13597,18 @@
       }
     },
     "net6.0-ios15.4/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13457,6 +13742,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13494,6 +13788,18 @@
       }
     },
     "net6.0-ios15.4/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13627,6 +13933,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13664,6 +13979,18 @@
       }
     },
     "net6.0-ios15.4/win10-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13797,6 +14124,15 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -13834,6 +14170,18 @@
       }
     },
     "net6.0-maccatalyst15.4": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13967,6 +14315,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14004,6 +14361,18 @@
       }
     },
     "net6.0-maccatalyst15.4/android-arm": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14137,6 +14506,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14174,6 +14552,18 @@
       }
     },
     "net6.0-maccatalyst15.4/android-arm64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14307,6 +14697,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14344,6 +14743,18 @@
       }
     },
     "net6.0-maccatalyst15.4/android-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14477,6 +14888,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14514,6 +14934,18 @@
       }
     },
     "net6.0-maccatalyst15.4/android-x86": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14647,6 +15079,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14684,6 +15125,18 @@
       }
     },
     "net6.0-maccatalyst15.4/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14817,6 +15270,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -14854,6 +15316,18 @@
       }
     },
     "net6.0-maccatalyst15.4/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -14987,6 +15461,15 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -15024,6 +15507,18 @@
       }
     },
     "net6.0-maccatalyst15.4/win10-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -15159,6 +15654,15 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15194,6 +15698,18 @@
       }
     },
     "net6.0-windows10.0.19041": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -15421,6 +15937,15 @@
           }
         }
       },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -15450,6 +15975,18 @@
       }
     },
     "net6.0-windows10.0.19041/android-arm": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -15647,6 +16184,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -15678,6 +16224,18 @@
       }
     },
     "net6.0-windows10.0.19041/android-arm64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -15875,6 +16433,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -15906,6 +16473,18 @@
       }
     },
     "net6.0-windows10.0.19041/android-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16103,6 +16682,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16134,6 +16722,18 @@
       }
     },
     "net6.0-windows10.0.19041/android-x86": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16331,6 +16931,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16362,6 +16971,18 @@
       }
     },
     "net6.0-windows10.0.19041/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16559,6 +17180,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -16590,6 +17220,18 @@
       }
     },
     "net6.0-windows10.0.19041/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -16789,6 +17431,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -16818,6 +17469,18 @@
       }
     },
     "net6.0-windows10.0.19041/win10-x64": {
+      "CommunityToolkit.Mvvm/8.0.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -17023,6 +17686,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MusicBrainzAPI/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Hqub.MusicBrainz.API.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -17053,6 +17725,34 @@
     }
   },
   "libraries": {
+    "CommunityToolkit.Mvvm/8.0.0-preview3": {
+      "sha512": "0d5QfUWgKGI2Ba7aE3mbGdGwW7Od1wBEp8VFX866tUSkgPLdMvC8zk2/kfGR8wcAl6p118EYRIteE4CzztSzCQ==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.0.0-preview3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.0.0-preview3.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "GoogleGson/2.8.8.2": {
       "sha512": "YfUT4t1cilKIV+2GIQCpiXG67aA6+LzvuNVbOLAt2XlwfXnmWLXfbzQMgwyOM8F00nmtrEBBu4obrw/FGyr99A==",
       "type": "package",
@@ -18100,6 +18800,23 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "MusicBrainzAPI/2.5.0": {
+      "sha512": "daykulteVhrtoX5orbJGc82u1EP8zCvUElCQM41NNFZpxlXyp2UAQlU8EZ9GJT5JUSzpqs4QER+qTC317dbMvA==",
+      "type": "package",
+      "path": "musicbrainzapi/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Hqub.MusicBrainz.API.dll",
+        "lib/net45/Hqub.MusicBrainz.API.xml",
+        "lib/net5.0/Hqub.MusicBrainz.API.dll",
+        "lib/net5.0/Hqub.MusicBrainz.API.xml",
+        "lib/netstandard2.0/Hqub.MusicBrainz.API.dll",
+        "lib/netstandard2.0/Hqub.MusicBrainz.API.xml",
+        "musicbrainzapi.2.5.0.nupkg.sha512",
+        "musicbrainzapi.nuspec"
       ]
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -20019,23 +20736,31 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
-      "Microsoft.Maui.Dependencies >= 6.0.300-rc.2.5513",
-      "Microsoft.Maui.Extensions >= 6.0.300-rc.2.5513"
-    ],
-    "net6.0-ios15.4": [
+      "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.2.5513",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.2.5513",
+      "MusicBrainzAPI >= 2.5.0"
+    ],
+    "net6.0-ios15.4": [
+      "CommunityToolkit.Mvvm >= 8.0.0-preview3",
+      "Microsoft.Maui.Dependencies >= 6.0.300-rc.2.5513",
+      "Microsoft.Maui.Extensions >= 6.0.300-rc.2.5513",
+      "MusicBrainzAPI >= 2.5.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.4": [
+      "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.2.5513",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.2.5513",
+      "MusicBrainzAPI >= 2.5.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-windows10.0.19041": [
+      "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.2.5513",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.2.5513",
-      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194"
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
+      "MusicBrainzAPI >= 2.5.0"
     ]
   },
   "packageFolders": {
@@ -20099,6 +20824,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.0.0-preview3, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
@@ -20108,6 +20837,10 @@
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
             "autoReferenced": true
+          },
+          "MusicBrainzAPI": {
+            "target": "Package",
+            "version": "[2.5.0, )"
           }
         },
         "imports": [
@@ -20160,6 +20893,10 @@
       "net6.0-ios15.4": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.0.0-preview3, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
@@ -20169,6 +20906,10 @@
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
             "autoReferenced": true
+          },
+          "MusicBrainzAPI": {
+            "target": "Package",
+            "version": "[2.5.0, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -20208,6 +20949,10 @@
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.0.0-preview3, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
@@ -20217,6 +20962,10 @@
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
             "autoReferenced": true
+          },
+          "MusicBrainzAPI": {
+            "target": "Package",
+            "version": "[2.5.0, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -20257,6 +21006,10 @@
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.0.0-preview3, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.300-rc.2.5513, )",
@@ -20272,6 +21025,10 @@
             "target": "Package",
             "version": "[10.0.22000.194, )",
             "autoReferenced": true
+          },
+          "MusicBrainzAPI": {
+            "target": "Package",
+            "version": "[2.5.0, )"
           }
         },
         "imports": [

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicBrainzMauiApp.View.MainPage"
+             MaximumWidthRequest="400" MaximumHeightRequest="800"
+             Title="Music Brainz">
+
+    <VerticalStackLayout Spacing="25" Padding="30" 
+         BackgroundColor="White">
+
+
+        <Label 
+            HorizontalOptions="Center" />
+
+        <Entry 
+            Placeholder="Search Text..." PlaceholderColor="Olive"
+            BackgroundColor="AntiqueWhite"
+            TextColor="Black"/>
+
+        <Button 
+            Text="Search"
+            FontAttributes="Bold"
+            BackgroundColor="White"
+            BorderColor="Blue"
+            BorderWidth="2"
+            HorizontalOptions="CenterAndExpand" 
+            Command="{Binding MBSearchCommand}"/>
+
+        <ListView BackgroundColor="Cornsilk" 
+                  HeightRequest="400" />
+
+
+    </VerticalStackLayout>
+</ContentPage>

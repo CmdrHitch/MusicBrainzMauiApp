@@ -3,12 +3,15 @@
     x:Class="MusicBrainzMauiApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MusicBrainzMauiApp"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:view="clr-namespace:MusicBrainzMauiApp.View"
+    Shell.FlyoutBehavior="Disabled"
+    MaximumHeightRequest="500"
+    MaximumWidthRequest="900">
 
     <ShellContent
-        Title="Hello, World!"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Music Brainz"
+        ContentTemplate="{DataTemplate view:MainPage}"
+        Route="MainPage"
+     />
 
 </Shell>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hxY13E2jfKkmgtT45W3iuKh67bXGh3dS0NY0HNxEtaiNbJJWYIdfjbVFFZ8X8k/CH5gtwJTVc83/NTQtJn4EDg==",
+  "dgSpecHash": "eJWfxIfleUGNqNWLqN6wsGhkOMFdvi7X9tMbQamTknRVrGzQkJWgRPEPQPtc1eFgVATIH8VUBI+P5a7lwP9omw==",
   "success": true,
   "projectFilePath": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andyc\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0-preview3\\communitytoolkit.mvvm.8.0.0-preview3.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\googlegson\\2.8.8.2\\googlegson.2.8.8.2.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -20,6 +21,7 @@
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.300-rc.2.1310\\microsoft.maui.graphics.win2d.winui.desktop.6.0.300-rc.2.1310.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.3\\microsoft.windowsappsdk.1.0.3.nupkg.sha512",
+    "C:\\Users\\andyc\\.nuget\\packages\\musicbrainzapi\\2.5.0\\musicbrainzapi.2.5.0.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
