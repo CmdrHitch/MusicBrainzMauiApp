@@ -1,5 +1,6 @@
 ﻿using MusicBrainzMauiApp.ViewModel;
 using MusicBrainzMauiApp.View;
+using MusicBrainzMauiApp.Services;
 
 namespace MusicBrainzMauiApp;
 
@@ -16,7 +17,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		builder.Services.AddSingleton<MBSearchViewModel>();
+		//Order is important or get that pesky debugger message.
+		builder.Services.AddSingleton<MusicBrainzClientService>();
+		builder.Services.AddSingleton<ArtistViewModel>();
 		builder.Services.AddSingleton<MainPage>(); // Do not Forget!! 
 
 		return builder.Build();

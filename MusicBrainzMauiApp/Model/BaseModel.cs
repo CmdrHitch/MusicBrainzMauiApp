@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MusicBrainzMauiApp.Model
 {
     //https://www.lucenetutorial.com/lucene-query-syntax.html
-    internal class BaseModel
+    public class BaseModel
     {
 
 

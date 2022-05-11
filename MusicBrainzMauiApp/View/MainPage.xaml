@@ -2,8 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicBrainzMauiApp.View.MainPage"
+             xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
+             xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              MaximumWidthRequest="400" MaximumHeightRequest="800"
-             Title="Music Brainz">
+             Title="Music Brainz"
+             x:DataType="viewmodel:ArtistViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 
          BackgroundColor="White">
@@ -15,7 +18,8 @@
         <Entry 
             Placeholder="Search Text..." PlaceholderColor="Olive"
             BackgroundColor="AntiqueWhite"
-            TextColor="Black"/>
+            TextColor="Black"
+            Text="{Binding SearchTerm}"/>
 
         <Button 
             Text="Search"
@@ -23,12 +27,28 @@
             BackgroundColor="White"
             BorderColor="Blue"
             BorderWidth="2"
-            HorizontalOptions="CenterAndExpand" 
-            Command="{Binding MBSearchCommand}"/>
-
-        <ListView BackgroundColor="Cornsilk" 
-                  HeightRequest="400" />
-
-
+            HorizontalOptions="CenterAndExpand"
+            Command="{Binding ArtistSearchCommand}" />
+        <CollectionView
+            ItemsSource="{Binding Artists}"
+            BackgroundColor="Transparent"
+            SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Artist">
+                    <Label
+                        Text="{Binding Name}" TextColor= "Black" />
+                </DataTemplate>
+                
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+        <ActivityIndicator
+        HorizontalOptions="FillAndExpand"
+        IsRunning="{Binding  IsBusy}"
+        IsVisible="{Binding IsBusy}"
+        VerticalOptions="CenterAndExpand" />
+        
     </VerticalStackLayout>
+
+
 </ContentPage>

@@ -9,7 +9,7 @@ namespace MusicBrainzMauiApp.View;
 public partial class MainPage : ContentPage
 {
 
-	public MainPage(MBSearchViewModel viewModel)
+	public MainPage(ArtistViewModel viewModel)
 	{
 		InitializeComponent();
 		BindingContext = viewModel;
