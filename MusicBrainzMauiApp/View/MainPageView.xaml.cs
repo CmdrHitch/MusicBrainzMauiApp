@@ -6,10 +6,10 @@ using CommunityToolkit.Mvvm.Input;
 namespace MusicBrainzMauiApp.View;
 
 
-public partial class MainPage : ContentPage
+public partial class MainPageView : ContentPage
 {
 
-	public MainPage(ArtistViewModel viewModel)
+	public MainPageView(ArtistsViewModel viewModel)
 	{
 		InitializeComponent();
 		BindingContext = viewModel;

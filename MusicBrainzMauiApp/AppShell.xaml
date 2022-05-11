@@ -10,7 +10,7 @@
 
     <ShellContent
         Title="Music Brainz"
-        ContentTemplate="{DataTemplate view:MainPage}"
+        ContentTemplate="{DataTemplate view:MainPageView}"
         Route="MainPage"
      />
 

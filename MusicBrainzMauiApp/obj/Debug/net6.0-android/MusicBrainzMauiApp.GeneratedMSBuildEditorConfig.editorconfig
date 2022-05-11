@@ -27,8 +27,14 @@ build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.Resourc
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles.xaml
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/MainPage.xaml]
+[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/ArtistsPageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.ArtistsPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ArtistsPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ArtistsPageView.xaml
+
+[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/MainPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.MainPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPageView.xaml

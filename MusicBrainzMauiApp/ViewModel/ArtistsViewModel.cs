@@ -10,14 +10,15 @@ using MusicBrainzMauiApp.Services;
 
 namespace MusicBrainzMauiApp.ViewModel;
 
-public partial class ArtistViewModel : BaseViewModel
+public partial class ArtistsViewModel : BaseViewModel
 {
     public ObservableCollection<Artist> Artists { get; set; } = new();
     MusicBrainzClientService client;
     public string SearchTerm { get; set; }
+    private string _lastSearchTerm;
     private static int limit = 5; 
 
-    public ArtistViewModel(MusicBrainzClientService client)
+    public ArtistsViewModel(MusicBrainzClientService client)
     {
         this.client = client; 
     }
@@ -28,17 +29,18 @@ public partial class ArtistViewModel : BaseViewModel
     [ICommand] // DON'T FORGET THE GOD DAMED 'I'
     public async Task ArtistSearch()
     {
-        if (IsBusy)
+        if (IsBusy || SearchTerm == _lastSearchTerm)
             return;
 
         try
         {
             IsBusy = true;
+            _lastSearchTerm = SearchTerm;
 
             Debug.WriteLine($"Search term is: { SearchTerm}");
 
            var artists = await client.GetArtists(SearchTerm, limit);
-            await Task.Delay(2000);
+           await Task.Delay(2000);
 
             foreach(var artist in artists)
             {

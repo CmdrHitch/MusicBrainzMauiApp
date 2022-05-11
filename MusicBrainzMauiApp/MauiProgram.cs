@@ -17,10 +17,11 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		//Order is important or get that pesky debugger message.
+		//Is order important ?? 
 		builder.Services.AddSingleton<MusicBrainzClientService>();
-		builder.Services.AddSingleton<ArtistViewModel>();
-		builder.Services.AddSingleton<MainPage>(); // Do not Forget!! 
+		builder.Services.AddSingleton<ArtistsViewModel>();
+		builder.Services.AddSingleton<ArtistsPageView>();
+		builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
 
 		return builder.Build();
 	}

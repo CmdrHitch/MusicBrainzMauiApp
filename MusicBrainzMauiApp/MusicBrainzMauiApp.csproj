@@ -53,4 +53,19 @@
 	  <PackageReference Include="MusicBrainzAPI" Version="2.5.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="View\ArtistsPageView.xaml.cs">
+	    <DependentUpon>ArtistsPageView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\MainPageView.xaml.cs">
+	    <DependentUpon>MainPageView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\ArtistsPageView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

@@ -1,22 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MusicBrainzMauiApp.View.MainPage"
+             x:Class="MusicBrainzMauiApp.View.ArtistsPageView"
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
-             MaximumWidthRequest="400" MaximumHeightRequest="800"
-             Title="Music Brainz"
-             x:DataType="viewmodel:ArtistViewModel">
+             Title="Find Artists" 
+             x:DataType="viewmodel:ArtistsViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 
-         BackgroundColor="White">
+            BackgroundColor="White">
 
 
         <Label 
             HorizontalOptions="Center" />
 
         <Entry 
-            Placeholder="Search Text..." PlaceholderColor="Olive"
+            Placeholder="Search Text..." PlaceholderColor="Grey"
             BackgroundColor="AntiqueWhite"
             TextColor="Black"
             Text="{Binding SearchTerm}"/>
@@ -38,17 +37,15 @@
                     <Label
                         Text="{Binding Name}" TextColor= "Black" />
                 </DataTemplate>
-                
+
             </CollectionView.ItemTemplate>
-            
+
         </CollectionView>
         <ActivityIndicator
         HorizontalOptions="FillAndExpand"
         IsRunning="{Binding  IsBusy}"
         IsVisible="{Binding IsBusy}"
         VerticalOptions="CenterAndExpand" />
-        
+
     </VerticalStackLayout>
-
-
 </ContentPage>
