@@ -341,3 +341,8 @@ C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-wind
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Hqub.MusicBrainz.API.dll
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.522.21309.dll
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-100.png
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-125.png
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-150.png
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-200.png
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-400.png

@@ -2,55 +2,61 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicBrainzMauiApp.View.MainPageView"
-             xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              MaximumWidthRequest="400" MaximumHeightRequest="800"
-             Title="Music Brainz">
+             Title="Music Brainz"
+             x:DataType="viewmodel:MainPageViewModel">
 
     <Grid BackgroundColor="White">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="*"/>
-         </Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+
 
         <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
+                Source="musicbrainz_logo.png"
+                VerticalOptions="Center"
                 Grid.Row="1"/>
         
-        <Button BackgroundColor="White" 
-                Text="Artists"
-                BorderColor="BlueViolet"
-                BorderWidth="1"
-                Margin="10,10,10,10"
-                Grid.Row="2"/>
+        <Entry
+            Placeholder="Search Text..." PlaceholderColor="Grey"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            Margin="10,10,10,10"
+            Text="{Binding SearchTerm}"/>
 
         <Button BackgroundColor="White" 
-                Text="Albums"
-                BorderColor="BlueViolet"
-                BorderWidth="1"
-                Margin="10,10,10,10"
-                Grid.Row="3"/>
+            x:Name="ArtistsBtn"
+            Text="Artists"
+            BorderColor="BlueViolet"
+            BorderWidth="1"
+            Margin="10,10,10,10"
+            Grid.Row="3"
+            Command="{Binding GoToArtistsViewCommand}"/>
 
-        <Button BackgroundColor="White" 
-                Text="Four"
-                BorderColor="BlueViolet"
-                BorderWidth="1"
-                Margin="10,10,10,10"
-                Grid.Row="4"/>
+        <Button BackgroundColor="White"
+            x:Name="AlbumsBtn"
+            Text="Albums"
+            BorderColor="BlueViolet"
+            BorderWidth="1"
+            Margin="10,10,10,10"
+            Grid.Row="4"/>
+
+        <Button BackgroundColor="White"
+            x:Name="RecordingsBtn"
+            Text="Recordings"
+            BorderColor="BlueViolet"
+            BorderWidth="1"
+            Margin="10,10,10,10"
+            Grid.Row="5"/>
         
-        <Button BackgroundColor="White" 
-                Text="Five"
-                BorderColor="BlueViolet"
-                BorderWidth="1"
-                Margin="10,10,10,10"
-                Grid.Row="5"/>
     </Grid>
 
 </ContentPage>

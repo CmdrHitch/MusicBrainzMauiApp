@@ -19,8 +19,9 @@ public static class MauiProgram
 
 		//Is order important ?? 
 		builder.Services.AddSingleton<MusicBrainzClientService>();
-		builder.Services.AddSingleton<ArtistsViewModel>();
-		builder.Services.AddSingleton<ArtistsPageView>();
+        builder.Services.AddSingleton<MainPageViewModel>();
+        builder.Services.AddTransient<ArtistsViewModel>();
+		builder.Services.AddTransient<ArtistsPageView>();
 		builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
 
 		return builder.Build();

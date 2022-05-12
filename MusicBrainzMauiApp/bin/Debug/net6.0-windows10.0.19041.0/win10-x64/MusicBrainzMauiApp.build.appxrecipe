@@ -940,6 +940,21 @@
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-100.png">
+      <PackagePath>musicbrainz_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-125.png">
+      <PackagePath>musicbrainz_logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-150.png">
+      <PackagePath>musicbrainz_logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-200.png">
+      <PackagePath>musicbrainz_logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-400.png">
+      <PackagePath>musicbrainz_logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\andyc\.nuget\packages\microsoft.windowsappsdk\1.0.3\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix">

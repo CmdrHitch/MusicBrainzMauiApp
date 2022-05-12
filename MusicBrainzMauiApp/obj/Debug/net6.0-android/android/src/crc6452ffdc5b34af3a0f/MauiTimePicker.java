@@ -2,7 +2,7 @@ package crc6452ffdc5b34af3a0f;
 
 
 public class MauiTimePicker
-	extends android.widget.EditText
+	extends androidx.appcompat.widget.AppCompatEditText
 	implements
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
@@ -39,14 +39,6 @@ public class MauiTimePicker
 		super (p0, p1, p2);
 		if (getClass () == MauiTimePicker.class)
 			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.MauiTimePicker, Microsoft.Maui", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2 });
-	}
-
-
-	public MauiTimePicker (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
-	{
-		super (p0, p1, p2, p3);
-		if (getClass () == MauiTimePicker.class)
-			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.MauiTimePicker, Microsoft.Maui", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2, p3 });
 	}
 
 

@@ -21,6 +21,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"Hqub.MusicBrainz.API.dll",
 		"Xamarin.Android.Glide.dll",
+		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
 		"Xamarin.Android.Glide.GifDecoder.dll",
 		"Xamarin.AndroidX.Activity.dll",

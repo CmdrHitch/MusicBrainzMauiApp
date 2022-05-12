@@ -1,19 +1,16 @@
 ﻿using MusicBrainzMauiApp.ViewModel;
-using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-
 
 namespace MusicBrainzMauiApp.View;
-
-
 public partial class MainPageView : ContentPage
 {
+    public string SearchTerm { get; set; }
 
-	public MainPageView(ArtistsViewModel viewModel)
-	{
-		InitializeComponent();
-		BindingContext = viewModel;
-	}
 
+    public MainPageView(MainPageViewModel viewModel)
+    {
+        InitializeComponent();
+        BindingContext = viewModel;
+    }
+  
 }
 

@@ -2,7 +2,7 @@ package crc649ff77a65592e7d55;
 
 
 public class TabbedPageManager_Listeners
-	extends java.lang.Object
+	extends androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 	implements
 		mono.android.IGCUserPeer,
 		com.google.android.material.tabs.TabLayout.BaseOnTabSelectedListener,
@@ -14,12 +14,12 @@ public class TabbedPageManager_Listeners
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler\n" +
 			"n_onTabReselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabReselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout/IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
 			"n_onTabSelected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabSelected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout/IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
 			"n_onTabUnselected:(Lcom/google/android/material/tabs/TabLayout$Tab;)V:GetOnTabUnselected_Lcom_google_android_material_tabs_TabLayout_Tab_Handler:Google.Android.Material.Tabs.TabLayout/IOnTabSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
 			"n_onPageScrollStateChanged:(I)V:GetOnPageScrollStateChanged_IHandler:AndroidX.ViewPager.Widget.ViewPager/IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
 			"n_onPageScrolled:(IFI)V:GetOnPageScrolled_IFIHandler:AndroidX.ViewPager.Widget.ViewPager/IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
-			"n_onPageSelected:(I)V:GetOnPageSelected_IHandler:AndroidX.ViewPager.Widget.ViewPager/IOnPageChangeListenerInvoker, Xamarin.AndroidX.ViewPager\n" +
 			"n_onNavigationItemSelected:(Landroid/view/MenuItem;)Z:GetOnNavigationItemSelected_Landroid_view_MenuItem_Handler:Google.Android.Material.Navigation.NavigationBarView/IOnItemSelectedListenerInvoker, Xamarin.Google.Android.Material\n" +
 			"n_onConfigureTab:(Lcom/google/android/material/tabs/TabLayout$Tab;I)V:GetOnConfigureTab_Lcom_google_android_material_tabs_TabLayout_Tab_IHandler:Google.Android.Material.Tabs.TabLayoutMediator/ITabConfigurationStrategyInvoker, Xamarin.Google.Android.Material\n" +
 			"";
@@ -33,6 +33,14 @@ public class TabbedPageManager_Listeners
 		if (getClass () == TabbedPageManager_Listeners.class)
 			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Handlers.TabbedPageManager+Listeners, Microsoft.Maui.Controls", "", this, new java.lang.Object[] {  });
 	}
+
+
+	public void onPageSelected (int p0)
+	{
+		n_onPageSelected (p0);
+	}
+
+	private native void n_onPageSelected (int p0);
 
 
 	public void onTabReselected (com.google.android.material.tabs.TabLayout.Tab p0)
@@ -73,14 +81,6 @@ public class TabbedPageManager_Listeners
 	}
 
 	private native void n_onPageScrolled (int p0, float p1, int p2);
-
-
-	public void onPageSelected (int p0)
-	{
-		n_onPageSelected (p0);
-	}
-
-	private native void n_onPageSelected (int p0);
 
 
 	public boolean onNavigationItemSelected (android.view.MenuItem p0)

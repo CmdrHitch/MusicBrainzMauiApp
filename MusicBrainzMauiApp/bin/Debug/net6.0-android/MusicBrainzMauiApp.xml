@@ -4,14 +4,14 @@
         <name>MusicBrainzMauiApp</name>
     </assembly>
     <members>
-        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.artistSearchCommand">
-            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.ArtistSearchCommand"/>.</summary>
+        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.artistSearchCommand">
+            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.ArtistSearchCommand"/>.</summary>
         </member>
-        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.ArtistSearchCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistViewModel.ArtistSearch"/>.</summary>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.ArtistSearchCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.ArtistSearch"/>.</summary>
         </member>
-        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.IsRefreshing">
-            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.isRefreshing"/>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.IsRefreshing">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.isRefreshing"/>
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.BaseViewModel.isBusy"/>

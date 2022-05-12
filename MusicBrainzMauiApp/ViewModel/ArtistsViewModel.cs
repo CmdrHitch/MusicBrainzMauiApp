@@ -9,13 +9,21 @@ using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
 
 namespace MusicBrainzMauiApp.ViewModel;
-
+[QueryProperty(nameof(name), "name")]
 public partial class ArtistsViewModel : BaseViewModel
 {
     public ObservableCollection<Artist> Artists { get; set; } = new();
     MusicBrainzClientService client;
-    public string SearchTerm { get; set; }
-    private string _lastSearchTerm;
+
+    [ObservableProperty]
+    private string name;
+    public string Name 
+    { 
+        get => name;
+        set => name = value;
+    }
+
+    private string _lastName;
     private static int limit = 5; 
 
     public ArtistsViewModel(MusicBrainzClientService client)
@@ -29,17 +37,17 @@ public partial class ArtistsViewModel : BaseViewModel
     [ICommand] // DON'T FORGET THE GOD DAMED 'I'
     public async Task ArtistSearch()
     {
-        if (IsBusy || SearchTerm == _lastSearchTerm)
+        if (IsBusy || Name == _lastName)
             return;
 
         try
         {
             IsBusy = true;
-            _lastSearchTerm = SearchTerm;
+            _lastName = Name;
 
-            Debug.WriteLine($"Search term is: { SearchTerm}");
+            Debug.WriteLine($"Search term is: { Name}");
 
-           var artists = await client.GetArtists(SearchTerm, limit);
+           var artists = await client.GetArtists(Name, limit);
            await Task.Delay(2000);
 
             foreach(var artist in artists)
