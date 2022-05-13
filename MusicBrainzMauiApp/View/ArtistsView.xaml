@@ -29,14 +29,21 @@
             BackgroundColor="Transparent"
             SelectionMode="Single">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:Artist">
-                    <Label
-                        Text="{Binding Name}" TextColor= "Black" />
-                </DataTemplate>
-
+            <DataTemplate x:DataType="model:Artist">
+                <Grid Padding="10">
+                    <Frame HeightRequest="20" BackgroundColor="AntiqueWhite">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="{Binding Name}" TextColor="Black" />
+                    </Frame>
+                </Grid>
+            </DataTemplate>
             </CollectionView.ItemTemplate>
 
         </CollectionView>
+    
+    
         <ActivityIndicator
         HorizontalOptions="FillAndExpand"
         IsRunning="{Binding  IsBusy}"

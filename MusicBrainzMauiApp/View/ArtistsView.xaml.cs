@@ -15,4 +15,9 @@ public partial class ArtistsView : ContentPage
     {
         base.OnNavigatedTo(args);
     }
+
+    private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+    {
+
+    }
 }
