@@ -5,23 +5,24 @@ using Hqub.MusicBrainz.API;
 using System.Diagnostics;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
 
 namespace MusicBrainzMauiApp.ViewModel;
 
-[QueryProperty(nameof(SearchTerm), nameof(SearchTerm))] //The SearchTerm binds to backing field searchTerm and provided getters and setters
+
 public partial class ArtistsViewModel : BaseViewModel
 {
     public ObservableCollection<Artist> Artists { get; set; } = new();
     MusicBrainzClientService client;
 
+    SearchQuery searchQuery;
+    private static int limit = 100;
+
     [ObservableProperty]
-    string searchTerm;
-    private string _lastName;
-    private static int limit = 5;
+    private string searchName;
+    
+    private string lastSearchName;
 
     [ObservableProperty]
     bool isRefreshing;
@@ -29,27 +30,27 @@ public partial class ArtistsViewModel : BaseViewModel
     public ArtistsViewModel(MusicBrainzClientService client)
     {
         this.client = client;
-        searchTerm = "Search not Passsed";
-        Debug.WriteLine("ArtistsViewModel constructing");
+        searchQuery = new SearchQuery();
     }
 
-    [ICommand]
+    [ICommand] // DON'T FORGET THE GOD DAMED 'I'
     Task Back() => Shell.Current.GoToAsync("..");
 
-    [ICommand] // DON'T FORGET THE GOD DAMED 'I'
-    public async Task ArtistSearch()
+    [ICommand] 
+    private async Task ArtistSearch(string searchBarText)
     {
-        if (IsBusy || searchTerm == _lastName)
+        if (IsBusy || (lastSearchName is not null && searchBarText == lastSearchName))
             return;
 
         try
-        {
+        { 
             IsBusy = true;
-            _lastName = searchTerm;
+            searchQuery.Name = searchBarText;
+            lastSearchName = searchBarText;
 
-            Debug.WriteLine($"Search term is: {searchTerm}");
+           Debug.WriteLine($"Search term is: {searchQuery.Name}");
 
-           var artists = await client.GetArtists(searchTerm, limit);
+           var artists = await client.GetArtists(searchQuery.Name, limit);
            //await Task.Delay(2000);
 
             foreach(var artist in artists)

@@ -21,7 +21,7 @@ public static class MauiProgram
 		builder.Services.AddSingleton<MusicBrainzClientService>();
         builder.Services.AddSingleton<MainPageViewModel>();
         builder.Services.AddTransient<ArtistsViewModel>();
-		builder.Services.AddTransient<ArtistsPageView>();
+		builder.Services.AddTransient<ArtistsView>();
 		builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
 
 		return builder.Build();

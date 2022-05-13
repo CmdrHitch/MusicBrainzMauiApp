@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicBrainzMauiApp.View.ArtistsView"
+             xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
+             xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
+             Title="Find Artists" 
+             MaximumWidthRequest="200" MaximumHeightRequest="400"
+             x:DataType="viewmodel:ArtistsViewModel">
+
+    <VerticalStackLayout Spacing="25" Padding="30" 
+            BackgroundColor="White">
+
+
+        <SearchBar x:Name="searchbar"
+            Placeholder="Search Text..." PlaceholderColor="Grey"
+            BackgroundColor="LightGrey"
+            TextColor="Black"
+            Margin="0,10,10,0"
+            SearchCommand="{Binding ArtistSearchCommand}"
+            SearchCommandParameter="{Binding Text, Source={x:Reference searchbar}}"/>
+
+        <Button HorizontalOptions="Center"
+                Text="Go Back"
+                Command="{Binding BackCommand}"/>
+
+        <CollectionView
+            ItemsSource="{Binding Artists}"
+            BackgroundColor="Transparent"
+            SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Artist">
+                    <Label
+                        Text="{Binding Name}" TextColor= "Black" />
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+        <ActivityIndicator
+        HorizontalOptions="FillAndExpand"
+        IsRunning="{Binding  IsBusy}"
+        IsVisible="{Binding IsBusy}"
+        VerticalOptions="CenterAndExpand" />
+
+    </VerticalStackLayout>
+</ContentPage>

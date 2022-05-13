@@ -19,19 +19,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-
         <Image
-                Source="musicbrainz_logo.png"
-                VerticalOptions="Center"
-                Grid.Row="1"/>
+            Source="musicbrainz_logo.png"
+            VerticalOptions="Center"
+            Margin="10,0,10,0"
+            Grid.Row="1"/>
         
-        <Entry
-            Placeholder="Search Text..." PlaceholderColor="Grey"
-            BackgroundColor="LightGrey"
-            TextColor="Black"
-            Margin="10,10,10,10"
-            Text="{Binding SearchTerm}"/>
-
         <Button BackgroundColor="White" 
             x:Name="ArtistsBtn"
             Text="Artists"
