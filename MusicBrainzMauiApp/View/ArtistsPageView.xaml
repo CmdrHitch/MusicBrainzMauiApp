@@ -5,16 +5,23 @@
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              Title="Find Artists" 
+             MaximumWidthRequest="200" MaximumHeightRequest="400"
              x:DataType="viewmodel:ArtistsViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 
             BackgroundColor="White">
 
 
-        <Label 
-            HorizontalOptions="Center"
-            Text="{Binding Name}"/>
+        <Label  HorizontalOptions="Center"
+                Text="{Binding SearchTerm}"
+                TextColor="Black"/>
 
+        <Button HorizontalOptions="Center"
+                Text="Go Back"
+                Command="{Binding BackCommand}"/>
+
+
+        <!--
 
         <Button 
             Text="Search"
@@ -41,7 +48,7 @@
         HorizontalOptions="FillAndExpand"
         IsRunning="{Binding  IsBusy}"
         IsVisible="{Binding IsBusy}"
-        VerticalOptions="CenterAndExpand" />
+        VerticalOptions="CenterAndExpand" /> -->
 
     </VerticalStackLayout>
 </ContentPage>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicBrainzMauiApp.View.MainPageView"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
-             MaximumWidthRequest="400" MaximumHeightRequest="800"
+             MaximumWidthRequest="200" MaximumHeightRequest="400"
              Title="Music Brainz"
              x:DataType="viewmodel:MainPageViewModel">
 
@@ -39,7 +39,7 @@
             BorderWidth="1"
             Margin="10,10,10,10"
             Grid.Row="3"
-            Command="{Binding GoToArtistsViewCommand}"/>
+            Command="{Binding NavArtistsViewCommand}"/>
 
         <Button BackgroundColor="White"
             x:Name="AlbumsBtn"

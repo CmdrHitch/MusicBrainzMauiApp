@@ -1,5 +1,6 @@
 using MusicBrainzMauiApp.ViewModel;
 
+
 namespace MusicBrainzMauiApp.View;
 
 public partial class ArtistsPageView : ContentPage
@@ -9,4 +10,9 @@ public partial class ArtistsPageView : ContentPage
 		InitializeComponent();
 		BindingContext = viewModel;
 	}
+
+    protected override void OnNavigatedTo(NavigatedToEventArgs args)
+    {
+        base.OnNavigatedTo(args);
+    }
 }
