@@ -20,10 +20,6 @@
             SearchCommand="{Binding ArtistSearchCommand}"
             SearchCommandParameter="{Binding Text, Source={x:Reference searchbar}}"/>
 
-        <Button HorizontalOptions="Center"
-                Text="Go Back"
-                Command="{Binding BackCommand}"/>
-
         <CollectionView
             ItemsSource="{Binding Artists}"
             BackgroundColor="Transparent"
@@ -31,19 +27,18 @@
             <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="model:Artist">
                 <Grid Padding="10">
-                    <Frame HeightRequest="20" BackgroundColor="AntiqueWhite">
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                        </Frame.GestureRecognizers>
-                        <Label Text="{Binding Name}" TextColor="Black" />
-                    </Frame>
-                </Grid>
+                        <Label Text="{Binding Name}" TextColor="Black"/>
+                    </Grid>
             </DataTemplate>
             </CollectionView.ItemTemplate>
 
         </CollectionView>
-    
-    
+
+        <Button HorizontalOptions="Center"
+                Text="Go Back"
+                Command="{Binding BackCommand}"/>
+
+
         <ActivityIndicator
         HorizontalOptions="FillAndExpand"
         IsRunning="{Binding  IsBusy}"
