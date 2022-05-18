@@ -1,8 +1,10 @@
 using MusicBrainzMauiApp.ViewModel;
+using MusicBrainzMauiApp.Model;
+using System.Diagnostics;
 
 
 namespace MusicBrainzMauiApp.View;
-
+using MusicBrainzMauiApp.ViewModel;
 public partial class ArtistsView : ContentPage
 {
 	public ArtistsView(ArtistsViewModel viewModel)
@@ -16,8 +18,4 @@ public partial class ArtistsView : ContentPage
         base.OnNavigatedTo(args);
     }
 
-    private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
-    {
-
-    }
 }

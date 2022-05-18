@@ -22,8 +22,10 @@ public static class MauiProgram
         builder.Services.AddSingleton<MainPageViewModel>();
         builder.Services.AddTransient<ArtistsViewModel>();
 		builder.Services.AddTransient<ArtistsView>();
-		builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
+        builder.Services.AddTransient<ArtistViewModel>();
+        builder.Services.AddTransient<ArtistView>();
+        builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
 
-		return builder.Build();
+        return builder.Build();
 	}
 }

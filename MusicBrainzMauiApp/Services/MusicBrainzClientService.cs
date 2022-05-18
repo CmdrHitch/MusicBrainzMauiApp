@@ -5,6 +5,8 @@ namespace MusicBrainzMauiApp.Services
 {
     public class MusicBrainzClientService
     {
+        private static bool testmode = true;
+
         private MusicBrainzClient musicBrainzClient;
 
         public MusicBrainzClientService MusicBrainzClient
@@ -23,6 +25,12 @@ namespace MusicBrainzMauiApp.Services
             //Note Checking Null 
             if (artistList?.Count > 0)
                 return artistList;
+
+            if (testmode)
+            {
+                var testData = await TestClientService.GetAritistsAsync();
+                return (List<Artist>) testData;
+            }
 
             var response = await musicBrainzClient.Artists.SearchAsync(searchExpr,limit);
             artistList = new List<Artist>();
