@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-18T12:23:37.923</Modified>
+      <Modified>2022-05-18T13:58:26.180</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-18T12:23:37.680</Modified>
+      <Modified>2022-05-18T13:58:25.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.runtimeconfig.json">
       <PackagePath>MusicBrainzMauiApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.dll">
       <PackagePath>MusicBrainzMauiApp.dll</PackagePath>
-      <Modified>2022-05-18T12:23:37.000</Modified>
+      <Modified>2022-05-18T13:58:25.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MusicBrainzMauiApp.exe</PackagePath>
-      <Modified>2022-05-18T12:23:37.007</Modified>
+      <Modified>2022-05-18T13:58:25.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.5\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1060,7 +1060,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.deps.json">
       <PackagePath>MusicBrainzMauiApp.deps.json</PackagePath>
-      <Modified>2022-05-18T12:23:37.836</Modified>
+      <Modified>2022-05-18T13:58:26.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.300-rc.3.5667\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

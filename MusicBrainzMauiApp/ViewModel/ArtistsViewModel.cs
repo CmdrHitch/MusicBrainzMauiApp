@@ -6,6 +6,7 @@ using System.Windows.Input;
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.View;
 using MusicBrainzMauiApp.Services;
+using System.Threading;
 
 namespace MusicBrainzMauiApp.ViewModel;
 
@@ -69,9 +70,11 @@ public partial class ArtistsViewModel : BaseViewModel
     }
 
     [ICommand]
-    private async Task NavToArtistCommandPage(Artist artist)
+    private async Task NavToArtistPage(Artist artist)
     {
         Debug.WriteLine("It fucking worked: ", artist.Name);
+
+        await Task.Delay(2000);
 
         //await Shell.Current.GoToAsync(nameof(Artist), true, new Dictionary<string, Object>
         //{

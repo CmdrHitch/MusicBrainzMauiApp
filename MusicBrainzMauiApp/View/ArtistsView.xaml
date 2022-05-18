@@ -5,7 +5,7 @@
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              Title="Find Artists" 
-             MaximumWidthRequest="200" MaximumHeightRequest="400"
+             MaximumWidthRequest="300" MaximumHeightRequest="600"
              x:DataType="viewmodel:ArtistsViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 
@@ -26,14 +26,17 @@
             SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Artist">
-                   
-                        <TextCell
-                        Text="{Binding Name}"
-                        TextColor="Black" 
-                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ArtistViewModel}},Path=NavToArtistPageCommand}"
-                        CommandParameter="{Binding .}"  
-                            />
-               
+                    <Grid Padding="10">
+                        <Frame HeightRequest="30" BackgroundColor="Transparent">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ArtistsViewModel}},Path=NavToArtistPageCommand}"
+                                    CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                                                        
+                            <Label Text="{Binding Name}" TextColor="Black" HorizontalOptions="Center" />
+                        </Frame>
+                    </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
