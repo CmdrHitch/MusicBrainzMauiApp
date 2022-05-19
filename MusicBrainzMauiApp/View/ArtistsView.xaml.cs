@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 
 namespace MusicBrainzMauiApp.View;
-using MusicBrainzMauiApp.ViewModel;
+
 public partial class ArtistsView : ContentPage
 {
 	public ArtistsView(ArtistsViewModel viewModel)

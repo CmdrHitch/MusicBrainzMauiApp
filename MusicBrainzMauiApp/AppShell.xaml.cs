@@ -10,5 +10,6 @@ public partial class AppShell : Shell
 
         Routing.RegisterRoute(nameof(ArtistsView), typeof(ArtistsView));
         Routing.RegisterRoute(nameof(ArtistView), typeof(ArtistView));
+
     }
 }

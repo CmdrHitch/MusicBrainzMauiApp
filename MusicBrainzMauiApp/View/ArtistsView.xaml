@@ -5,7 +5,6 @@
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              Title="Find Artists" 
-             MaximumWidthRequest="300" MaximumHeightRequest="600"
              x:DataType="viewmodel:ArtistsViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 

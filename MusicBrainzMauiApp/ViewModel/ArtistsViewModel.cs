@@ -4,12 +4,11 @@ using System.Diagnostics;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using MusicBrainzMauiApp.Model;
-using MusicBrainzMauiApp.View;
 using MusicBrainzMauiApp.Services;
+using MusicBrainzMauiApp.View;
 using System.Threading;
 
 namespace MusicBrainzMauiApp.ViewModel;
-
 
 public partial class ArtistsViewModel : BaseViewModel
 {
@@ -33,7 +32,7 @@ public partial class ArtistsViewModel : BaseViewModel
         searchQuery = new SearchQuery();
     }
 
-    [ICommand] // DON'T FORGET THE GOD DAMED 'I'
+    [ICommand] 
     Task Back() => Shell.Current.GoToAsync("..");
 
     [ICommand]
@@ -72,13 +71,12 @@ public partial class ArtistsViewModel : BaseViewModel
     [ICommand]
     private async Task NavToArtistPage(Artist artist)
     {
-        Debug.WriteLine("It fucking worked: ", artist.Name);
+        if (artist == null) 
+            return;
 
-        await Task.Delay(2000);
-
-        //await Shell.Current.GoToAsync(nameof(Artist), true, new Dictionary<string, Object>
-        //{
-        //    {"Artist", artist }
-        //});
+        await Shell.Current.GoToAsync(nameof(ArtistView), true, new Dictionary<string, object>
+        {
+           ["Artist"] = artist 
+        });
     }
 }

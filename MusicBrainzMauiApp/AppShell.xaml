@@ -5,8 +5,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:view="clr-namespace:MusicBrainzMauiApp.View"
     Shell.FlyoutBehavior="Disabled"
-    MaximumHeightRequest="500"
-    MaximumWidthRequest="900">
+    HeightRequest="100"
+    WidthRequest="200"
+    MaximumHeightRequest="300"
+    MaximumWidthRequest="500">
 
     <ShellContent
         Title="Music Brainz"

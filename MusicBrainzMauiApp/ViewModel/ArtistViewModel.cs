@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+
+using MusicBrainzMauiApp.Model;
 
 namespace MusicBrainzMauiApp.ViewModel
 {
-    class ArtistViewModel
+    [QueryProperty(nameof(Artist), nameof(Artist))]
+    public partial class ArtistViewModel :BaseViewModel
     {
+        public ArtistViewModel()
+        {
+
+        }
+
+        [ObservableProperty]
+        Artist artist;
+
     }
 }
