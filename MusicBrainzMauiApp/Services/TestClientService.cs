@@ -11,10 +11,10 @@ namespace MusicBrainzMauiApp.Services
             await Task.Run(() =>
             {
                 Artist artist1 = new Artist { MBID = "1", Name = "Artist One" };
-                Artist artist2 = new Artist { MBID = "1", Name = "Artist Two" };
-                Artist artist3 = new Artist { MBID = "1", Name = "Artist Three" };
-                Artist artist4 = new Artist { MBID = "1", Name = "Artist Four" };
-                Artist artist5 = new Artist { MBID = "1", Name = "Artist Five" };
+                Artist artist2 = new Artist { MBID = "2", Name = "Artist Two" };
+                Artist artist3 = new Artist { MBID = "3", Name = "Artist Three" };
+                Artist artist4 = new Artist { MBID = "4", Name = "Artist Four" };
+                Artist artist5 = new Artist { MBID = "5", Name = "Artist Five" };
 
                 artists.Add(artist1);
                 artists.Add(artist2);

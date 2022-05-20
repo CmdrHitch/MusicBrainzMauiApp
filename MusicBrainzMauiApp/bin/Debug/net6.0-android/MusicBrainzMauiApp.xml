@@ -16,17 +16,20 @@
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.ArtistSearchCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.ArtistSearch(System.String)"/>.</summary>
         </member>
-        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.navToArtistCommandPageCommand">
-            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistCommandPageCommand"/>.</summary>
+        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.navToArtistPageCommand">
+            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistPageCommand"/>.</summary>
         </member>
-        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistCommandPageCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistCommandPage(MusicBrainzMauiApp.Model.Artist)"/>.</summary>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.NavToArtistPage(MusicBrainzMauiApp.Model.Artist)"/>.</summary>
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.SearchName">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.searchName"/>
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.IsRefreshing">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.isRefreshing"/>
+        </member>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.Artist">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.artist"/>
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.BaseViewModel.isBusy"/>

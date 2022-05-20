@@ -4,12 +4,20 @@
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              x:Class="MusicBrainzMauiApp.View.ArtistView"
-             Title="ArtistView"
+             Title="{Binding Artist.Name}"
              x:DataType="viewmodel:ArtistViewModel">
+    
     <VerticalStackLayout Spacing="25" Padding="30" 
-            BackgroundColor="White">
+            BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
         <Label x:DataType="viewmodel:ArtistViewModel" 
                Text="{Binding Artist.Name}"
+               TextColor="Black"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               />
+
+        <Label x:DataType="viewmodel:ArtistViewModel" 
+               Text="{Binding Artist.MBID}"
                TextColor="Black"
                VerticalOptions="Center" 
                HorizontalOptions="Center" 

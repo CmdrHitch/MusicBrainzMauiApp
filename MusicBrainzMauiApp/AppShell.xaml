@@ -4,11 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:view="clr-namespace:MusicBrainzMauiApp.View"
-    Shell.FlyoutBehavior="Disabled"
-    HeightRequest="100"
-    WidthRequest="200"
-    MaximumHeightRequest="300"
-    MaximumWidthRequest="500">
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Music Brainz"
