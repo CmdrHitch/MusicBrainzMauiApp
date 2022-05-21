@@ -29,7 +29,7 @@ namespace MusicBrainzMauiApp.Services
             if (testmode)
             {
                 var testData = await TestClientService.GetAritistsAsync();
-                return (List<Artist>) testData;
+                return testData;
             }
 
             var response = await musicBrainzClient.Artists.SearchAsync(searchExpr,limit);
@@ -45,6 +45,18 @@ namespace MusicBrainzMauiApp.Services
             }
 
             return artistList;
+        }
+
+        readonly List<Recording> recordingList;
+        public async Task<List<Recording>> GetRecordings(Artist artist)
+        {
+            if (recordingList?.Count > 0)
+                return recordingList;
+
+            var testData = await TestClientService.GetRecordingsAsync(artist);
+
+            return testData;
+
         }
     }
 }

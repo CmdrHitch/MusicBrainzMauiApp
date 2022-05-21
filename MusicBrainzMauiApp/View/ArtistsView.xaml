@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MusicBrainzMauiApp.View.ArtistsView"
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
              Title="Find Artists" 
+             x:Class="MusicBrainzMauiApp.View.ArtistsView"
              x:DataType="viewmodel:ArtistsViewModel">
 
     <VerticalStackLayout Spacing="25" Padding="30" 
@@ -33,7 +33,7 @@
                                     CommandParameter="{Binding .}"/>
                             </Frame.GestureRecognizers>
                                                         
-                            <Label Text="{Binding Name}" TextColor="Black" HorizontalOptions="Center" />
+                            <Label Text="{Binding Name}" HorizontalOptions="Start" />
                         </Frame>
                     </Grid>
                 </DataTemplate>

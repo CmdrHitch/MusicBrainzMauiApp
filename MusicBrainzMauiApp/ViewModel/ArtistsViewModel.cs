@@ -6,7 +6,7 @@ using System.Windows.Input;
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
 using MusicBrainzMauiApp.View;
-using System.Threading;
+
 
 namespace MusicBrainzMauiApp.ViewModel;
 

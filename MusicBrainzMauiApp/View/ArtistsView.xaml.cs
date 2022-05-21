@@ -1,7 +1,4 @@
 using MusicBrainzMauiApp.ViewModel;
-using MusicBrainzMauiApp.Model;
-using System.Diagnostics;
-
 
 namespace MusicBrainzMauiApp.View;
 
@@ -17,5 +14,4 @@ public partial class ArtistsView : ContentPage
     {
         base.OnNavigatedTo(args);
     }
-
 }

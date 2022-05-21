@@ -25,6 +25,30 @@ namespace MusicBrainzMauiApp.Services
 
             return artists;
         }
+
+        public static async Task<List<Recording>>GetRecordingsAsync(Artist artist)
+        {
+            var recordings = new List<Recording>();
+
+            await Task.Run(() =>
+            {
+                var recording1 = new Recording { MBID = "1", Artist = artist, Title = "Recording One" };
+                var recording2 = new Recording { MBID = "2", Artist = artist, Title = "Recording Two" };
+                var recording3 = new Recording { MBID = "3", Artist = artist, Title = "Recording Three" };
+                var recording4 = new Recording { MBID = "4", Artist = artist, Title = "Recording Four" };
+                var recording5 = new Recording { MBID = "5", Artist = artist, Title = "Recording Five" };
+                var recording6 = new Recording { MBID = "6", Artist = artist, Title = "Recording Six" };
+
+                recordings.Add(recording1);
+                recordings.Add(recording2);
+                recordings.Add(recording3);
+                recordings.Add(recording4);
+                recordings.Add(recording5);
+                recordings.Add(recording6);
+            });
+
+            return recordings;
+        }
         
     }
 }

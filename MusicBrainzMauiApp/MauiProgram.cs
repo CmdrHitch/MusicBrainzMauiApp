@@ -1,15 +1,9 @@
 ﻿using Microsoft.Maui.LifecycleEvents;
-
 #if WINDOWS
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
-
-
-
-
-
 using MusicBrainzMauiApp.ViewModel;
 using MusicBrainzMauiApp.View;
 using MusicBrainzMauiApp.Services;

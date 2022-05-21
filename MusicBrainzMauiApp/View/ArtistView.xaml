@@ -3,24 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:MusicBrainzMauiApp.Model"
              xmlns:viewmodel="clr-namespace:MusicBrainzMauiApp.ViewModel"
-             x:Class="MusicBrainzMauiApp.View.ArtistView"
              Title="{Binding Artist.Name}"
+             x:Class="MusicBrainzMauiApp.View.ArtistView"
              x:DataType="viewmodel:ArtistViewModel">
     
-    <VerticalStackLayout Spacing="25" Padding="30" 
-            BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
-        <Label x:DataType="viewmodel:ArtistViewModel" 
-               Text="{Binding Artist.Name}"
-               TextColor="Black"
-               VerticalOptions="Center" 
-               HorizontalOptions="Center" 
-               />
-
-        <Label x:DataType="viewmodel:ArtistViewModel" 
-               Text="{Binding Artist.MBID}"
-               TextColor="Black"
-               VerticalOptions="Center" 
-               HorizontalOptions="Center" 
-               />
-    </VerticalStackLayout>
+    <Grid 
+        ColumnSpacing ="5"
+        RowSpacing="0"
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Text="{Binding Test}" TextColor="Black"/>
+        <CollectionView
+                ItemsSource="{Binding Recordings}"
+                BackgroundColor="Transparent"
+                SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Recording">
+                        <Grid Padding="5">
+                            <Frame HeightRequest="30" Style="{StaticResource CardView}">
+                                <Label Text="{Binding Title}" TextColor="Black"  HorizontalOptions="Start" />
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+     
+    </Grid>
 </ContentPage>
