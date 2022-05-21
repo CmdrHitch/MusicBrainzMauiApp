@@ -8,7 +8,6 @@ namespace MusicBrainzMauiApp.Model
 {
    public class Recording : BaseModel
     {
-        public Artist Artist { get; set; }
         public string Title { get; set; }
     }
 }

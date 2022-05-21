@@ -1,6 +1,8 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
+﻿//using Microsoft.Toolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+
 
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
@@ -16,8 +18,7 @@ namespace MusicBrainzMauiApp.ViewModel
         [ObservableProperty]
         string test = "I am Test!";
 
-
-        public ObservableCollection<Recording>Recordings { get; set; } = new();
+        public ObservableCollection<Recording> Recordings { get; set; } = new();
         
         private MusicBrainzClientService client;
         private SearchQuery searchQuery;
@@ -27,12 +28,36 @@ namespace MusicBrainzMauiApp.ViewModel
         {
             this.client = client;
             searchQuery = new SearchQuery();
+            Task.Run(() => LoadRecordings()); // Would do on page on load. But property_change event is processed by page.
         }
 
-        public async void GetRecordings()
+        [ObservableProperty]
+        bool isRefreshing;
+        public async Task LoadRecordings()
         {
-            var Recordings = await client.GetRecordings(artist);
-            test = "I have changed";
+            if (IsBusy)
+                return;
+           
+            try
+            {
+                IsBusy = true;
+                var recordings = await client.GetRecordings(artist);
+
+                foreach(var recording in recordings)
+                {
+                    Recordings.Add(recording);
+                }
+            }
+            catch(Exception ex)
+            {
+                Debug.WriteLine($"Unable to get Recordings: {ex.Message}");
+                await Shell.Current.DisplayAlert("Error!", ex.Message, "OK");
+            }
+            finally
+            {
+                IsBusy = false;
+                isRefreshing = false; 
+            }
         }
     }
 }

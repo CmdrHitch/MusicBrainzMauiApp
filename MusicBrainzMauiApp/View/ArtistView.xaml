@@ -19,7 +19,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Label Text="{Binding Test}" TextColor="Black"/>
+        <Label x:Name="Testlabel"  Text="{Binding Test, Mode=OneWay}" TextColor="Black"/>
         <CollectionView
                 ItemsSource="{Binding Recordings}"
                 BackgroundColor="Transparent"
@@ -28,7 +28,7 @@
                     <DataTemplate x:DataType="model:Recording">
                         <Grid Padding="5">
                             <Frame HeightRequest="30" Style="{StaticResource CardView}">
-                                <Label Text="{Binding Title}" TextColor="Black"  HorizontalOptions="Start" />
+                                <Label Style="{StaticResource MediumLabel}"  Text="{Binding Title}" TextColor="Black"  HorizontalOptions="Start" />
                             </Frame>
                         </Grid>
                     </DataTemplate>

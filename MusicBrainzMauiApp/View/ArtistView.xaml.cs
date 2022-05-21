@@ -17,6 +17,6 @@ public partial class ArtistView : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        viewModel.GetRecordings();
     }
-}	
+
+}	 
