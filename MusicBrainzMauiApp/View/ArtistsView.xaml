@@ -7,11 +7,19 @@
              x:Class="MusicBrainzMauiApp.View.ArtistsView"
              x:DataType="viewmodel:ArtistsViewModel">
 
-    <VerticalStackLayout Spacing="25" Padding="30" 
-            BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
 
 
-        <SearchBar x:Name="searchbar"
+    <Grid
+        RowSpacing="0"
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+
+        <SearchBar x:Name="searchbar" Grid.Row="0"
             Placeholder="Search Text..." PlaceholderColor="Grey"
             BackgroundColor="LightGrey"
             TextColor="Black"
@@ -19,28 +27,31 @@
             SearchCommand="{Binding ArtistSearchCommand}"
             SearchCommandParameter="{Binding Text, Source={x:Reference searchbar}}"/>
 
-        <CollectionView
+        <CollectionView Grid.Row="1"
             ItemsSource="{Binding Artists}"
             BackgroundColor="Transparent"
             SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Artist">
                     <Grid Padding="10">
-                        <Frame HeightRequest="30" Style="{StaticResource CardView}">
+                        <Frame HeightRequest="100" Style="{StaticResource CardView}">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer 
                                     Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ArtistsViewModel}},Path=NavToArtistPageCommand}"
                                     CommandParameter="{Binding .}"/>
                             </Frame.GestureRecognizers>
-                                                        
-                            <Label Text="{Binding Name}" HorizontalOptions="Start" />
+                            <VerticalStackLayout>                         
+                                <Label Text="{Binding Name}" HorizontalOptions="Start" Margin=" 4,0,0,0" Style="{StaticResource MediumLabel}"/>
+                                <Label Text="{Binding Type}" HorizontalOptions="Start" Margin="6,0,0,0" Style="{StaticResource SmallLabel}" />
+                                <Label Text="{Binding Genres}" HorizontalOptions="Start" Margin="6,0,0,0" Style="{StaticResource SmallLabel}" />
+                            </VerticalStackLayout>
                         </Frame>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button HorizontalOptions="Center"
+        <Button HorizontalOptions="Center" Grid.Row="2"
                 Text="Go Back"
                 Command="{Binding BackCommand}"/>
 
@@ -51,5 +62,5 @@
         IsVisible="{Binding IsBusy}"
         VerticalOptions="CenterAndExpand" />
 
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>

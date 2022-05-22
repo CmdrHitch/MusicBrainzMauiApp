@@ -36,12 +36,35 @@ namespace MusicBrainzMauiApp.Services
             {
                 Artist artist = new Artist();
                 artist.Name = item.Name;
+                artist.Type = item.Type;
+                
                 artist.MBID = item.Id;
+                artist.Genres = await GetGenres(item.Id);
 
                 artistList.Add(artist);
             }
 
             return artistList;
+        }
+
+        private async Task<string> GetGenres(string mbid )
+        {
+
+            //List<Hqub.MusicBrainz.API.Entities.Genre> 
+
+            
+            var response = await musicBrainzClient.Artists.GetAsync(mbid, "genres");
+            string outGenres = "";
+  
+            foreach(var genre in response.Genres)
+            {
+                outGenres += $"{genre.Name}, " ;
+            }
+
+            if (outGenres.Length > 0)
+                outGenres.Remove(outGenres.Length - 4, 3);
+
+            return outGenres;
         }
         
         
