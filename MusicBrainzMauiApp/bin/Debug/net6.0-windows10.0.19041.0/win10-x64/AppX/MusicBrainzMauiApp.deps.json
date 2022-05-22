@@ -12,7 +12,6 @@
           "CommunityToolkit.Mvvm": "8.0.0-preview3",
           "Microsoft.Maui.Dependencies": "6.0.300-rc.3.5667",
           "Microsoft.Maui.Extensions": "6.0.300-rc.3.5667",
-          "Microsoft.Toolkit.Mvvm": "7.1.2",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
           "MusicBrainzAPI": "2.5.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.5",
@@ -1056,14 +1055,6 @@
           }
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.1.2.1"
-          }
-        }
-      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {},
       "Microsoft.WindowsAppSDK/1.0.3": {
         "dependencies": {
@@ -1253,13 +1244,6 @@
       "sha512": "sha512-ZZDzLteMOo9sY00eSAX015qW3XtbGqsW3Fx4IMy60EFGB0vUb3fi6CWAWpRxuqwpmiNK8EYnLWtPNy0yRYkrhQ==",
       "path": "microsoft.maui.graphics.win2d.winui.desktop/6.0.300-rc.3.1336",
       "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.6.0.300-rc.3.1336.nupkg.sha512"
-    },
-    "Microsoft.Toolkit.Mvvm/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tUQn6ar9oP7kmYaZ6pWabxpQaqw95Bsf+GG7prEL0y5MV5F60z76lI/Ppps9zcTqwd7e5CrdZBcdfor9WuvohA==",
-      "path": "microsoft.toolkit.mvvm/7.1.2",
-      "hashPath": "microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
       "type": "package",

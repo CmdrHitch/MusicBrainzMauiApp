@@ -3,9 +3,9 @@ using MusicBrainzMauiApp.Model;
 
 namespace MusicBrainzMauiApp.Services
 {
-    public class MusicBrainzClientService
+    public class MusicBrainzClientService // Make Static ?
     {
-        private static bool testmode = true;
+        private static bool testmode = false;
 
         private MusicBrainzClient musicBrainzClient;
 
@@ -19,12 +19,10 @@ namespace MusicBrainzMauiApp.Services
             musicBrainzClient = new MusicBrainzClient();
         }
 
-        List<Artist> artistList;
+        
         public async Task<List<Artist>> GetArtists(string searchExpr, int limit)
         {
-            //Note Checking Null 
-            if (artistList?.Count > 0)
-                return artistList;
+            List<Artist> artistList = new();
 
             if (testmode)
             {
@@ -33,7 +31,6 @@ namespace MusicBrainzMauiApp.Services
             }
 
             var response = await musicBrainzClient.Artists.SearchAsync(searchExpr,limit);
-            artistList = new List<Artist>();
 
             foreach(var item in response)
             {
@@ -46,17 +43,42 @@ namespace MusicBrainzMauiApp.Services
 
             return artistList;
         }
-
-        readonly List<Recording> recordingList;
-        public async Task<List<Recording>> GetRecordings(Artist artist)
+        
+        
+        public async Task<List<Release>> GetReleases(Artist artist)
         {
-            if (recordingList?.Count > 0)
-                return recordingList;
+            List<Release> releaseList = new();
 
-            var testData = await TestClientService.GetRecordingsAsync(artist);
+            var query = new QueryParameters<Hqub.MusicBrainz.API.Entities.Release>()
+            {
+                { "arid", artist.MBID },
+                //{   "release" album},
+                { "type", "album" },
+                { "status", "official" }
+            };
 
-            return testData;
 
+            if (releaseList?.Count > 0)
+                return releaseList;
+
+            if (testmode)
+            {
+                var testData = await TestClientService.GetReleasesAsync(artist);
+                return testData;
+            }
+
+            var response = await musicBrainzClient.Releases.SearchAsync(query);
+
+            foreach(var item in response)
+            {
+                Release release = new();
+                release.Title = item.Title;
+                release.MBID = item.Id;
+
+                releaseList.Add(release);
+            }
+
+            return releaseList;
         }
     }
 }

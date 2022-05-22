@@ -75,10 +75,6 @@
               "version": "[6.0.300-rc.3.5667, )",
               "autoReferenced": true
             },
-            "Microsoft.Toolkit.Mvvm": {
-              "target": "Package",
-              "version": "[7.1.2, )"
-            },
             "MusicBrainzAPI": {
               "target": "Package",
               "version": "[2.5.0, )"
@@ -144,10 +140,6 @@
               "version": "[6.0.300-rc.3.5667, )",
               "autoReferenced": true
             },
-            "Microsoft.Toolkit.Mvvm": {
-              "target": "Package",
-              "version": "[7.1.2, )"
-            },
             "MusicBrainzAPI": {
               "target": "Package",
               "version": "[2.5.0, )"
@@ -203,10 +195,6 @@
               "target": "Package",
               "version": "[6.0.300-rc.3.5667, )",
               "autoReferenced": true
-            },
-            "Microsoft.Toolkit.Mvvm": {
-              "target": "Package",
-              "version": "[7.1.2, )"
             },
             "MusicBrainzAPI": {
               "target": "Package",
@@ -264,10 +252,6 @@
               "target": "Package",
               "version": "[6.0.300-rc.3.5667, )",
               "autoReferenced": true
-            },
-            "Microsoft.Toolkit.Mvvm": {
-              "target": "Package",
-              "version": "[7.1.2, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",

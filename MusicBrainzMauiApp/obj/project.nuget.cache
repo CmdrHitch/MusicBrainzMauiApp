@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m3FlFz7wFVQ5qVS1cCaTjQfNMA74lyfLasgOl4N858ln8oYC7RXWxn18RzIuTFPSRLCfkE2rLJnOdjs3kr3KSw==",
+  "dgSpecHash": "/gW3i4rJK3cVESKoaplkhXha/b1zTzvijn67OaGOVhRKUtlFulIgrQsoeaO4mGTzJmAy0EIjTgZawKrkftSVBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,6 @@
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.maui.extensions\\6.0.300-rc.3.5667\\microsoft.maui.extensions.6.0.300-rc.3.5667.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.maui.graphics\\6.0.300-rc.3.1336\\microsoft.maui.graphics.6.0.300-rc.3.1336.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.300-rc.3.1336\\microsoft.maui.graphics.win2d.winui.desktop.6.0.300-rc.3.1336.nupkg.sha512",
-    "C:\\Users\\andyc\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.3\\microsoft.windowsappsdk.1.0.3.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\musicbrainzapi\\2.5.0\\musicbrainzapi.2.5.0.nupkg.sha512",

@@ -1,8 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+
 using System.Diagnostics;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
+
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
 using MusicBrainzMauiApp.View;
@@ -38,7 +40,7 @@ public partial class ArtistsViewModel : BaseViewModel
     [ICommand]
     private async Task ArtistSearch(string searchBarText)
     {
-        if (IsBusy || (lastSearchName is not null && searchBarText == lastSearchName))
+        if (IsBusy || ( (lastSearchName is not null) && searchBarText == lastSearchName))
             return;
 
         try
@@ -49,9 +51,10 @@ public partial class ArtistsViewModel : BaseViewModel
 
             Debug.WriteLine($"Search term is: {searchQuery.Name}");
 
-            var artists = await client.GetArtists(searchQuery.Name, limit);
+            var reponse = await client.GetArtists(searchQuery.Name, limit);
 
-            foreach (var artist in artists)
+            Artists.Clear();
+            foreach (var artist in reponse)
             {
                 Artists.Add(artist);
             }

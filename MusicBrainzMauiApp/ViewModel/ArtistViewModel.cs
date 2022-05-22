@@ -1,5 +1,4 @@
-﻿//using Microsoft.Toolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 
@@ -15,10 +14,7 @@ namespace MusicBrainzMauiApp.ViewModel
         [ObservableProperty]
         Artist artist;
 
-        [ObservableProperty]
-        string test = "I am Test!";
-
-        public ObservableCollection<Recording> Recordings { get; set; } = new();
+        public ObservableCollection<Release> Releases { get; set; } = new();
         
         private MusicBrainzClientService client;
         private SearchQuery searchQuery;
@@ -28,12 +24,11 @@ namespace MusicBrainzMauiApp.ViewModel
         {
             this.client = client;
             searchQuery = new SearchQuery();
-            Task.Run(() => LoadRecordings()); // Would do on page on load. But property_change event is processed by page.
         }
 
         [ObservableProperty]
         bool isRefreshing;
-        public async Task LoadRecordings()
+        public async Task LoadRealeases()
         {
             if (IsBusy)
                 return;
@@ -41,16 +36,16 @@ namespace MusicBrainzMauiApp.ViewModel
             try
             {
                 IsBusy = true;
-                var recordings = await client.GetRecordings(artist);
+                var releases = await client.GetReleases(Artist);
 
-                foreach(var recording in recordings)
+                foreach(var release in releases )
                 {
-                    Recordings.Add(recording);
+                    Releases.Add(release);
                 }
             }
             catch(Exception ex)
             {
-                Debug.WriteLine($"Unable to get Recordings: {ex.Message}");
+                Debug.WriteLine($"Unable to get Releases: {ex.Message}");
                 await Shell.Current.DisplayAlert("Error!", ex.Message, "OK");
             }
             finally

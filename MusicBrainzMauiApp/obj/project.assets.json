@@ -167,15 +167,6 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -1767,15 +1758,6 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -3371,15 +3353,6 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -4971,15 +4944,6 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -6575,15 +6539,6 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -8175,15 +8130,6 @@
         },
         "runtime": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -9779,15 +9725,6 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -11381,15 +11318,6 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -12965,15 +12893,6 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -13163,15 +13082,6 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -13365,15 +13275,6 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -13563,15 +13464,6 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -13765,15 +13657,6 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -13963,15 +13846,6 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -14165,15 +14039,6 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -14363,15 +14228,6 @@
         },
         "runtime": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -14565,15 +14421,6 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -14763,15 +14610,6 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -14965,15 +14803,6 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -15163,15 +14992,6 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -15365,15 +15185,6 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -15563,15 +15374,6 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -15765,15 +15567,6 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "MusicBrainzAPI/2.5.0": {
         "type": "package",
         "compile": {
@@ -15963,15 +15756,6 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "MusicBrainzAPI/2.5.0": {
@@ -16207,15 +15991,6 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -16484,15 +16259,6 @@
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -16743,15 +16509,6 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -17006,15 +16763,6 @@
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -17265,15 +17013,6 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -17528,15 +17267,6 @@
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
         }
       },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        }
-      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
         "type": "package",
         "build": {
@@ -17787,15 +17517,6 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -18051,15 +17772,6 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {}
-        }
-      },
-      "Microsoft.Toolkit.Mvvm/7.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Toolkit.Mvvm.dll": {}
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -18490,32 +18202,6 @@
         "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pdb",
         "microsoft.maui.graphics.win2d.winui.desktop.6.0.300-rc.3.1336.nupkg.sha512",
         "microsoft.maui.graphics.win2d.winui.desktop.nuspec"
-      ]
-    },
-    "Microsoft.Toolkit.Mvvm/7.1.2": {
-      "sha512": "tUQn6ar9oP7kmYaZ6pWabxpQaqw95Bsf+GG7prEL0y5MV5F60z76lI/Ppps9zcTqwd7e5CrdZBcdfor9WuvohA==",
-      "type": "package",
-      "path": "microsoft.toolkit.mvvm/7.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "License.md",
-        "ThirdPartyNotices.txt",
-        "analyzers/dotnet/cs/Microsoft.Toolkit.Mvvm.SourceGenerators.dll",
-        "analyzers/dotnet/cs/Microsoft.Toolkit.Mvvm.SourceGenerators.pdb",
-        "analyzers/dotnet/cs/Microsoft.Toolkit.Mvvm.SourceGenerators.xml",
-        "lib/net5.0/Microsoft.Toolkit.Mvvm.dll",
-        "lib/net5.0/Microsoft.Toolkit.Mvvm.pdb",
-        "lib/net5.0/Microsoft.Toolkit.Mvvm.xml",
-        "lib/netstandard2.0/Microsoft.Toolkit.Mvvm.dll",
-        "lib/netstandard2.0/Microsoft.Toolkit.Mvvm.pdb",
-        "lib/netstandard2.0/Microsoft.Toolkit.Mvvm.xml",
-        "lib/netstandard2.1/Microsoft.Toolkit.Mvvm.dll",
-        "lib/netstandard2.1/Microsoft.Toolkit.Mvvm.pdb",
-        "lib/netstandard2.1/Microsoft.Toolkit.Mvvm.xml",
-        "microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
-        "microsoft.toolkit.mvvm.nuspec"
       ]
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
@@ -21188,14 +20874,12 @@
       "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.3.5667",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.3.5667",
-      "Microsoft.Toolkit.Mvvm >= 7.1.2",
       "MusicBrainzAPI >= 2.5.0"
     ],
     "net6.0-ios15.4": [
       "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.3.5667",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.3.5667",
-      "Microsoft.Toolkit.Mvvm >= 7.1.2",
       "MusicBrainzAPI >= 2.5.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
@@ -21203,7 +20887,6 @@
       "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.3.5667",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.3.5667",
-      "Microsoft.Toolkit.Mvvm >= 7.1.2",
       "MusicBrainzAPI >= 2.5.0",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
@@ -21211,7 +20894,6 @@
       "CommunityToolkit.Mvvm >= 8.0.0-preview3",
       "Microsoft.Maui.Dependencies >= 6.0.300-rc.3.5667",
       "Microsoft.Maui.Extensions >= 6.0.300-rc.3.5667",
-      "Microsoft.Toolkit.Mvvm >= 7.1.2",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
       "MusicBrainzAPI >= 2.5.0"
     ]
@@ -21291,10 +20973,6 @@
             "version": "[6.0.300-rc.3.5667, )",
             "autoReferenced": true
           },
-          "Microsoft.Toolkit.Mvvm": {
-            "target": "Package",
-            "version": "[7.1.2, )"
-          },
           "MusicBrainzAPI": {
             "target": "Package",
             "version": "[2.5.0, )"
@@ -21360,10 +21038,6 @@
             "version": "[6.0.300-rc.3.5667, )",
             "autoReferenced": true
           },
-          "Microsoft.Toolkit.Mvvm": {
-            "target": "Package",
-            "version": "[7.1.2, )"
-          },
           "MusicBrainzAPI": {
             "target": "Package",
             "version": "[2.5.0, )"
@@ -21419,10 +21093,6 @@
             "target": "Package",
             "version": "[6.0.300-rc.3.5667, )",
             "autoReferenced": true
-          },
-          "Microsoft.Toolkit.Mvvm": {
-            "target": "Package",
-            "version": "[7.1.2, )"
           },
           "MusicBrainzAPI": {
             "target": "Package",
@@ -21480,10 +21150,6 @@
             "target": "Package",
             "version": "[6.0.300-rc.3.5667, )",
             "autoReferenced": true
-          },
-          "Microsoft.Toolkit.Mvvm": {
-            "target": "Package",
-            "version": "[7.1.2, )"
           },
           "Microsoft.Windows.SDK.BuildTools": {
             "suppressParent": "All",

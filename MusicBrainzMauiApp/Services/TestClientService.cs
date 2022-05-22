@@ -26,6 +26,30 @@ namespace MusicBrainzMauiApp.Services
             return artists;
         }
 
+        public static async Task<List<Release>> GetReleasesAsync(Artist artist)
+        {
+            var releases = new List<Release>();
+
+            await Task.Run(() =>
+            {
+                var release1 = new Release { MBID = "1", Title = "release One" };
+                var release2 = new Release { MBID = "2", Title = "release Two" };
+                var release3 = new Release { MBID = "3", Title = "release Three" };
+                var release4 = new Release { MBID = "4", Title = "release Four" };
+                var release5 = new Release { MBID = "5", Title = "release Five" };
+                var release6 = new Release { MBID = "6", Title = "release Six" };
+
+                releases.Add(release1);
+                releases.Add(release2);
+                releases.Add(release3);
+                releases.Add(release4);
+                releases.Add(release5);
+                releases.Add(release6);
+            });
+
+            return releases;
+        }
+
         public static async Task<List<Recording>>GetRecordingsAsync(Artist artist)
         {
             var recordings = new List<Recording>();

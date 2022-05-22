@@ -19,9 +19,8 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Label x:Name="Testlabel"  Text="{Binding Test, Mode=OneWay}" TextColor="Black"/>
         <CollectionView
-                ItemsSource="{Binding Recordings}"
+                ItemsSource="{Binding Releases}"
                 BackgroundColor="Transparent"
                 SelectionMode="None">
                 <CollectionView.ItemTemplate>

@@ -17,6 +17,7 @@ public partial class ArtistView : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
+        Task.Run(() => viewModel.LoadRealeases());
     }
 
 }	 
