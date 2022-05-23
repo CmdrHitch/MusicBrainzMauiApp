@@ -62471,6 +62471,11 @@
 	.asciz	"org/xmlpull/v1/sax2/Driver"
 	.size	.L.java_type_name.12493, 27
 
+	.type	.L.java_type_name.12494, @object
+.L.java_type_name.12494:
+	.asciz	"xamarin/android/net/X509TrustManagerWithValidationCallback"
+	.size	.L.java_type_name.12494, 59
+
 	/*  Java type names: END */
 
 	.section	.rodata.managed_type_names, "aMS", @progbits, 1
@@ -121107,3842 +121112,3847 @@
 
 	.type	.L.managed_type_name.11726, @object
 .L.managed_type_name.11726:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11726, 79
+	.asciz	"Xamarin.Android.Net.X509TrustManagerWithValidationCallback, Mono.Android"
+	.size	.L.managed_type_name.11726, 73
 
 	.type	.L.managed_type_name.11727, @object
 .L.managed_type_name.11727:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11727, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11727, 79
 
 	.type	.L.managed_type_name.11728, @object
 .L.managed_type_name.11728:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadWrapper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11728, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11728, 85
 
 	.type	.L.managed_type_name.11729, @object
 .L.managed_type_name.11729:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesCtrHmacAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11729, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AeadWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11729, 80
 
 	.type	.L.managed_type_name.11730, @object
 .L.managed_type_name.11730:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesCtrKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11730, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesCtrHmacAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11730, 93
 
 	.type	.L.managed_type_name.11731, @object
 .L.managed_type_name.11731:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesEaxKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesCtrKeyManager, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11731, 85
 
 	.type	.L.managed_type_name.11732, @object
 .L.managed_type_name.11732:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesGcmKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesEaxKeyManager, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11732, 85
 
 	.type	.L.managed_type_name.11733, @object
 .L.managed_type_name.11733:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesGcmSivKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11733, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesGcmKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11733, 85
 
 	.type	.L.managed_type_name.11734, @object
 .L.managed_type_name.11734:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.ChaCha20Poly1305KeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11734, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.AesGcmSivKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11734, 88
 
 	.type	.L.managed_type_name.11735, @object
 .L.managed_type_name.11735:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11735, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.ChaCha20Poly1305KeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11735, 95
 
 	.type	.L.managed_type_name.11736, @object
 .L.managed_type_name.11736:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsEnvelopeAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11736, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11736, 86
 
 	.type	.L.managed_type_name.11737, @object
 .L.managed_type_name.11737:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsEnvelopeAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11737, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsEnvelopeAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11737, 84
 
 	.type	.L.managed_type_name.11738, @object
 .L.managed_type_name.11738:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.AesGcmFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11738, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.KmsEnvelopeAeadKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11738, 94
 
 	.type	.L.managed_type_name.11739, @object
 .L.managed_type_name.11739:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.AesGcmSiv, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11739, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.AesGcmFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11739, 89
 
 	.type	.L.managed_type_name.11740, @object
 .L.managed_type_name.11740:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.IAeadFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11740, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.AesGcmSiv, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11740, 85
 
 	.type	.L.managed_type_name.11741, @object
 .L.managed_type_name.11741:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.IAeadFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11741, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.IAeadFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11741, 88
 
 	.type	.L.managed_type_name.11742, @object
 .L.managed_type_name.11742:
-	.asciz	"Xamarin.Google.Crypto.Tink.Aead.XChaCha20Poly1305KeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11742, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.Subtle.IAeadFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11742, 95
 
 	.type	.L.managed_type_name.11743, @object
 .L.managed_type_name.11743:
-	.asciz	"Xamarin.Google.Crypto.Tink.Annotations.IAlpha, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11743, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Aead.XChaCha20Poly1305KeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11743, 96
 
 	.type	.L.managed_type_name.11744, @object
 .L.managed_type_name.11744:
-	.asciz	"Xamarin.Google.Crypto.Tink.Annotations.IAlphaInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11744, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Annotations.IAlpha, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11744, 82
 
 	.type	.L.managed_type_name.11745, @object
 .L.managed_type_name.11745:
-	.asciz	"Xamarin.Google.Crypto.Tink.BinaryKeysetReader, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11745, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Annotations.IAlphaInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11745, 89
 
 	.type	.L.managed_type_name.11746, @object
 .L.managed_type_name.11746:
-	.asciz	"Xamarin.Google.Crypto.Tink.BinaryKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.BinaryKeysetReader, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11746, 82
 
 	.type	.L.managed_type_name.11747, @object
 .L.managed_type_name.11747:
-	.asciz	"Xamarin.Google.Crypto.Tink.CleartextKeysetHandle, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11747, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.BinaryKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11747, 82
 
 	.type	.L.managed_type_name.11748, @object
 .L.managed_type_name.11748:
-	.asciz	"Xamarin.Google.Crypto.Tink.Config, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11748, 70
+	.asciz	"Xamarin.Google.Crypto.Tink.CleartextKeysetHandle, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11748, 85
 
 	.type	.L.managed_type_name.11749, @object
 .L.managed_type_name.11749:
-	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11749, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Config, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11749, 70
 
 	.type	.L.managed_type_name.11750, @object
 .L.managed_type_name.11750:
-	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips+AlgorithmFipsCompatibility, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11750, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11750, 82
 
 	.type	.L.managed_type_name.11751, @object
 .L.managed_type_name.11751:
-	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips+AlgorithmFipsCompatibilityInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11751, 114
+	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips+AlgorithmFipsCompatibility, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11751, 107
 
 	.type	.L.managed_type_name.11752, @object
 .L.managed_type_name.11752:
-	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11752, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips+AlgorithmFipsCompatibilityInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11752, 114
 
 	.type	.L.managed_type_name.11753, @object
 .L.managed_type_name.11753:
-	.asciz	"Xamarin.Google.Crypto.Tink.CryptoFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11753, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Configs.TinkFips, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11753, 80
 
 	.type	.L.managed_type_name.11754, @object
 .L.managed_type_name.11754:
-	.asciz	"Xamarin.Google.Crypto.Tink.DAead.AesSivKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11754, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.CryptoFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11754, 76
 
 	.type	.L.managed_type_name.11755, @object
 .L.managed_type_name.11755:
-	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11755, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.DAead.AesSivKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11755, 86
 
 	.type	.L.managed_type_name.11756, @object
 .L.managed_type_name.11756:
-	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11756, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11756, 93
 
 	.type	.L.managed_type_name.11757, @object
 .L.managed_type_name.11757:
-	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11757, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11757, 94
 
 	.type	.L.managed_type_name.11758, @object
 .L.managed_type_name.11758:
-	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadWrapper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11758, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11758, 99
 
 	.type	.L.managed_type_name.11759, @object
 .L.managed_type_name.11759:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.EciesAeadHkdfPrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11759, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.DAead.DeterministicAeadWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11759, 94
 
 	.type	.L.managed_type_name.11760, @object
 .L.managed_type_name.11760:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11760, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.EciesAeadHkdfPrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11760, 101
 
 	.type	.L.managed_type_name.11761, @object
 .L.managed_type_name.11761:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridDecryptFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11761, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11761, 83
 
 	.type	.L.managed_type_name.11762, @object
 .L.managed_type_name.11762:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridDecryptWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridDecryptFactory, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11762, 91
 
 	.type	.L.managed_type_name.11763, @object
 .L.managed_type_name.11763:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridEncryptFactory, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridDecryptWrapper, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11763, 91
 
 	.type	.L.managed_type_name.11764, @object
 .L.managed_type_name.11764:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11764, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridEncryptFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11764, 91
 
 	.type	.L.managed_type_name.11765, @object
 .L.managed_type_name.11765:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.AeadOrDaead, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.HybridKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11765, 89
 
 	.type	.L.managed_type_name.11766, @object
 .L.managed_type_name.11766:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.RsaKemHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11766, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.AeadOrDaead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11766, 89
 
 	.type	.L.managed_type_name.11767, @object
 .L.managed_type_name.11767:
-	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.RsaKemHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.RsaKemHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11767, 97
 
 	.type	.L.managed_type_name.11768, @object
 .L.managed_type_name.11768:
-	.asciz	"Xamarin.Google.Crypto.Tink.IAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11768, 69
+	.asciz	"Xamarin.Google.Crypto.Tink.Hybrid.Subtle.RsaKemHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11768, 97
 
 	.type	.L.managed_type_name.11769, @object
 .L.managed_type_name.11769:
-	.asciz	"Xamarin.Google.Crypto.Tink.IAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11769, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.IAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11769, 69
 
 	.type	.L.managed_type_name.11770, @object
 .L.managed_type_name.11770:
-	.asciz	"Xamarin.Google.Crypto.Tink.ICatalogue, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11770, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.IAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11770, 76
 
 	.type	.L.managed_type_name.11771, @object
 .L.managed_type_name.11771:
-	.asciz	"Xamarin.Google.Crypto.Tink.ICatalogueInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11771, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.ICatalogue, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11771, 74
 
 	.type	.L.managed_type_name.11772, @object
 .L.managed_type_name.11772:
-	.asciz	"Xamarin.Google.Crypto.Tink.IDeterministicAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11772, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.ICatalogueInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11772, 81
 
 	.type	.L.managed_type_name.11773, @object
 .L.managed_type_name.11773:
-	.asciz	"Xamarin.Google.Crypto.Tink.IDeterministicAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11773, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.IDeterministicAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11773, 82
 
 	.type	.L.managed_type_name.11774, @object
 .L.managed_type_name.11774:
-	.asciz	"Xamarin.Google.Crypto.Tink.IHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11774, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.IDeterministicAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11774, 89
 
 	.type	.L.managed_type_name.11775, @object
 .L.managed_type_name.11775:
-	.asciz	"Xamarin.Google.Crypto.Tink.IHybridDecryptInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11775, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.IHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11775, 78
 
 	.type	.L.managed_type_name.11776, @object
 .L.managed_type_name.11776:
-	.asciz	"Xamarin.Google.Crypto.Tink.IHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11776, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.IHybridDecryptInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11776, 85
 
 	.type	.L.managed_type_name.11777, @object
 .L.managed_type_name.11777:
-	.asciz	"Xamarin.Google.Crypto.Tink.IHybridEncryptInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11777, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.IHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11777, 78
 
 	.type	.L.managed_type_name.11778, @object
 .L.managed_type_name.11778:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11778, 75
+	.asciz	"Xamarin.Google.Crypto.Tink.IHybridEncryptInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11778, 85
 
 	.type	.L.managed_type_name.11779, @object
 .L.managed_type_name.11779:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeyManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11779, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11779, 75
 
 	.type	.L.managed_type_name.11780, @object
 .L.managed_type_name.11780:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeyWrap, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11780, 72
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeyManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11780, 82
 
 	.type	.L.managed_type_name.11781, @object
 .L.managed_type_name.11781:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeyWrapInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11781, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeyWrap, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11781, 72
 
 	.type	.L.managed_type_name.11782, @object
 .L.managed_type_name.11782:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetReader, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11782, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeyWrapInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11782, 79
 
 	.type	.L.managed_type_name.11783, @object
 .L.managed_type_name.11783:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetReaderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11783, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetReader, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11783, 77
 
 	.type	.L.managed_type_name.11784, @object
 .L.managed_type_name.11784:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11784, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetReaderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11784, 84
 
 	.type	.L.managed_type_name.11785, @object
 .L.managed_type_name.11785:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetWriterInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11785, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11785, 77
 
 	.type	.L.managed_type_name.11786, @object
 .L.managed_type_name.11786:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKmsClient, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11786, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.IKeysetWriterInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11786, 84
 
 	.type	.L.managed_type_name.11787, @object
 .L.managed_type_name.11787:
-	.asciz	"Xamarin.Google.Crypto.Tink.IKmsClientInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11787, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.IKmsClient, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11787, 74
 
 	.type	.L.managed_type_name.11788, @object
 .L.managed_type_name.11788:
-	.asciz	"Xamarin.Google.Crypto.Tink.IMac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11788, 68
+	.asciz	"Xamarin.Google.Crypto.Tink.IKmsClientInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11788, 81
 
 	.type	.L.managed_type_name.11789, @object
 .L.managed_type_name.11789:
-	.asciz	"Xamarin.Google.Crypto.Tink.IMacInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11789, 75
+	.asciz	"Xamarin.Google.Crypto.Tink.IMac, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11789, 68
 
 	.type	.L.managed_type_name.11790, @object
 .L.managed_type_name.11790:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPrimitiveWrapper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11790, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.IMacInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11790, 75
 
 	.type	.L.managed_type_name.11791, @object
 .L.managed_type_name.11791:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPrimitiveWrapperInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11791, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.IPrimitiveWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11791, 81
 
 	.type	.L.managed_type_name.11792, @object
 .L.managed_type_name.11792:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11792, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.IPrimitiveWrapperInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11792, 88
 
 	.type	.L.managed_type_name.11793, @object
 .L.managed_type_name.11793:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPrivateKeyManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11793, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.IPrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11793, 82
 
 	.type	.L.managed_type_name.11794, @object
 .L.managed_type_name.11794:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeySign, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11794, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.IPrivateKeyManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11794, 89
 
 	.type	.L.managed_type_name.11795, @object
 .L.managed_type_name.11795:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeySignInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11795, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeySign, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11795, 78
 
 	.type	.L.managed_type_name.11796, @object
 .L.managed_type_name.11796:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeyVerify, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11796, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeySignInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11796, 85
 
 	.type	.L.managed_type_name.11797, @object
 .L.managed_type_name.11797:
-	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeyVerifyInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11797, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeyVerify, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11797, 80
 
 	.type	.L.managed_type_name.11798, @object
 .L.managed_type_name.11798:
-	.asciz	"Xamarin.Google.Crypto.Tink.IStreamingAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11798, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.IPublicKeyVerifyInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11798, 87
 
 	.type	.L.managed_type_name.11799, @object
 .L.managed_type_name.11799:
-	.asciz	"Xamarin.Google.Crypto.Tink.IStreamingAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11799, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.IStreamingAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11799, 78
 
 	.type	.L.managed_type_name.11800, @object
 .L.managed_type_name.11800:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeysetManager+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11800, 112
+	.asciz	"Xamarin.Google.Crypto.Tink.IStreamingAeadInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11800, 85
 
 	.type	.L.managed_type_name.11801, @object
 .L.managed_type_name.11801:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeysetManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11801, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeysetManager+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11801, 112
 
 	.type	.L.managed_type_name.11802, @object
 .L.managed_type_name.11802:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreAesGcm, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11802, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeysetManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11802, 104
 
 	.type	.L.managed_type_name.11803, @object
 .L.managed_type_name.11803:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreKmsClient+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11803, 116
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreAesGcm, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11803, 105
 
 	.type	.L.managed_type_name.11804, @object
 .L.managed_type_name.11804:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreKmsClient, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11804, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreKmsClient+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11804, 116
 
 	.type	.L.managed_type_name.11805, @object
 .L.managed_type_name.11805:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.SharedPrefKeysetReader, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11805, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.AndroidKeystoreKmsClient, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11805, 108
 
 	.type	.L.managed_type_name.11806, @object
 .L.managed_type_name.11806:
-	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.SharedPrefKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.SharedPrefKeysetReader, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11806, 106
 
 	.type	.L.managed_type_name.11807, @object
 .L.managed_type_name.11807:
-	.asciz	"Xamarin.Google.Crypto.Tink.JsonKeysetReader, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11807, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Integration.Android.SharedPrefKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11807, 106
 
 	.type	.L.managed_type_name.11808, @object
 .L.managed_type_name.11808:
-	.asciz	"Xamarin.Google.Crypto.Tink.JsonKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.JsonKeysetReader, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11808, 80
 
 	.type	.L.managed_type_name.11809, @object
 .L.managed_type_name.11809:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplate+OutputPrefixType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11809, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.JsonKeysetWriter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11809, 80
 
 	.type	.L.managed_type_name.11810, @object
 .L.managed_type_name.11810:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplate, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11810, 75
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplate+OutputPrefixType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11810, 92
 
 	.type	.L.managed_type_name.11811, @object
 .L.managed_type_name.11811:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11811, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplate, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11811, 75
 
 	.type	.L.managed_type_name.11812, @object
 .L.managed_type_name.11812:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactory+KeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11812, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11812, 76
 
 	.type	.L.managed_type_name.11813, @object
 .L.managed_type_name.11813:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11813, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactory+KeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11813, 99
 
 	.type	.L.managed_type_name.11814, @object
 .L.managed_type_name.11814:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11814, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11814, 89
 
 	.type	.L.managed_type_name.11815, @object
 .L.managed_type_name.11815:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+PrimitiveFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11815, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+KeyFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11815, 96
 
 	.type	.L.managed_type_name.11816, @object
 .L.managed_type_name.11816:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+PrimitiveFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11816, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+PrimitiveFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11816, 95
 
 	.type	.L.managed_type_name.11817, @object
 .L.managed_type_name.11817:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11817, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager+PrimitiveFactoryInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11817, 102
 
 	.type	.L.managed_type_name.11818, @object
 .L.managed_type_name.11818:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11818, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11818, 78
 
 	.type	.L.managed_type_name.11819, @object
 .L.managed_type_name.11819:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeysetHandle, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11819, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.KeyTypeManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11819, 85
 
 	.type	.L.managed_type_name.11820, @object
 .L.managed_type_name.11820:
-	.asciz	"Xamarin.Google.Crypto.Tink.KeysetManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11820, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.KeysetHandle, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11820, 76
 
 	.type	.L.managed_type_name.11821, @object
 .L.managed_type_name.11821:
-	.asciz	"Xamarin.Google.Crypto.Tink.KmsClients, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11821, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.KeysetManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11821, 77
 
 	.type	.L.managed_type_name.11822, @object
 .L.managed_type_name.11822:
-	.asciz	"Xamarin.Google.Crypto.Tink.Mac.AesCmacKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11822, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.KmsClients, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11822, 74
 
 	.type	.L.managed_type_name.11823, @object
 .L.managed_type_name.11823:
-	.asciz	"Xamarin.Google.Crypto.Tink.Mac.HmacKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11823, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Mac.AesCmacKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11823, 85
 
 	.type	.L.managed_type_name.11824, @object
 .L.managed_type_name.11824:
-	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11824, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Mac.HmacKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11824, 82
 
 	.type	.L.managed_type_name.11825, @object
 .L.managed_type_name.11825:
-	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11825, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11825, 77
 
 	.type	.L.managed_type_name.11826, @object
 .L.managed_type_name.11826:
-	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11826, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11826, 78
 
 	.type	.L.managed_type_name.11827, @object
 .L.managed_type_name.11827:
-	.asciz	"Xamarin.Google.Crypto.Tink.NoSecretKeysetHandle, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11827, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Mac.MacKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11827, 83
 
 	.type	.L.managed_type_name.11828, @object
 .L.managed_type_name.11828:
-	.asciz	"Xamarin.Google.Crypto.Tink.PemKeyType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11828, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.NoSecretKeysetHandle, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11828, 84
 
 	.type	.L.managed_type_name.11829, @object
 .L.managed_type_name.11829:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.AesCmacPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11829, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.PemKeyType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11829, 74
 
 	.type	.L.managed_type_name.11830, @object
 .L.managed_type_name.11830:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.HkdfPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11830, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.AesCmacPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11830, 88
 
 	.type	.L.managed_type_name.11831, @object
 .L.managed_type_name.11831:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.HmacPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.HkdfPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11831, 85
 
 	.type	.L.managed_type_name.11832, @object
 .L.managed_type_name.11832:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.IPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11832, 72
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.HmacPrfKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11832, 85
 
 	.type	.L.managed_type_name.11833, @object
 .L.managed_type_name.11833:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.IPrfInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11833, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.IPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11833, 72
 
 	.type	.L.managed_type_name.11834, @object
 .L.managed_type_name.11834:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11834, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.IPrfInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11834, 79
 
 	.type	.L.managed_type_name.11835, @object
 .L.managed_type_name.11835:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11835, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11835, 77
 
 	.type	.L.managed_type_name.11836, @object
 .L.managed_type_name.11836:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSet, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11836, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11836, 83
 
 	.type	.L.managed_type_name.11837, @object
 .L.managed_type_name.11837:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSetInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11837, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSet, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11837, 74
 
 	.type	.L.managed_type_name.11838, @object
 .L.managed_type_name.11838:
-	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSetWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSetInvoker, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11838, 81
 
 	.type	.L.managed_type_name.11839, @object
 .L.managed_type_name.11839:
-	.asciz	"Xamarin.Google.Crypto.Tink.PrimitiveSet+Entry, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11839, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Prf.PrfSetWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11839, 81
 
 	.type	.L.managed_type_name.11840, @object
 .L.managed_type_name.11840:
-	.asciz	"Xamarin.Google.Crypto.Tink.PrimitiveSet, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11840, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.PrimitiveSet+Entry, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11840, 82
 
 	.type	.L.managed_type_name.11841, @object
 .L.managed_type_name.11841:
-	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyManagerImpl, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11841, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.PrimitiveSet, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11841, 76
 
 	.type	.L.managed_type_name.11842, @object
 .L.managed_type_name.11842:
-	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyTypeManager, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyManagerImpl, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11842, 85
 
 	.type	.L.managed_type_name.11843, @object
 .L.managed_type_name.11843:
-	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyTypeManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11843, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyTypeManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11843, 85
 
 	.type	.L.managed_type_name.11844, @object
 .L.managed_type_name.11844:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11844, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.PrivateKeyTypeManagerInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11844, 92
 
 	.type	.L.managed_type_name.11845, @object
 .L.managed_type_name.11845:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11845, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmac, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11845, 77
 
 	.type	.L.managed_type_name.11846, @object
 .L.managed_type_name.11846:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11846, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11846, 88
 
 	.type	.L.managed_type_name.11847, @object
 .L.managed_type_name.11847:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11847, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11847, 80
 
 	.type	.L.managed_type_name.11848, @object
 .L.managed_type_name.11848:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11848, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11848, 94
 
 	.type	.L.managed_type_name.11849, @object
 .L.managed_type_name.11849:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11849, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11849, 86
 
 	.type	.L.managed_type_name.11850, @object
 .L.managed_type_name.11850:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11850, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11850, 91
 
 	.type	.L.managed_type_name.11851, @object
 .L.managed_type_name.11851:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11851, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11851, 83
 
 	.type	.L.managed_type_name.11852, @object
 .L.managed_type_name.11852:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11852, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11852, 80
 
 	.type	.L.managed_type_name.11853, @object
 .L.managed_type_name.11853:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11853, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11853, 91
 
 	.type	.L.managed_type_name.11854, @object
 .L.managed_type_name.11854:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11854, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11854, 83
 
 	.type	.L.managed_type_name.11855, @object
 .L.managed_type_name.11855:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11855, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11855, 97
 
 	.type	.L.managed_type_name.11856, @object
 .L.managed_type_name.11856:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtr, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11856, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCmacPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11856, 89
 
 	.type	.L.managed_type_name.11857, @object
 .L.managed_type_name.11857:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11857, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtr, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11857, 76
 
 	.type	.L.managed_type_name.11858, @object
 .L.managed_type_name.11858:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11858, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11858, 84
 
 	.type	.L.managed_type_name.11859, @object
 .L.managed_type_name.11859:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11859, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11859, 95
 
 	.type	.L.managed_type_name.11860, @object
 .L.managed_type_name.11860:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11860, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11860, 87
 
 	.type	.L.managed_type_name.11861, @object
 .L.managed_type_name.11861:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11861, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11861, 101
 
 	.type	.L.managed_type_name.11862, @object
 .L.managed_type_name.11862:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreaming, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11862, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11862, 93
 
 	.type	.L.managed_type_name.11863, @object
 .L.managed_type_name.11863:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11863, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreaming, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11863, 89
 
 	.type	.L.managed_type_name.11864, @object
 .L.managed_type_name.11864:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11864, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11864, 100
 
 	.type	.L.managed_type_name.11865, @object
 .L.managed_type_name.11865:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11865, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11865, 92
 
 	.type	.L.managed_type_name.11866, @object
 .L.managed_type_name.11866:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11866, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11866, 106
 
 	.type	.L.managed_type_name.11867, @object
 .L.managed_type_name.11867:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11867, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11867, 98
 
 	.type	.L.managed_type_name.11868, @object
 .L.managed_type_name.11868:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11868, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11868, 103
 
 	.type	.L.managed_type_name.11869, @object
 .L.managed_type_name.11869:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11869, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrHmacStreamingParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11869, 95
 
 	.type	.L.managed_type_name.11870, @object
 .L.managed_type_name.11870:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11870, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11870, 87
 
 	.type	.L.managed_type_name.11871, @object
 .L.managed_type_name.11871:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11871, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11871, 79
 
 	.type	.L.managed_type_name.11872, @object
 .L.managed_type_name.11872:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11872, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11872, 93
 
 	.type	.L.managed_type_name.11873, @object
 .L.managed_type_name.11873:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11873, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11873, 85
 
 	.type	.L.managed_type_name.11874, @object
 .L.managed_type_name.11874:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11874, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11874, 90
 
 	.type	.L.managed_type_name.11875, @object
 .L.managed_type_name.11875:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEax, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11875, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesCtrParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11875, 82
 
 	.type	.L.managed_type_name.11876, @object
 .L.managed_type_name.11876:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11876, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEax, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11876, 76
 
 	.type	.L.managed_type_name.11877, @object
 .L.managed_type_name.11877:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11877, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11877, 87
 
 	.type	.L.managed_type_name.11878, @object
 .L.managed_type_name.11878:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11878, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11878, 79
 
 	.type	.L.managed_type_name.11879, @object
 .L.managed_type_name.11879:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11879, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11879, 93
 
 	.type	.L.managed_type_name.11880, @object
 .L.managed_type_name.11880:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11880, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11880, 85
 
 	.type	.L.managed_type_name.11881, @object
 .L.managed_type_name.11881:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11881, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11881, 90
 
 	.type	.L.managed_type_name.11882, @object
 .L.managed_type_name.11882:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcm, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11882, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesEaxParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11882, 82
 
 	.type	.L.managed_type_name.11883, @object
 .L.managed_type_name.11883:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreaming, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11883, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcm, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11883, 76
 
 	.type	.L.managed_type_name.11884, @object
 .L.managed_type_name.11884:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11884, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreaming, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11884, 89
 
 	.type	.L.managed_type_name.11885, @object
 .L.managed_type_name.11885:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11885, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11885, 100
 
 	.type	.L.managed_type_name.11886, @object
 .L.managed_type_name.11886:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11886, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11886, 92
 
 	.type	.L.managed_type_name.11887, @object
 .L.managed_type_name.11887:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11887, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11887, 106
 
 	.type	.L.managed_type_name.11888, @object
 .L.managed_type_name.11888:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11888, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11888, 98
 
 	.type	.L.managed_type_name.11889, @object
 .L.managed_type_name.11889:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11889, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11889, 103
 
 	.type	.L.managed_type_name.11890, @object
 .L.managed_type_name.11890:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11890, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmHkdfStreamingParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11890, 95
 
 	.type	.L.managed_type_name.11891, @object
 .L.managed_type_name.11891:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11891, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11891, 87
 
 	.type	.L.managed_type_name.11892, @object
 .L.managed_type_name.11892:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11892, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11892, 79
 
 	.type	.L.managed_type_name.11893, @object
 .L.managed_type_name.11893:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11893, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11893, 93
 
 	.type	.L.managed_type_name.11894, @object
 .L.managed_type_name.11894:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSiv, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11894, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11894, 85
 
 	.type	.L.managed_type_name.11895, @object
 .L.managed_type_name.11895:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11895, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSiv, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11895, 79
 
 	.type	.L.managed_type_name.11896, @object
 .L.managed_type_name.11896:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11896, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11896, 90
 
 	.type	.L.managed_type_name.11897, @object
 .L.managed_type_name.11897:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11897, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11897, 82
 
 	.type	.L.managed_type_name.11898, @object
 .L.managed_type_name.11898:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11898, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11898, 96
 
 	.type	.L.managed_type_name.11899, @object
 .L.managed_type_name.11899:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSiv, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11899, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesGcmSivKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11899, 88
 
 	.type	.L.managed_type_name.11900, @object
 .L.managed_type_name.11900:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11900, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSiv, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11900, 76
 
 	.type	.L.managed_type_name.11901, @object
 .L.managed_type_name.11901:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11901, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11901, 87
 
 	.type	.L.managed_type_name.11902, @object
 .L.managed_type_name.11902:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11902, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11902, 79
 
 	.type	.L.managed_type_name.11903, @object
 .L.managed_type_name.11903:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11903, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11903, 93
 
 	.type	.L.managed_type_name.11904, @object
 .L.managed_type_name.11904:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305Key+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11904, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.AesSivKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11904, 85
 
 	.type	.L.managed_type_name.11905, @object
 .L.managed_type_name.11905:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305Key, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11905, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305Key+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11905, 97
 
 	.type	.L.managed_type_name.11906, @object
 .L.managed_type_name.11906:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11906, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305Key, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11906, 89
 
 	.type	.L.managed_type_name.11907, @object
 .L.managed_type_name.11907:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305KeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11907, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11907, 103
 
 	.type	.L.managed_type_name.11908, @object
 .L.managed_type_name.11908:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Chacha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11908, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.ChaCha20Poly1305KeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11908, 95
 
 	.type	.L.managed_type_name.11909, @object
 .L.managed_type_name.11909:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Common, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11909, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Chacha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11909, 86
 
 	.type	.L.managed_type_name.11910, @object
 .L.managed_type_name.11910:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Config, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Common, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.11910, 76
 
 	.type	.L.managed_type_name.11911, @object
 .L.managed_type_name.11911:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcPointFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11911, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Config, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11911, 76
 
 	.type	.L.managed_type_name.11912, @object
 .L.managed_type_name.11912:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ecdsa, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11912, 75
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcPointFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11912, 83
 
 	.type	.L.managed_type_name.11913, @object
 .L.managed_type_name.11913:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11913, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ecdsa, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11913, 75
 
 	.type	.L.managed_type_name.11914, @object
 .L.managed_type_name.11914:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11914, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11914, 92
 
 	.type	.L.managed_type_name.11915, @object
 .L.managed_type_name.11915:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11915, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11915, 84
 
 	.type	.L.managed_type_name.11916, @object
 .L.managed_type_name.11916:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11916, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11916, 89
 
 	.type	.L.managed_type_name.11917, @object
 .L.managed_type_name.11917:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11917, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11917, 81
 
 	.type	.L.managed_type_name.11918, @object
 .L.managed_type_name.11918:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPrivateKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11918, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11918, 93
 
 	.type	.L.managed_type_name.11919, @object
 .L.managed_type_name.11919:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11919, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPrivateKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11919, 85
 
 	.type	.L.managed_type_name.11920, @object
 .L.managed_type_name.11920:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPublicKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11920, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11920, 92
 
 	.type	.L.managed_type_name.11921, @object
 .L.managed_type_name.11921:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaSignatureEncoding, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11921, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaPublicKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11921, 84
 
 	.type	.L.managed_type_name.11922, @object
 .L.managed_type_name.11922:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadDemParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11922, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EcdsaSignatureEncoding, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11922, 92
 
 	.type	.L.managed_type_name.11923, @object
 .L.managed_type_name.11923:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadDemParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11923, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadDemParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11923, 96
 
 	.type	.L.managed_type_name.11924, @object
 .L.managed_type_name.11924:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11924, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadDemParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11924, 88
 
 	.type	.L.managed_type_name.11925, @object
 .L.managed_type_name.11925:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11925, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11925, 83
 
 	.type	.L.managed_type_name.11926, @object
 .L.managed_type_name.11926:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11926, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11926, 100
 
 	.type	.L.managed_type_name.11927, @object
 .L.managed_type_name.11927:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11927, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11927, 92
 
 	.type	.L.managed_type_name.11928, @object
 .L.managed_type_name.11928:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11928, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11928, 97
 
 	.type	.L.managed_type_name.11929, @object
 .L.managed_type_name.11929:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11929, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11929, 89
 
 	.type	.L.managed_type_name.11930, @object
 .L.managed_type_name.11930:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPrivateKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11930, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11930, 101
 
 	.type	.L.managed_type_name.11931, @object
 .L.managed_type_name.11931:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11931, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPrivateKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11931, 93
 
 	.type	.L.managed_type_name.11932, @object
 .L.managed_type_name.11932:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPublicKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11932, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11932, 100
 
 	.type	.L.managed_type_name.11933, @object
 .L.managed_type_name.11933:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesHkdfKemParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11933, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesAeadHkdfPublicKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11933, 92
 
 	.type	.L.managed_type_name.11934, @object
 .L.managed_type_name.11934:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesHkdfKemParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11934, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesHkdfKemParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11934, 96
 
 	.type	.L.managed_type_name.11935, @object
 .L.managed_type_name.11935:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11935, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EciesHkdfKemParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11935, 88
 
 	.type	.L.managed_type_name.11936, @object
 .L.managed_type_name.11936:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11936, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11936, 77
 
 	.type	.L.managed_type_name.11937, @object
 .L.managed_type_name.11937:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519KeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11937, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11937, 94
 
 	.type	.L.managed_type_name.11938, @object
 .L.managed_type_name.11938:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11938, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519KeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11938, 86
 
 	.type	.L.managed_type_name.11939, @object
 .L.managed_type_name.11939:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PrivateKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11939, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11939, 95
 
 	.type	.L.managed_type_name.11940, @object
 .L.managed_type_name.11940:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11940, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PrivateKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11940, 87
 
 	.type	.L.managed_type_name.11941, @object
 .L.managed_type_name.11941:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PublicKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11941, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11941, 94
 
 	.type	.L.managed_type_name.11942, @object
 .L.managed_type_name.11942:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EllipticCurveType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11942, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Ed25519PublicKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11942, 86
 
 	.type	.L.managed_type_name.11943, @object
 .L.managed_type_name.11943:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EncryptedKeyset+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11943, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EllipticCurveType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11943, 87
 
 	.type	.L.managed_type_name.11944, @object
 .L.managed_type_name.11944:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EncryptedKeyset, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11944, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EncryptedKeyset+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11944, 93
 
 	.type	.L.managed_type_name.11945, @object
 .L.managed_type_name.11945:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HashType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11945, 78
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.EncryptedKeyset, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11945, 85
 
 	.type	.L.managed_type_name.11946, @object
 .L.managed_type_name.11946:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11946, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HashType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11946, 78
 
 	.type	.L.managed_type_name.11947, @object
 .L.managed_type_name.11947:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11947, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11947, 77
 
 	.type	.L.managed_type_name.11948, @object
 .L.managed_type_name.11948:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11948, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11948, 88
 
 	.type	.L.managed_type_name.11949, @object
 .L.managed_type_name.11949:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11949, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11949, 80
 
 	.type	.L.managed_type_name.11950, @object
 .L.managed_type_name.11950:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11950, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11950, 94
 
 	.type	.L.managed_type_name.11951, @object
 .L.managed_type_name.11951:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11951, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11951, 86
 
 	.type	.L.managed_type_name.11952, @object
 .L.managed_type_name.11952:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11952, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11952, 91
 
 	.type	.L.managed_type_name.11953, @object
 .L.managed_type_name.11953:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Hmac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11953, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HkdfPrfParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11953, 83
 
 	.type	.L.managed_type_name.11954, @object
 .L.managed_type_name.11954:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11954, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Hmac, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11954, 74
 
 	.type	.L.managed_type_name.11955, @object
 .L.managed_type_name.11955:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11955, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11955, 85
 
 	.type	.L.managed_type_name.11956, @object
 .L.managed_type_name.11956:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11956, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11956, 77
 
 	.type	.L.managed_type_name.11957, @object
 .L.managed_type_name.11957:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11957, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11957, 91
 
 	.type	.L.managed_type_name.11958, @object
 .L.managed_type_name.11958:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11958, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11958, 83
 
 	.type	.L.managed_type_name.11959, @object
 .L.managed_type_name.11959:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11959, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11959, 88
 
 	.type	.L.managed_type_name.11960, @object
 .L.managed_type_name.11960:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11960, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11960, 80
 
 	.type	.L.managed_type_name.11961, @object
 .L.managed_type_name.11961:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11961, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11961, 77
 
 	.type	.L.managed_type_name.11962, @object
 .L.managed_type_name.11962:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11962, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11962, 88
 
 	.type	.L.managed_type_name.11963, @object
 .L.managed_type_name.11963:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11963, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11963, 80
 
 	.type	.L.managed_type_name.11964, @object
 .L.managed_type_name.11964:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11964, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11964, 94
 
 	.type	.L.managed_type_name.11965, @object
 .L.managed_type_name.11965:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11965, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11965, 86
 
 	.type	.L.managed_type_name.11966, @object
 .L.managed_type_name.11966:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11966, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11966, 91
 
 	.type	.L.managed_type_name.11967, @object
 .L.managed_type_name.11967:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11967, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.HmacPrfParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11967, 83
 
 	.type	.L.managed_type_name.11968, @object
 .L.managed_type_name.11968:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11968, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11968, 96
 
 	.type	.L.managed_type_name.11969, @object
 .L.managed_type_name.11969:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11969, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11969, 103
 
 	.type	.L.managed_type_name.11970, @object
 .L.managed_type_name.11970:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11970, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11970, 90
 
 	.type	.L.managed_type_name.11971, @object
 .L.managed_type_name.11971:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11971, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11971, 97
 
 	.type	.L.managed_type_name.11972, @object
 .L.managed_type_name.11972:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11972, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11972, 93
 
 	.type	.L.managed_type_name.11973, @object
 .L.managed_type_name.11973:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11973, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11973, 100
 
 	.type	.L.managed_type_name.11974, @object
 .L.managed_type_name.11974:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11974, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11974, 99
 
 	.type	.L.managed_type_name.11975, @object
 .L.managed_type_name.11975:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11975, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11975, 106
 
 	.type	.L.managed_type_name.11976, @object
 .L.managed_type_name.11976:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11976, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11976, 93
 
 	.type	.L.managed_type_name.11977, @object
 .L.managed_type_name.11977:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11977, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCmacPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11977, 100
 
 	.type	.L.managed_type_name.11978, @object
 .L.managed_type_name.11978:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11978, 110
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11978, 103
 
 	.type	.L.managed_type_name.11979, @object
 .L.managed_type_name.11979:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11979, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11979, 110
 
 	.type	.L.managed_type_name.11980, @object
 .L.managed_type_name.11980:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11980, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11980, 97
 
 	.type	.L.managed_type_name.11981, @object
 .L.managed_type_name.11981:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11981, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11981, 104
 
 	.type	.L.managed_type_name.11982, @object
 .L.managed_type_name.11982:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11982, 115
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11982, 108
 
 	.type	.L.managed_type_name.11983, @object
 .L.managed_type_name.11983:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11983, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11983, 115
 
 	.type	.L.managed_type_name.11984, @object
 .L.managed_type_name.11984:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11984, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11984, 102
 
 	.type	.L.managed_type_name.11985, @object
 .L.managed_type_name.11985:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11985, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11985, 109
 
 	.type	.L.managed_type_name.11986, @object
 .L.managed_type_name.11986:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11986, 112
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11986, 105
 
 	.type	.L.managed_type_name.11987, @object
 .L.managed_type_name.11987:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11987, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrHmacStreamingParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11987, 112
 
 	.type	.L.managed_type_name.11988, @object
 .L.managed_type_name.11988:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11988, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11988, 95
 
 	.type	.L.managed_type_name.11989, @object
 .L.managed_type_name.11989:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11989, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11989, 102
 
 	.type	.L.managed_type_name.11990, @object
 .L.managed_type_name.11990:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11990, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11990, 89
 
 	.type	.L.managed_type_name.11991, @object
 .L.managed_type_name.11991:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11991, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11991, 96
 
 	.type	.L.managed_type_name.11992, @object
 .L.managed_type_name.11992:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11992, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11992, 92
 
 	.type	.L.managed_type_name.11993, @object
 .L.managed_type_name.11993:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11993, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesCtrParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11993, 99
 
 	.type	.L.managed_type_name.11994, @object
 .L.managed_type_name.11994:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11994, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11994, 95
 
 	.type	.L.managed_type_name.11995, @object
 .L.managed_type_name.11995:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11995, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11995, 102
 
 	.type	.L.managed_type_name.11996, @object
 .L.managed_type_name.11996:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11996, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11996, 89
 
 	.type	.L.managed_type_name.11997, @object
 .L.managed_type_name.11997:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11997, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11997, 96
 
 	.type	.L.managed_type_name.11998, @object
 .L.managed_type_name.11998:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11998, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11998, 92
 
 	.type	.L.managed_type_name.11999, @object
 .L.managed_type_name.11999:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.11999, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesEaxParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.11999, 99
 
 	.type	.L.managed_type_name.12000, @object
 .L.managed_type_name.12000:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12000, 115
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12000, 108
 
 	.type	.L.managed_type_name.12001, @object
 .L.managed_type_name.12001:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12001, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12001, 115
 
 	.type	.L.managed_type_name.12002, @object
 .L.managed_type_name.12002:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12002, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12002, 102
 
 	.type	.L.managed_type_name.12003, @object
 .L.managed_type_name.12003:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12003, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12003, 109
 
 	.type	.L.managed_type_name.12004, @object
 .L.managed_type_name.12004:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12004, 112
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12004, 105
 
 	.type	.L.managed_type_name.12005, @object
 .L.managed_type_name.12005:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12005, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmHkdfStreamingParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12005, 112
 
 	.type	.L.managed_type_name.12006, @object
 .L.managed_type_name.12006:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12006, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12006, 95
 
 	.type	.L.managed_type_name.12007, @object
 .L.managed_type_name.12007:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12007, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12007, 102
 
 	.type	.L.managed_type_name.12008, @object
 .L.managed_type_name.12008:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12008, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12008, 89
 
 	.type	.L.managed_type_name.12009, @object
 .L.managed_type_name.12009:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12009, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12009, 96
 
 	.type	.L.managed_type_name.12010, @object
 .L.managed_type_name.12010:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12010, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12010, 98
 
 	.type	.L.managed_type_name.12011, @object
 .L.managed_type_name.12011:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12011, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12011, 105
 
 	.type	.L.managed_type_name.12012, @object
 .L.managed_type_name.12012:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12012, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12012, 92
 
 	.type	.L.managed_type_name.12013, @object
 .L.managed_type_name.12013:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12013, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesGcmSivKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12013, 99
 
 	.type	.L.managed_type_name.12014, @object
 .L.managed_type_name.12014:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12014, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12014, 95
 
 	.type	.L.managed_type_name.12015, @object
 .L.managed_type_name.12015:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12015, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12015, 102
 
 	.type	.L.managed_type_name.12016, @object
 .L.managed_type_name.12016:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12016, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12016, 89
 
 	.type	.L.managed_type_name.12017, @object
 .L.managed_type_name.12017:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12017, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IAesSivKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12017, 96
 
 	.type	.L.managed_type_name.12018, @object
 .L.managed_type_name.12018:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12018, 112
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12018, 105
 
 	.type	.L.managed_type_name.12019, @object
 .L.managed_type_name.12019:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12019, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12019, 112
 
 	.type	.L.managed_type_name.12020, @object
 .L.managed_type_name.12020:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12020, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12020, 99
 
 	.type	.L.managed_type_name.12021, @object
 .L.managed_type_name.12021:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12021, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IChaCha20Poly1305KeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12021, 106
 
 	.type	.L.managed_type_name.12022, @object
 .L.managed_type_name.12022:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12022, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12022, 94
 
 	.type	.L.managed_type_name.12023, @object
 .L.managed_type_name.12023:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12023, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12023, 101
 
 	.type	.L.managed_type_name.12024, @object
 .L.managed_type_name.12024:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12024, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12024, 91
 
 	.type	.L.managed_type_name.12025, @object
 .L.managed_type_name.12025:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12025, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12025, 98
 
 	.type	.L.managed_type_name.12026, @object
 .L.managed_type_name.12026:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12026, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12026, 95
 
 	.type	.L.managed_type_name.12027, @object
 .L.managed_type_name.12027:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12027, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12027, 102
 
 	.type	.L.managed_type_name.12028, @object
 .L.managed_type_name.12028:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12028, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12028, 94
 
 	.type	.L.managed_type_name.12029, @object
 .L.managed_type_name.12029:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadDemParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12029, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEcdsaPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12029, 101
 
 	.type	.L.managed_type_name.12030, @object
 .L.managed_type_name.12030:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadDemParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12030, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadDemParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12030, 98
 
 	.type	.L.managed_type_name.12031, @object
 .L.managed_type_name.12031:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12031, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadDemParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12031, 105
 
 	.type	.L.managed_type_name.12032, @object
 .L.managed_type_name.12032:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12032, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12032, 102
 
 	.type	.L.managed_type_name.12033, @object
 .L.managed_type_name.12033:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12033, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12033, 109
 
 	.type	.L.managed_type_name.12034, @object
 .L.managed_type_name.12034:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12034, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12034, 99
 
 	.type	.L.managed_type_name.12035, @object
 .L.managed_type_name.12035:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12035, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12035, 106
 
 	.type	.L.managed_type_name.12036, @object
 .L.managed_type_name.12036:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12036, 110
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12036, 103
 
 	.type	.L.managed_type_name.12037, @object
 .L.managed_type_name.12037:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12037, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12037, 110
 
 	.type	.L.managed_type_name.12038, @object
 .L.managed_type_name.12038:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12038, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12038, 102
 
 	.type	.L.managed_type_name.12039, @object
 .L.managed_type_name.12039:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesHkdfKemParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12039, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesAeadHkdfPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12039, 109
 
 	.type	.L.managed_type_name.12040, @object
 .L.managed_type_name.12040:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesHkdfKemParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12040, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesHkdfKemParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12040, 98
 
 	.type	.L.managed_type_name.12041, @object
 .L.managed_type_name.12041:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12041, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEciesHkdfKemParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12041, 105
 
 	.type	.L.managed_type_name.12042, @object
 .L.managed_type_name.12042:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12042, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12042, 96
 
 	.type	.L.managed_type_name.12043, @object
 .L.managed_type_name.12043:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12043, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12043, 103
 
 	.type	.L.managed_type_name.12044, @object
 .L.managed_type_name.12044:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12044, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12044, 97
 
 	.type	.L.managed_type_name.12045, @object
 .L.managed_type_name.12045:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12045, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12045, 104
 
 	.type	.L.managed_type_name.12046, @object
 .L.managed_type_name.12046:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12046, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12046, 96
 
 	.type	.L.managed_type_name.12047, @object
 .L.managed_type_name.12047:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEncryptedKeysetOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12047, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEd25519PublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12047, 103
 
 	.type	.L.managed_type_name.12048, @object
 .L.managed_type_name.12048:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEncryptedKeysetOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12048, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEncryptedKeysetOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12048, 95
 
 	.type	.L.managed_type_name.12049, @object
 .L.managed_type_name.12049:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12049, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IEncryptedKeysetOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12049, 102
 
 	.type	.L.managed_type_name.12050, @object
 .L.managed_type_name.12050:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12050, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12050, 96
 
 	.type	.L.managed_type_name.12051, @object
 .L.managed_type_name.12051:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12051, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12051, 103
 
 	.type	.L.managed_type_name.12052, @object
 .L.managed_type_name.12052:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12052, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12052, 90
 
 	.type	.L.managed_type_name.12053, @object
 .L.managed_type_name.12053:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12053, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12053, 97
 
 	.type	.L.managed_type_name.12054, @object
 .L.managed_type_name.12054:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12054, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12054, 93
 
 	.type	.L.managed_type_name.12055, @object
 .L.managed_type_name.12055:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12055, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHkdfPrfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12055, 100
 
 	.type	.L.managed_type_name.12056, @object
 .L.managed_type_name.12056:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12056, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12056, 93
 
 	.type	.L.managed_type_name.12057, @object
 .L.managed_type_name.12057:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12057, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12057, 100
 
 	.type	.L.managed_type_name.12058, @object
 .L.managed_type_name.12058:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12058, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12058, 87
 
 	.type	.L.managed_type_name.12059, @object
 .L.managed_type_name.12059:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12059, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12059, 94
 
 	.type	.L.managed_type_name.12060, @object
 .L.managed_type_name.12060:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12060, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12060, 90
 
 	.type	.L.managed_type_name.12061, @object
 .L.managed_type_name.12061:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12061, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12061, 97
 
 	.type	.L.managed_type_name.12062, @object
 .L.managed_type_name.12062:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12062, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12062, 96
 
 	.type	.L.managed_type_name.12063, @object
 .L.managed_type_name.12063:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12063, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12063, 103
 
 	.type	.L.managed_type_name.12064, @object
 .L.managed_type_name.12064:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12064, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12064, 90
 
 	.type	.L.managed_type_name.12065, @object
 .L.managed_type_name.12065:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12065, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12065, 97
 
 	.type	.L.managed_type_name.12066, @object
 .L.managed_type_name.12066:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12066, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12066, 93
 
 	.type	.L.managed_type_name.12067, @object
 .L.managed_type_name.12067:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyDataOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12067, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IHmacPrfParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12067, 100
 
 	.type	.L.managed_type_name.12068, @object
 .L.managed_type_name.12068:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyDataOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12068, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyDataOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12068, 87
 
 	.type	.L.managed_type_name.12069, @object
 .L.managed_type_name.12069:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTemplateOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12069, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyDataOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12069, 94
 
 	.type	.L.managed_type_name.12070, @object
 .L.managed_type_name.12070:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTemplateOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12070, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTemplateOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12070, 91
 
 	.type	.L.managed_type_name.12071, @object
 .L.managed_type_name.12071:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTypeEntryOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12071, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTemplateOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12071, 98
 
 	.type	.L.managed_type_name.12072, @object
 .L.managed_type_name.12072:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTypeEntryOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12072, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTypeEntryOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12072, 92
 
 	.type	.L.managed_type_name.12073, @object
 .L.managed_type_name.12073:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetInfoOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12073, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeyTypeEntryOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12073, 99
 
 	.type	.L.managed_type_name.12074, @object
 .L.managed_type_name.12074:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetInfoOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12074, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetInfoOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12074, 90
 
 	.type	.L.managed_type_name.12075, @object
 .L.managed_type_name.12075:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12075, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetInfoOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12075, 97
 
 	.type	.L.managed_type_name.12076, @object
 .L.managed_type_name.12076:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12076, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12076, 86
 
 	.type	.L.managed_type_name.12077, @object
 .L.managed_type_name.12077:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12077, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKeysetOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12077, 93
 
 	.type	.L.managed_type_name.12078, @object
 .L.managed_type_name.12078:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12078, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12078, 96
 
 	.type	.L.managed_type_name.12079, @object
 .L.managed_type_name.12079:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12079, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12079, 103
 
 	.type	.L.managed_type_name.12080, @object
 .L.managed_type_name.12080:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12080, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12080, 90
 
 	.type	.L.managed_type_name.12081, @object
 .L.managed_type_name.12081:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12081, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12081, 97
 
 	.type	.L.managed_type_name.12082, @object
 .L.managed_type_name.12082:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12082, 111
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12082, 104
 
 	.type	.L.managed_type_name.12083, @object
 .L.managed_type_name.12083:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12083, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12083, 111
 
 	.type	.L.managed_type_name.12084, @object
 .L.managed_type_name.12084:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12084, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12084, 98
 
 	.type	.L.managed_type_name.12085, @object
 .L.managed_type_name.12085:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRegistryConfigOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12085, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IKmsEnvelopeAeadKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12085, 105
 
 	.type	.L.managed_type_name.12086, @object
 .L.managed_type_name.12086:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRegistryConfigOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12086, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRegistryConfigOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12086, 94
 
 	.type	.L.managed_type_name.12087, @object
 .L.managed_type_name.12087:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12087, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRegistryConfigOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12087, 101
 
 	.type	.L.managed_type_name.12088, @object
 .L.managed_type_name.12088:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12088, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12088, 100
 
 	.type	.L.managed_type_name.12089, @object
 .L.managed_type_name.12089:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1ParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12089, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12089, 107
 
 	.type	.L.managed_type_name.12090, @object
 .L.managed_type_name.12090:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1ParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12090, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1ParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12090, 97
 
 	.type	.L.managed_type_name.12091, @object
 .L.managed_type_name.12091:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12091, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1ParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12091, 104
 
 	.type	.L.managed_type_name.12092, @object
 .L.managed_type_name.12092:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12092, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12092, 101
 
 	.type	.L.managed_type_name.12093, @object
 .L.managed_type_name.12093:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12093, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12093, 108
 
 	.type	.L.managed_type_name.12094, @object
 .L.managed_type_name.12094:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12094, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12094, 100
 
 	.type	.L.managed_type_name.12095, @object
 .L.managed_type_name.12095:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12095, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPkcs1PublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12095, 107
 
 	.type	.L.managed_type_name.12096, @object
 .L.managed_type_name.12096:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12096, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssKeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12096, 98
 
 	.type	.L.managed_type_name.12097, @object
 .L.managed_type_name.12097:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12097, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssKeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12097, 105
 
 	.type	.L.managed_type_name.12098, @object
 .L.managed_type_name.12098:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12098, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssParamsOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12098, 95
 
 	.type	.L.managed_type_name.12099, @object
 .L.managed_type_name.12099:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12099, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssParamsOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12099, 102
 
 	.type	.L.managed_type_name.12100, @object
 .L.managed_type_name.12100:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12100, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPrivateKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12100, 99
 
 	.type	.L.managed_type_name.12101, @object
 .L.managed_type_name.12101:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12101, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPrivateKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12101, 106
 
 	.type	.L.managed_type_name.12102, @object
 .L.managed_type_name.12102:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12102, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPublicKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12102, 98
 
 	.type	.L.managed_type_name.12103, @object
 .L.managed_type_name.12103:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12103, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IRsaSsaPssPublicKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12103, 105
 
 	.type	.L.managed_type_name.12104, @object
 .L.managed_type_name.12104:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12104, 113
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyFormatOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12104, 106
 
 	.type	.L.managed_type_name.12105, @object
 .L.managed_type_name.12105:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12105, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyFormatOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12105, 113
 
 	.type	.L.managed_type_name.12106, @object
 .L.managed_type_name.12106:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12106, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12106, 100
 
 	.type	.L.managed_type_name.12107, @object
 .L.managed_type_name.12107:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12107, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.IXChaCha20Poly1305KeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12107, 107
 
 	.type	.L.managed_type_name.12108, @object
 .L.managed_type_name.12108:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData+KeyMaterialType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12108, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12108, 85
 
 	.type	.L.managed_type_name.12109, @object
 .L.managed_type_name.12109:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12109, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData+KeyMaterialType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12109, 93
 
 	.type	.L.managed_type_name.12110, @object
 .L.managed_type_name.12110:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyStatusType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12110, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyData, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12110, 77
 
 	.type	.L.managed_type_name.12111, @object
 .L.managed_type_name.12111:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTemplate+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12111, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyStatusType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12111, 83
 
 	.type	.L.managed_type_name.12112, @object
 .L.managed_type_name.12112:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTemplate, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12112, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTemplate+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12112, 89
 
 	.type	.L.managed_type_name.12113, @object
 .L.managed_type_name.12113:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTypeEntry+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12113, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTemplate, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12113, 81
 
 	.type	.L.managed_type_name.12114, @object
 .L.managed_type_name.12114:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTypeEntry, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12114, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTypeEntry+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12114, 90
 
 	.type	.L.managed_type_name.12115, @object
 .L.managed_type_name.12115:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12115, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeyTypeEntry, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12115, 82
 
 	.type	.L.managed_type_name.12116, @object
 .L.managed_type_name.12116:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+IKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12116, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12116, 84
 
 	.type	.L.managed_type_name.12117, @object
 .L.managed_type_name.12117:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+IKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12117, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+IKeyOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12117, 90
 
 	.type	.L.managed_type_name.12118, @object
 .L.managed_type_name.12118:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Key+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12118, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+IKeyOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12118, 97
 
 	.type	.L.managed_type_name.12119, @object
 .L.managed_type_name.12119:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Key, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12119, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Key+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12119, 88
 
 	.type	.L.managed_type_name.12120, @object
 .L.managed_type_name.12120:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12120, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset+Key, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12120, 80
 
 	.type	.L.managed_type_name.12121, @object
 .L.managed_type_name.12121:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12121, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Keyset, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12121, 76
 
 	.type	.L.managed_type_name.12122, @object
 .L.managed_type_name.12122:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+IKeyInfoOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12122, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12122, 88
 
 	.type	.L.managed_type_name.12123, @object
 .L.managed_type_name.12123:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+IKeyInfoOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12123, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+IKeyInfoOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12123, 98
 
 	.type	.L.managed_type_name.12124, @object
 .L.managed_type_name.12124:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+KeyInfo+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12124, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+IKeyInfoOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12124, 105
 
 	.type	.L.managed_type_name.12125, @object
 .L.managed_type_name.12125:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+KeyInfo, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12125, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+KeyInfo+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12125, 96
 
 	.type	.L.managed_type_name.12126, @object
 .L.managed_type_name.12126:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12126, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo+KeyInfo, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12126, 88
 
 	.type	.L.managed_type_name.12127, @object
 .L.managed_type_name.12127:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAead, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12127, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KeysetInfo, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12127, 80
 
 	.type	.L.managed_type_name.12128, @object
 .L.managed_type_name.12128:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12128, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAead, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12128, 77
 
 	.type	.L.managed_type_name.12129, @object
 .L.managed_type_name.12129:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12129, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12129, 88
 
 	.type	.L.managed_type_name.12130, @object
 .L.managed_type_name.12130:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12130, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12130, 80
 
 	.type	.L.managed_type_name.12131, @object
 .L.managed_type_name.12131:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12131, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12131, 94
 
 	.type	.L.managed_type_name.12132, @object
 .L.managed_type_name.12132:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelope, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12132, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12132, 86
 
 	.type	.L.managed_type_name.12133, @object
 .L.managed_type_name.12133:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12133, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelope, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12133, 81
 
 	.type	.L.managed_type_name.12134, @object
 .L.managed_type_name.12134:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12134, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12134, 96
 
 	.type	.L.managed_type_name.12135, @object
 .L.managed_type_name.12135:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12135, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12135, 88
 
 	.type	.L.managed_type_name.12136, @object
 .L.managed_type_name.12136:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12136, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12136, 102
 
 	.type	.L.managed_type_name.12137, @object
 .L.managed_type_name.12137:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.OutputPrefixType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12137, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.KmsEnvelopeAeadKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12137, 94
 
 	.type	.L.managed_type_name.12138, @object
 .L.managed_type_name.12138:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RegistryConfig+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12138, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.OutputPrefixType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12138, 86
 
 	.type	.L.managed_type_name.12139, @object
 .L.managed_type_name.12139:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RegistryConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12139, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RegistryConfig+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12139, 92
 
 	.type	.L.managed_type_name.12140, @object
 .L.managed_type_name.12140:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12140, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RegistryConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12140, 84
 
 	.type	.L.managed_type_name.12141, @object
 .L.managed_type_name.12141:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12141, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12141, 81
 
 	.type	.L.managed_type_name.12142, @object
 .L.managed_type_name.12142:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1KeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12142, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12142, 98
 
 	.type	.L.managed_type_name.12143, @object
 .L.managed_type_name.12143:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1Params+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12143, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1KeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12143, 90
 
 	.type	.L.managed_type_name.12144, @object
 .L.managed_type_name.12144:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1Params, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12144, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1Params+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12144, 95
 
 	.type	.L.managed_type_name.12145, @object
 .L.managed_type_name.12145:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12145, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1Params, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12145, 87
 
 	.type	.L.managed_type_name.12146, @object
 .L.managed_type_name.12146:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PrivateKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12146, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12146, 99
 
 	.type	.L.managed_type_name.12147, @object
 .L.managed_type_name.12147:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12147, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PrivateKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12147, 91
 
 	.type	.L.managed_type_name.12148, @object
 .L.managed_type_name.12148:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PublicKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12148, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12148, 98
 
 	.type	.L.managed_type_name.12149, @object
 .L.managed_type_name.12149:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPss, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12149, 79
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPkcs1PublicKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12149, 90
 
 	.type	.L.managed_type_name.12150, @object
 .L.managed_type_name.12150:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12150, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPss, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12150, 79
 
 	.type	.L.managed_type_name.12151, @object
 .L.managed_type_name.12151:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssKeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12151, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssKeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12151, 96
 
 	.type	.L.managed_type_name.12152, @object
 .L.managed_type_name.12152:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssParams+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12152, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssKeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12152, 88
 
 	.type	.L.managed_type_name.12153, @object
 .L.managed_type_name.12153:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssParams, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12153, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssParams+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12153, 93
 
 	.type	.L.managed_type_name.12154, @object
 .L.managed_type_name.12154:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12154, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssParams, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12154, 85
 
 	.type	.L.managed_type_name.12155, @object
 .L.managed_type_name.12155:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPrivateKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12155, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPrivateKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12155, 97
 
 	.type	.L.managed_type_name.12156, @object
 .L.managed_type_name.12156:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12156, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPrivateKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12156, 89
 
 	.type	.L.managed_type_name.12157, @object
 .L.managed_type_name.12157:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPublicKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12157, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPublicKey+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12157, 96
 
 	.type	.L.managed_type_name.12158, @object
 .L.managed_type_name.12158:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Tink, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12158, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.RsaSsaPssPublicKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12158, 88
 
 	.type	.L.managed_type_name.12159, @object
 .L.managed_type_name.12159:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305Key+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12159, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Tink, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12159, 74
 
 	.type	.L.managed_type_name.12160, @object
 .L.managed_type_name.12160:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305Key, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12160, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305Key+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12160, 98
 
 	.type	.L.managed_type_name.12161, @object
 .L.managed_type_name.12161:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12161, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305Key, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12161, 90
 
 	.type	.L.managed_type_name.12162, @object
 .L.managed_type_name.12162:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305KeyFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12162, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305KeyFormat+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12162, 104
 
 	.type	.L.managed_type_name.12163, @object
 .L.managed_type_name.12163:
-	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Xchacha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12163, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.XChaCha20Poly1305KeyFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12163, 96
 
 	.type	.L.managed_type_name.12164, @object
 .L.managed_type_name.12164:
-	.asciz	"Xamarin.Google.Crypto.Tink.Registry, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12164, 72
+	.asciz	"Xamarin.Google.Crypto.Tink.Proto.Xchacha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12164, 87
 
 	.type	.L.managed_type_name.12165, @object
 .L.managed_type_name.12165:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+Builder+LimitedInputStream, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12165, 126
+	.asciz	"Xamarin.Google.Crypto.Tink.Registry, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12165, 72
 
 	.type	.L.managed_type_name.12166, @object
 .L.managed_type_name.12166:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12166, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+Builder+LimitedInputStream, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12166, 126
 
 	.type	.L.managed_type_name.12167, @object
 .L.managed_type_name.12167:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+BuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12167, 114
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12167, 107
 
 	.type	.L.managed_type_name.12168, @object
 .L.managed_type_name.12168:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+IInternalOneOfEnum, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12168, 118
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+BuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12168, 114
 
 	.type	.L.managed_type_name.12169, @object
 .L.managed_type_name.12169:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+IInternalOneOfEnumInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12169, 125
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+IInternalOneOfEnum, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12169, 118
 
 	.type	.L.managed_type_name.12170, @object
 .L.managed_type_name.12170:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12170, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite+IInternalOneOfEnumInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12170, 125
 
 	.type	.L.managed_type_name.12171, @object
 .L.managed_type_name.12171:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12171, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12171, 99
 
 	.type	.L.managed_type_name.12172, @object
 .L.managed_type_name.12172:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractParser, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12172, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12172, 106
 
 	.type	.L.managed_type_name.12173, @object
 .L.managed_type_name.12173:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractParserInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12173, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractParser, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12173, 94
 
 	.type	.L.managed_type_name.12174, @object
 .L.managed_type_name.12174:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteOutput, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12174, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.AbstractParserInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12174, 101
 
 	.type	.L.managed_type_name.12175, @object
 .L.managed_type_name.12175:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteOutputInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12175, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteOutput, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12175, 90
 
 	.type	.L.managed_type_name.12176, @object
 .L.managed_type_name.12176:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+IByteIterator, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12176, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteOutputInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12176, 97
 
 	.type	.L.managed_type_name.12177, @object
 .L.managed_type_name.12177:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+IByteIteratorInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12177, 111
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+IByteIterator, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12177, 104
 
 	.type	.L.managed_type_name.12178, @object
 .L.managed_type_name.12178:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+Output, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12178, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+IByteIteratorInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12178, 111
 
 	.type	.L.managed_type_name.12179, @object
 .L.managed_type_name.12179:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12179, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString+Output, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12179, 97
 
 	.type	.L.managed_type_name.12180, @object
 .L.managed_type_name.12180:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteStringInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12180, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteString, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12180, 90
 
 	.type	.L.managed_type_name.12181, @object
 .L.managed_type_name.12181:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedInputStream, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12181, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ByteStringInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12181, 97
 
 	.type	.L.managed_type_name.12182, @object
 .L.managed_type_name.12182:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedInputStreamInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12182, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedInputStream, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12182, 96
 
 	.type	.L.managed_type_name.12183, @object
 .L.managed_type_name.12183:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStream+OutOfSpaceException, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12183, 117
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedInputStreamInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12183, 103
 
 	.type	.L.managed_type_name.12184, @object
 .L.managed_type_name.12184:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStream, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12184, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStream+OutOfSpaceException, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12184, 117
 
 	.type	.L.managed_type_name.12185, @object
 .L.managed_type_name.12185:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStreamInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12185, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStream, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12185, 97
 
 	.type	.L.managed_type_name.12186, @object
 .L.managed_type_name.12186:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12186, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.CodedOutputStreamInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12186, 104
 
 	.type	.L.managed_type_name.12187, @object
 .L.managed_type_name.12187:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12187, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12187, 93
 
 	.type	.L.managed_type_name.12188, @object
 .L.managed_type_name.12188:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionRegistryLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12188, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12188, 100
 
 	.type	.L.managed_type_name.12189, @object
 .L.managed_type_name.12189:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet+IFieldDescriptorLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12189, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ExtensionRegistryLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12189, 101
 
 	.type	.L.managed_type_name.12190, @object
 .L.managed_type_name.12190:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet+IFieldDescriptorLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12190, 116
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet+IFieldDescriptorLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12190, 109
 
 	.type	.L.managed_type_name.12191, @object
 .L.managed_type_name.12191:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12191, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet+IFieldDescriptorLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12191, 116
 
 	.type	.L.managed_type_name.12192, @object
 .L.managed_type_name.12192:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12192, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldSet, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12192, 88
 
 	.type	.L.managed_type_name.12193, @object
 .L.managed_type_name.12193:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12193, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.FieldType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12193, 89
 
 	.type	.L.managed_type_name.12194, @object
 .L.managed_type_name.12194:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+DefaultInstanceBasedParser, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12194, 127
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12194, 108
 
 	.type	.L.managed_type_name.12195, @object
 .L.managed_type_name.12195:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12195, 118
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+DefaultInstanceBasedParser, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12195, 127
 
 	.type	.L.managed_type_name.12196, @object
 .L.managed_type_name.12196:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12196, 125
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12196, 118
 
 	.type	.L.managed_type_name.12197, @object
 .L.managed_type_name.12197:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessage+ExtensionWriter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12197, 134
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12197, 125
 
 	.type	.L.managed_type_name.12198, @object
 .L.managed_type_name.12198:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessage, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12198, 118
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessage+ExtensionWriter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12198, 134
 
 	.type	.L.managed_type_name.12199, @object
 .L.managed_type_name.12199:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessageInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12199, 125
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessage, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12199, 118
 
 	.type	.L.managed_type_name.12200, @object
 .L.managed_type_name.12200:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+GeneratedExtension, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12200, 119
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+ExtendableMessageInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12200, 125
 
 	.type	.L.managed_type_name.12201, @object
 .L.managed_type_name.12201:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+IExtendableMessageOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12201, 128
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+GeneratedExtension, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12201, 119
 
 	.type	.L.managed_type_name.12202, @object
 .L.managed_type_name.12202:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+IExtendableMessageOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12202, 135
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+IExtendableMessageOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12202, 128
 
 	.type	.L.managed_type_name.12203, @object
 .L.managed_type_name.12203:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+MethodToInvoke, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12203, 115
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+IExtendableMessageOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12203, 135
 
 	.type	.L.managed_type_name.12204, @object
 .L.managed_type_name.12204:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+SerializedForm, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+MethodToInvoke, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12204, 115
 
 	.type	.L.managed_type_name.12205, @object
 .L.managed_type_name.12205:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12205, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite+SerializedForm, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12205, 115
 
 	.type	.L.managed_type_name.12206, @object
 .L.managed_type_name.12206:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12206, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12206, 100
 
 	.type	.L.managed_type_name.12207, @object
 .L.managed_type_name.12207:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IExperimentalApi, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12207, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.GeneratedMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12207, 107
 
 	.type	.L.managed_type_name.12208, @object
 .L.managed_type_name.12208:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IExperimentalApiInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12208, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IExperimentalApi, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12208, 96
 
 	.type	.L.managed_type_name.12209, @object
 .L.managed_type_name.12209:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ILazyStringList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12209, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IExperimentalApiInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12209, 103
 
 	.type	.L.managed_type_name.12210, @object
 .L.managed_type_name.12210:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ILazyStringListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12210, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ILazyStringList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12210, 95
 
 	.type	.L.managed_type_name.12211, @object
 .L.managed_type_name.12211:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12211, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ILazyStringListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12211, 102
 
 	.type	.L.managed_type_name.12212, @object
 .L.managed_type_name.12212:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12212, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12212, 92
 
 	.type	.L.managed_type_name.12213, @object
 .L.managed_type_name.12213:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12213, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12213, 99
 
 	.type	.L.managed_type_name.12214, @object
 .L.managed_type_name.12214:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12214, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12214, 106
 
 	.type	.L.managed_type_name.12215, @object
 .L.managed_type_name.12215:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12215, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12215, 99
 
 	.type	.L.managed_type_name.12216, @object
 .L.managed_type_name.12216:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12216, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12216, 101
 
 	.type	.L.managed_type_name.12217, @object
 .L.managed_type_name.12217:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParser, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12217, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilderInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12217, 108
 
 	.type	.L.managed_type_name.12218, @object
 .L.managed_type_name.12218:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParserInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12218, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParser, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12218, 87
 
 	.type	.L.managed_type_name.12219, @object
 .L.managed_type_name.12219:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IProtocolStringList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12219, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParserInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12219, 94
 
 	.type	.L.managed_type_name.12220, @object
 .L.managed_type_name.12220:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IProtocolStringListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12220, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IProtocolStringList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12220, 99
 
 	.type	.L.managed_type_name.12221, @object
 .L.managed_type_name.12221:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IBooleanList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12221, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IProtocolStringListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12221, 106
 
 	.type	.L.managed_type_name.12222, @object
 .L.managed_type_name.12222:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IBooleanListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12222, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IBooleanList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12222, 101
 
 	.type	.L.managed_type_name.12223, @object
 .L.managed_type_name.12223:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IDoubleList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12223, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IBooleanListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12223, 108
 
 	.type	.L.managed_type_name.12224, @object
 .L.managed_type_name.12224:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IDoubleListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12224, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IDoubleList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12224, 100
 
 	.type	.L.managed_type_name.12225, @object
 .L.managed_type_name.12225:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12225, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IDoubleListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12225, 107
 
 	.type	.L.managed_type_name.12226, @object
 .L.managed_type_name.12226:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12226, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12226, 98
 
 	.type	.L.managed_type_name.12227, @object
 .L.managed_type_name.12227:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteMap, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12227, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12227, 105
 
 	.type	.L.managed_type_name.12228, @object
 .L.managed_type_name.12228:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteMapInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12228, 108
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteMap, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12228, 101
 
 	.type	.L.managed_type_name.12229, @object
 .L.managed_type_name.12229:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumVerifier, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12229, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteMapInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12229, 108
 
 	.type	.L.managed_type_name.12230, @object
 .L.managed_type_name.12230:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumVerifierInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12230, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumVerifier, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12230, 102
 
 	.type	.L.managed_type_name.12231, @object
 .L.managed_type_name.12231:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IFloatList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12231, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumVerifierInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12231, 109
 
 	.type	.L.managed_type_name.12232, @object
 .L.managed_type_name.12232:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IFloatListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12232, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IFloatList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12232, 99
 
 	.type	.L.managed_type_name.12233, @object
 .L.managed_type_name.12233:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IIntList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12233, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IFloatListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12233, 106
 
 	.type	.L.managed_type_name.12234, @object
 .L.managed_type_name.12234:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IIntListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12234, 104
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IIntList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12234, 97
 
 	.type	.L.managed_type_name.12235, @object
 .L.managed_type_name.12235:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ILongList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12235, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IIntListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12235, 104
 
 	.type	.L.managed_type_name.12236, @object
 .L.managed_type_name.12236:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ILongListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12236, 105
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ILongList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12236, 98
 
 	.type	.L.managed_type_name.12237, @object
 .L.managed_type_name.12237:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IProtobufList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12237, 102
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ILongListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12237, 105
 
 	.type	.L.managed_type_name.12238, @object
 .L.managed_type_name.12238:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IProtobufListInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12238, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IProtobufList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12238, 102
 
 	.type	.L.managed_type_name.12239, @object
 .L.managed_type_name.12239:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter+IConverter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12239, 111
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IProtobufListInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12239, 109
 
 	.type	.L.managed_type_name.12240, @object
 .L.managed_type_name.12240:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter+IConverterInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12240, 118
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter+IConverter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12240, 111
 
 	.type	.L.managed_type_name.12241, @object
 .L.managed_type_name.12241:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12241, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter+IConverterInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12241, 118
 
 	.type	.L.managed_type_name.12242, @object
 .L.managed_type_name.12242:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter+IConverter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12242, 110
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ListAdapter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12242, 100
 
 	.type	.L.managed_type_name.12243, @object
 .L.managed_type_name.12243:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter+IConverterInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12243, 117
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter+IConverter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12243, 110
 
 	.type	.L.managed_type_name.12244, @object
 .L.managed_type_name.12244:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12244, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter+IConverterInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12244, 117
 
 	.type	.L.managed_type_name.12245, @object
 .L.managed_type_name.12245:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12245, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+MapAdapter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12245, 99
 
 	.type	.L.managed_type_name.12246, @object
 .L.managed_type_name.12246:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.InvalidProtocolBufferException+InvalidWireTypeException, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12246, 135
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12246, 88
 
 	.type	.L.managed_type_name.12247, @object
 .L.managed_type_name.12247:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.InvalidProtocolBufferException, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12247, 110
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.InvalidProtocolBufferException+InvalidWireTypeException, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12247, 135
 
 	.type	.L.managed_type_name.12248, @object
 .L.managed_type_name.12248:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.JavaType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12248, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.InvalidProtocolBufferException, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12248, 110
 
 	.type	.L.managed_type_name.12249, @object
 .L.managed_type_name.12249:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyField, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12249, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.JavaType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12249, 88
 
 	.type	.L.managed_type_name.12250, @object
 .L.managed_type_name.12250:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyFieldLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12250, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyField, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12250, 89
 
 	.type	.L.managed_type_name.12251, @object
 .L.managed_type_name.12251:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyStringArrayList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12251, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyFieldLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12251, 93
 
 	.type	.L.managed_type_name.12252, @object
 .L.managed_type_name.12252:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.MapEntryLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12252, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.LazyStringArrayList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12252, 99
 
 	.type	.L.managed_type_name.12253, @object
 .L.managed_type_name.12253:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.MapFieldLite, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.MapEntryLite, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12253, 92
 
 	.type	.L.managed_type_name.12254, @object
 .L.managed_type_name.12254:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ProtoSyntax, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12254, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.MapFieldLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12254, 92
 
 	.type	.L.managed_type_name.12255, @object
 .L.managed_type_name.12255:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UninitializedMessageException, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12255, 109
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.ProtoSyntax, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12255, 91
 
 	.type	.L.managed_type_name.12256, @object
 .L.managed_type_name.12256:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UnknownFieldSetLite, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12256, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UninitializedMessageException, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12256, 109
 
 	.type	.L.managed_type_name.12257, @object
 .L.managed_type_name.12257:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UnmodifiableLazyStringList, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12257, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UnknownFieldSetLite, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12257, 99
 
 	.type	.L.managed_type_name.12258, @object
 .L.managed_type_name.12258:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat+FieldType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12258, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.UnmodifiableLazyStringList, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12258, 106
 
 	.type	.L.managed_type_name.12259, @object
 .L.managed_type_name.12259:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat+JavaType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12259, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat+FieldType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12259, 100
 
 	.type	.L.managed_type_name.12260, @object
 .L.managed_type_name.12260:
-	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12260, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat+JavaType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12260, 99
 
 	.type	.L.managed_type_name.12261, @object
 .L.managed_type_name.12261:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.EcdsaSignKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12261, 93
+	.asciz	"Xamarin.Google.Crypto.Tink.Shaded.Protobuf.WireFormat, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12261, 90
 
 	.type	.L.managed_type_name.12262, @object
 .L.managed_type_name.12262:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.Ed25519PrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12262, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.EcdsaSignKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12262, 93
 
 	.type	.L.managed_type_name.12263, @object
 .L.managed_type_name.12263:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.Internal.SigUtil, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12263, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.Ed25519PrivateKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12263, 98
 
 	.type	.L.managed_type_name.12264, @object
 .L.managed_type_name.12264:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeySignFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12264, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.Internal.SigUtil, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12264, 90
 
 	.type	.L.managed_type_name.12265, @object
 .L.managed_type_name.12265:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeySignWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeySignFactory, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12265, 94
 
 	.type	.L.managed_type_name.12266, @object
 .L.managed_type_name.12266:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeyVerifyFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12266, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeySignWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12266, 94
 
 	.type	.L.managed_type_name.12267, @object
 .L.managed_type_name.12267:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.RsaSsaPkcs1SignKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12267, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.PublicKeyVerifyFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12267, 96
 
 	.type	.L.managed_type_name.12268, @object
 .L.managed_type_name.12268:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.RsaSsaPssSignKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12268, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.RsaSsaPkcs1SignKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12268, 99
 
 	.type	.L.managed_type_name.12269, @object
 .L.managed_type_name.12269:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignatureConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12269, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.RsaSsaPssSignKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12269, 97
 
 	.type	.L.managed_type_name.12270, @object
 .L.managed_type_name.12270:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignatureKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12270, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignatureConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12270, 89
 
 	.type	.L.managed_type_name.12271, @object
 .L.managed_type_name.12271:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignaturePemKeysetReader+Builder, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12271, 106
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignatureKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12271, 95
 
 	.type	.L.managed_type_name.12272, @object
 .L.managed_type_name.12272:
-	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignaturePemKeysetReader, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12272, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignaturePemKeysetReader+Builder, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12272, 106
 
 	.type	.L.managed_type_name.12273, @object
 .L.managed_type_name.12273:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.AesCtrHmacStreamingKeyManager, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12273, 107
+	.asciz	"Xamarin.Google.Crypto.Tink.Signature.SignaturePemKeysetReader, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12273, 98
 
 	.type	.L.managed_type_name.12274, @object
 .L.managed_type_name.12274:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.AesGcmHkdfStreamingKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.AesCtrHmacStreamingKeyManager, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12274, 107
 
 	.type	.L.managed_type_name.12275, @object
 .L.managed_type_name.12275:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadConfig, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12275, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.AesGcmHkdfStreamingKeyManager, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12275, 107
 
 	.type	.L.managed_type_name.12276, @object
 .L.managed_type_name.12276:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12276, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadConfig, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12276, 97
 
 	.type	.L.managed_type_name.12277, @object
 .L.managed_type_name.12277:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12277, 103
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12277, 98
 
 	.type	.L.managed_type_name.12278, @object
 .L.managed_type_name.12278:
-	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadWrapper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12278, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadKeyTemplates, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12278, 103
 
 	.type	.L.managed_type_name.12279, @object
 .L.managed_type_name.12279:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesCtrHmacStreaming, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12279, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.StreamingAead.StreamingAeadWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12279, 98
 
 	.type	.L.managed_type_name.12280, @object
 .L.managed_type_name.12280:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesCtrJceCipher, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12280, 86
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesCtrHmacStreaming, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12280, 90
 
 	.type	.L.managed_type_name.12281, @object
 .L.managed_type_name.12281:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesEaxJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12281, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesCtrJceCipher, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12281, 86
 
 	.type	.L.managed_type_name.12282, @object
 .L.managed_type_name.12282:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesGcmHkdfStreaming, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12282, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesEaxJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12282, 80
 
 	.type	.L.managed_type_name.12283, @object
 .L.managed_type_name.12283:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesGcmJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12283, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesGcmHkdfStreaming, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12283, 90
 
 	.type	.L.managed_type_name.12284, @object
 .L.managed_type_name.12284:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesSiv, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12284, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesGcmJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12284, 80
 
 	.type	.L.managed_type_name.12285, @object
 .L.managed_type_name.12285:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Base64, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.AesSiv, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12285, 77
 
 	.type	.L.managed_type_name.12286, @object
 .L.managed_type_name.12286:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Bytes, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12286, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Base64, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12286, 77
 
 	.type	.L.managed_type_name.12287, @object
 .L.managed_type_name.12287:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.ChaCha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12287, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Bytes, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12287, 76
 
 	.type	.L.managed_type_name.12288, @object
 .L.managed_type_name.12288:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EcdsaSignJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12288, 83
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.ChaCha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12288, 87
 
 	.type	.L.managed_type_name.12289, @object
 .L.managed_type_name.12289:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EcdsaVerifyJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12289, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EcdsaSignJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12289, 83
 
 	.type	.L.managed_type_name.12290, @object
 .L.managed_type_name.12290:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesAeadHkdfHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12290, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EcdsaVerifyJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12290, 85
 
 	.type	.L.managed_type_name.12291, @object
 .L.managed_type_name.12291:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesAeadHkdfHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesAeadHkdfHybridDecrypt, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12291, 97
 
 	.type	.L.managed_type_name.12292, @object
 .L.managed_type_name.12292:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfRecipientKem, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12292, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesAeadHkdfHybridEncrypt, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12292, 97
 
 	.type	.L.managed_type_name.12293, @object
 .L.managed_type_name.12293:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfSenderKem+KemKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12293, 96
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfRecipientKem, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12293, 92
 
 	.type	.L.managed_type_name.12294, @object
 .L.managed_type_name.12294:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfSenderKem, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12294, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfSenderKem+KemKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12294, 96
 
 	.type	.L.managed_type_name.12295, @object
 .L.managed_type_name.12295:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Sign+KeyPair, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12295, 90
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EciesHkdfSenderKem, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12295, 89
 
 	.type	.L.managed_type_name.12296, @object
 .L.managed_type_name.12296:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Sign, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12296, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Sign+KeyPair, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12296, 90
 
 	.type	.L.managed_type_name.12297, @object
 .L.managed_type_name.12297:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Verify, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12297, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Sign, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12297, 82
 
 	.type	.L.managed_type_name.12298, @object
 .L.managed_type_name.12298:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+CurveType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12298, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Ed25519Verify, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12298, 84
 
 	.type	.L.managed_type_name.12299, @object
 .L.managed_type_name.12299:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+EcdsaEncoding, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12299, 99
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+CurveType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12299, 95
 
 	.type	.L.managed_type_name.12300, @object
 .L.managed_type_name.12300:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+PointFormatType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12300, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+EcdsaEncoding, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12300, 99
 
 	.type	.L.managed_type_name.12301, @object
 .L.managed_type_name.12301:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12301, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves+PointFormatType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12301, 101
 
 	.type	.L.managed_type_name.12302, @object
 .L.managed_type_name.12302:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EncryptThenAuthenticate, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12302, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EllipticCurves, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12302, 85
 
 	.type	.L.managed_type_name.12303, @object
 .L.managed_type_name.12303:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12303, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EncryptThenAuthenticate, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12303, 94
 
 	.type	.L.managed_type_name.12304, @object
 .L.managed_type_name.12304:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTCipher, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12304, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12304, 84
 
 	.type	.L.managed_type_name.12305, @object
 .L.managed_type_name.12305:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyAgreement, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12305, 97
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTCipher, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12305, 91
 
 	.type	.L.managed_type_name.12306, @object
 .L.managed_type_name.12306:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyFactory, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12306, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyAgreement, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12306, 97
 
 	.type	.L.managed_type_name.12307, @object
 .L.managed_type_name.12307:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyPairGenerator, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12307, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyFactory, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12307, 95
 
 	.type	.L.managed_type_name.12308, @object
 .L.managed_type_name.12308:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTMac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12308, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTKeyPairGenerator, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12308, 101
 
 	.type	.L.managed_type_name.12309, @object
 .L.managed_type_name.12309:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTMessageDigest, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12309, 98
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTMac, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12309, 88
 
 	.type	.L.managed_type_name.12310, @object
 .L.managed_type_name.12310:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTSignature, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12310, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTMessageDigest, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12310, 98
 
 	.type	.L.managed_type_name.12311, @object
 .L.managed_type_name.12311:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Enums+HashType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12311, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.EngineWrapperTSignature, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12311, 94
 
 	.type	.L.managed_type_name.12312, @object
 .L.managed_type_name.12312:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Enums, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12312, 76
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Enums+HashType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12312, 85
 
 	.type	.L.managed_type_name.12313, @object
 .L.managed_type_name.12313:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Hex, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12313, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Enums, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12313, 76
 
 	.type	.L.managed_type_name.12314, @object
 .L.managed_type_name.12314:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Hkdf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12314, 75
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Hex, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12314, 74
 
 	.type	.L.managed_type_name.12315, @object
 .L.managed_type_name.12315:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEciesAeadHkdfDemHelper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12315, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Hkdf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12315, 75
 
 	.type	.L.managed_type_name.12316, @object
 .L.managed_type_name.12316:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEciesAeadHkdfDemHelperInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12316, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEciesAeadHkdfDemHelper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12316, 94
 
 	.type	.L.managed_type_name.12317, @object
 .L.managed_type_name.12317:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEngineWrapper, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12317, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEciesAeadHkdfDemHelperInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12317, 101
 
 	.type	.L.managed_type_name.12318, @object
 .L.managed_type_name.12318:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEngineWrapperInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12318, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEngineWrapper, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12318, 85
 
 	.type	.L.managed_type_name.12319, @object
 .L.managed_type_name.12319:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IIndCpaCipher, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12319, 84
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IEngineWrapperInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12319, 92
 
 	.type	.L.managed_type_name.12320, @object
 .L.managed_type_name.12320:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IIndCpaCipherInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12320, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IIndCpaCipher, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12320, 84
 
 	.type	.L.managed_type_name.12321, @object
 .L.managed_type_name.12321:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentDecrypter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12321, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IIndCpaCipherInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12321, 91
 
 	.type	.L.managed_type_name.12322, @object
 .L.managed_type_name.12322:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentDecrypterInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12322, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentDecrypter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12322, 94
 
 	.type	.L.managed_type_name.12323, @object
 .L.managed_type_name.12323:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentEncrypter, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12323, 94
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentDecrypterInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12323, 101
 
 	.type	.L.managed_type_name.12324, @object
 .L.managed_type_name.12324:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentEncrypterInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12324, 101
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentEncrypter, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12324, 94
 
 	.type	.L.managed_type_name.12325, @object
 .L.managed_type_name.12325:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.ImmutableByteArray, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12325, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.IStreamSegmentEncrypterInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12325, 101
 
 	.type	.L.managed_type_name.12326, @object
 .L.managed_type_name.12326:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Kwp, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12326, 74
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.ImmutableByteArray, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12326, 89
 
 	.type	.L.managed_type_name.12327, @object
 .L.managed_type_name.12327:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PemKeyType, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12327, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Kwp, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12327, 74
 
 	.type	.L.managed_type_name.12328, @object
 .L.managed_type_name.12328:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.HkdfStreamingPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12328, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PemKeyType, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12328, 81
 
 	.type	.L.managed_type_name.12329, @object
 .L.managed_type_name.12329:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.IStreamingPrf, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12329, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.HkdfStreamingPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12329, 91
 
 	.type	.L.managed_type_name.12330, @object
 .L.managed_type_name.12330:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.IStreamingPrfInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12330, 95
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.IStreamingPrf, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12330, 88
 
 	.type	.L.managed_type_name.12331, @object
 .L.managed_type_name.12331:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.PrfImpl, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12331, 82
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.IStreamingPrfInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12331, 95
 
 	.type	.L.managed_type_name.12332, @object
 .L.managed_type_name.12332:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfAesCmac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12332, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Prf.PrfImpl, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12332, 82
 
 	.type	.L.managed_type_name.12333, @object
 .L.managed_type_name.12333:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfHmacJce, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfAesCmac, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12333, 81
 
 	.type	.L.managed_type_name.12334, @object
 .L.managed_type_name.12334:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfMac, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12334, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfHmacJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12334, 81
 
 	.type	.L.managed_type_name.12335, @object
 .L.managed_type_name.12335:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Random, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.PrfMac, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12335, 77
 
 	.type	.L.managed_type_name.12336, @object
 .L.managed_type_name.12336:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RewindableReadableByteChannel, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12336, 100
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Random, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12336, 77
 
 	.type	.L.managed_type_name.12337, @object
 .L.managed_type_name.12337:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPkcs1SignJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12337, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RewindableReadableByteChannel, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12337, 100
 
 	.type	.L.managed_type_name.12338, @object
 .L.managed_type_name.12338:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPkcs1VerifyJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12338, 91
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPkcs1SignJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12338, 89
 
 	.type	.L.managed_type_name.12339, @object
 .L.managed_type_name.12339:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPssSignJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12339, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPkcs1VerifyJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12339, 91
 
 	.type	.L.managed_type_name.12340, @object
 .L.managed_type_name.12340:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPssVerifyJce, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12340, 89
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPssSignJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12340, 87
 
 	.type	.L.managed_type_name.12341, @object
 .L.managed_type_name.12341:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.SelfKeyTestValidators, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12341, 92
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.RsaSsaPssVerifyJce, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12341, 89
 
 	.type	.L.managed_type_name.12342, @object
 .L.managed_type_name.12342:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.SubtleUtil, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12342, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.SelfKeyTestValidators, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12342, 92
 
 	.type	.L.managed_type_name.12343, @object
 .L.managed_type_name.12343:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Validators, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.SubtleUtil, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12343, 81
 
 	.type	.L.managed_type_name.12344, @object
 .L.managed_type_name.12344:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.X25519, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12344, 77
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.Validators, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12344, 81
 
 	.type	.L.managed_type_name.12345, @object
 .L.managed_type_name.12345:
-	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.XChaCha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12345, 88
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.X25519, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12345, 77
 
 	.type	.L.managed_type_name.12346, @object
 .L.managed_type_name.12346:
-	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ITinkKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12346, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Subtle.XChaCha20Poly1305, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12346, 88
 
 	.type	.L.managed_type_name.12347, @object
 .L.managed_type_name.12347:
-	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ITinkKeyInvoker, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12347, 87
+	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ITinkKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12347, 80
 
 	.type	.L.managed_type_name.12348, @object
 .L.managed_type_name.12348:
-	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.KeyAccess, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12348, 81
+	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ITinkKeyInvoker, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12348, 87
 
 	.type	.L.managed_type_name.12349, @object
 .L.managed_type_name.12349:
-	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.KeyHandle, Xamarin.Google.Crypto.Tink.Android"
+	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.KeyAccess, Xamarin.Google.Crypto.Tink.Android"
 	.size	.L.managed_type_name.12349, 81
 
 	.type	.L.managed_type_name.12350, @object
 .L.managed_type_name.12350:
-	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ProtoKey, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12350, 80
+	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.KeyHandle, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12350, 81
 
 	.type	.L.managed_type_name.12351, @object
 .L.managed_type_name.12351:
-	.asciz	"Xamarin.Google.Crypto.Tink.Version, Xamarin.Google.Crypto.Tink.Android"
-	.size	.L.managed_type_name.12351, 71
+	.asciz	"Xamarin.Google.Crypto.Tink.Tinkkey.ProtoKey, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12351, 80
 
 	.type	.L.managed_type_name.12352, @object
 .L.managed_type_name.12352:
-	.asciz	"Xamarin.KotlinX.Coroutines.AbstractTimeSourceKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12352, 85
+	.asciz	"Xamarin.Google.Crypto.Tink.Version, Xamarin.Google.Crypto.Tink.Android"
+	.size	.L.managed_type_name.12352, 71
 
 	.type	.L.managed_type_name.12353, @object
 .L.managed_type_name.12353:
-	.asciz	"Xamarin.KotlinX.Coroutines.AwaitKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12353, 72
+	.asciz	"Xamarin.KotlinX.Coroutines.AbstractTimeSourceKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12353, 85
 
 	.type	.L.managed_type_name.12354, @object
 .L.managed_type_name.12354:
-	.asciz	"Xamarin.KotlinX.Coroutines.BuildersKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12354, 75
+	.asciz	"Xamarin.KotlinX.Coroutines.AwaitKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12354, 72
 
 	.type	.L.managed_type_name.12355, @object
 .L.managed_type_name.12355:
-	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12355, 100
+	.asciz	"Xamarin.KotlinX.Coroutines.BuildersKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12355, 75
 
 	.type	.L.managed_type_name.12356, @object
 .L.managed_type_name.12356:
-	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationImplKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12356, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12356, 100
 
 	.type	.L.managed_type_name.12357, @object
 .L.managed_type_name.12357:
-	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12357, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationImplKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12357, 94
 
 	.type	.L.managed_type_name.12358, @object
 .L.managed_type_name.12358:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.AbstractChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12358, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.CancellableContinuationKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12358, 90
 
 	.type	.L.managed_type_name.12359, @object
 .L.managed_type_name.12359:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ActorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12359, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.AbstractChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12359, 91
 
 	.type	.L.managed_type_name.12360, @object
 .L.managed_type_name.12360:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BroadcastChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12360, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ActorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12360, 81
 
 	.type	.L.managed_type_name.12361, @object
 .L.managed_type_name.12361:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BroadcastKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12361, 85
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BroadcastChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12361, 92
 
 	.type	.L.managed_type_name.12362, @object
 .L.managed_type_name.12362:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BufferOverflow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12362, 88
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BroadcastKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12362, 85
 
 	.type	.L.managed_type_name.12363, @object
 .L.managed_type_name.12363:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelIteratorDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12363, 101
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.BufferOverflow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12363, 88
 
 	.type	.L.managed_type_name.12364, @object
 .L.managed_type_name.12364:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12364, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelIteratorDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12364, 101
 
 	.type	.L.managed_type_name.12365, @object
 .L.managed_type_name.12365:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelResult+Companion, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12365, 97
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12365, 83
 
 	.type	.L.managed_type_name.12366, @object
 .L.managed_type_name.12366:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelResult, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12366, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelResult+Companion, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12366, 97
 
 	.type	.L.managed_type_name.12367, @object
 .L.managed_type_name.12367:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12367, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelResult, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12367, 87
 
 	.type	.L.managed_type_name.12368, @object
 .L.managed_type_name.12368:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ClosedReceiveChannelException, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12368, 103
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ChannelsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12368, 84
 
 	.type	.L.managed_type_name.12369, @object
 .L.managed_type_name.12369:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ClosedSendChannelException, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12369, 100
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ClosedReceiveChannelException, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12369, 103
 
 	.type	.L.managed_type_name.12370, @object
 .L.managed_type_name.12370:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ConflatedBroadcastChannel, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12370, 99
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ClosedSendChannelException, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12370, 100
 
 	.type	.L.managed_type_name.12371, @object
 .L.managed_type_name.12371:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12371, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ConflatedBroadcastChannel, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12371, 99
 
 	.type	.L.managed_type_name.12372, @object
 .L.managed_type_name.12372:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.IChannelIteratorInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12372, 97
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12372, 90
 
 	.type	.L.managed_type_name.12373, @object
 .L.managed_type_name.12373:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ProduceKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12373, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.IChannelIteratorInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12373, 97
 
 	.type	.L.managed_type_name.12374, @object
 .L.managed_type_name.12374:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.TickerChannelsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12374, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.ProduceKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12374, 83
 
 	.type	.L.managed_type_name.12375, @object
 .L.managed_type_name.12375:
-	.asciz	"Xamarin.KotlinX.Coroutines.Channels.TickerMode, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12375, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.TickerChannelsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12375, 90
 
 	.type	.L.managed_type_name.12376, @object
 .L.managed_type_name.12376:
-	.asciz	"Xamarin.KotlinX.Coroutines.CompletableDeferredKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12376, 86
+	.asciz	"Xamarin.KotlinX.Coroutines.Channels.TickerMode, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12376, 84
 
 	.type	.L.managed_type_name.12377, @object
 .L.managed_type_name.12377:
-	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandlerException, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12377, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.CompletableDeferredKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12377, 86
 
 	.type	.L.managed_type_name.12378, @object
 .L.managed_type_name.12378:
-	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandlerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12378, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandlerException, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12378, 91
 
 	.type	.L.managed_type_name.12379, @object
 .L.managed_type_name.12379:
-	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandler_commonKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12379, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandlerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12379, 84
 
 	.type	.L.managed_type_name.12380, @object
 .L.managed_type_name.12380:
-	.asciz	"Xamarin.KotlinX.Coroutines.CompletionStateKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12380, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.CompletionHandler_commonKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12380, 91
 
 	.type	.L.managed_type_name.12381, @object
 .L.managed_type_name.12381:
-	.asciz	"Xamarin.KotlinX.Coroutines.CopyableThreadContextElementDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12381, 105
+	.asciz	"Xamarin.KotlinX.Coroutines.CompletionStateKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12381, 82
 
 	.type	.L.managed_type_name.12382, @object
 .L.managed_type_name.12382:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineContextKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12382, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.CopyableThreadContextElementDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12382, 105
 
 	.type	.L.managed_type_name.12383, @object
 .L.managed_type_name.12383:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12383, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineContextKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12383, 83
 
 	.type	.L.managed_type_name.12384, @object
 .L.managed_type_name.12384:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12384, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12384, 84
 
 	.type	.L.managed_type_name.12385, @object
 .L.managed_type_name.12385:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandler, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12385, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12385, 91
 
 	.type	.L.managed_type_name.12386, @object
 .L.managed_type_name.12386:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerConsts, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12386, 96
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandler, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12386, 90
 
 	.type	.L.managed_type_name.12387, @object
 .L.managed_type_name.12387:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12387, 102
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerConsts, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12387, 96
 
 	.type	.L.managed_type_name.12388, @object
 .L.managed_type_name.12388:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerImplKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12388, 96
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12388, 102
 
 	.type	.L.managed_type_name.12389, @object
 .L.managed_type_name.12389:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerKey, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12389, 93
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerImplKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12389, 96
 
 	.type	.L.managed_type_name.12390, @object
 .L.managed_type_name.12390:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12390, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerKey, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12390, 93
 
 	.type	.L.managed_type_name.12391, @object
 .L.managed_type_name.12391:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineName+Key, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12391, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineExceptionHandlerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12391, 92
 
 	.type	.L.managed_type_name.12392, @object
 .L.managed_type_name.12392:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineName, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12392, 78
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineName+Key, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12392, 82
 
 	.type	.L.managed_type_name.12393, @object
 .L.managed_type_name.12393:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineScopeKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12393, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineName, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12393, 78
 
 	.type	.L.managed_type_name.12394, @object
 .L.managed_type_name.12394:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineStart+WhenMappings, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12394, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineScopeKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12394, 81
 
 	.type	.L.managed_type_name.12395, @object
 .L.managed_type_name.12395:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineStart, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12395, 79
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineStart+WhenMappings, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12395, 92
 
 	.type	.L.managed_type_name.12396, @object
 .L.managed_type_name.12396:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcher, Xamarin.KotlinX.Coroutines.Android"
-	.size	.L.managed_type_name.12396, 99
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutineStart, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12396, 79
 
 	.type	.L.managed_type_name.12397, @object
 .L.managed_type_name.12397:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherInvoker, Xamarin.KotlinX.Coroutines.Android"
-	.size	.L.managed_type_name.12397, 106
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcher, Xamarin.KotlinX.Coroutines.Android"
+	.size	.L.managed_type_name.12397, 99
 
 	.type	.L.managed_type_name.12398, @object
 .L.managed_type_name.12398:
-	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherKt, Xamarin.KotlinX.Coroutines.Android"
-	.size	.L.managed_type_name.12398, 101
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherInvoker, Xamarin.KotlinX.Coroutines.Android"
+	.size	.L.managed_type_name.12398, 106
 
 	.type	.L.managed_type_name.12399, @object
 .L.managed_type_name.12399:
-	.asciz	"Xamarin.KotlinX.Coroutines.DebugKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12399, 72
+	.asciz	"Xamarin.KotlinX.Coroutines.CoroutinesAndroid.HandlerDispatcherKt, Xamarin.KotlinX.Coroutines.Android"
+	.size	.L.managed_type_name.12399, 101
 
 	.type	.L.managed_type_name.12400, @object
 .L.managed_type_name.12400:
-	.asciz	"Xamarin.KotlinX.Coroutines.DebugStringsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12400, 79
+	.asciz	"Xamarin.KotlinX.Coroutines.DebugKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12400, 72
 
 	.type	.L.managed_type_name.12401, @object
 .L.managed_type_name.12401:
-	.asciz	"Xamarin.KotlinX.Coroutines.DefaultExecutorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12401, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.DebugStringsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12401, 79
 
 	.type	.L.managed_type_name.12402, @object
 .L.managed_type_name.12402:
-	.asciz	"Xamarin.KotlinX.Coroutines.DelayDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.asciz	"Xamarin.KotlinX.Coroutines.DefaultExecutorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
 	.size	.L.managed_type_name.12402, 82
 
 	.type	.L.managed_type_name.12403, @object
 .L.managed_type_name.12403:
-	.asciz	"Xamarin.KotlinX.Coroutines.DelayKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12403, 72
+	.asciz	"Xamarin.KotlinX.Coroutines.DelayDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12403, 82
 
 	.type	.L.managed_type_name.12404, @object
 .L.managed_type_name.12404:
-	.asciz	"Xamarin.KotlinX.Coroutines.DispatchedTaskKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12404, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.DelayKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12404, 72
 
 	.type	.L.managed_type_name.12405, @object
 .L.managed_type_name.12405:
-	.asciz	"Xamarin.KotlinX.Coroutines.Dispatchers, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12405, 76
+	.asciz	"Xamarin.KotlinX.Coroutines.DispatchedTaskKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12405, 81
 
 	.type	.L.managed_type_name.12406, @object
 .L.managed_type_name.12406:
-	.asciz	"Xamarin.KotlinX.Coroutines.DispatchersKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12406, 78
+	.asciz	"Xamarin.KotlinX.Coroutines.Dispatchers, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12406, 76
 
 	.type	.L.managed_type_name.12407, @object
 .L.managed_type_name.12407:
-	.asciz	"Xamarin.KotlinX.Coroutines.EventLoopKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12407, 76
+	.asciz	"Xamarin.KotlinX.Coroutines.DispatchersKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12407, 78
 
 	.type	.L.managed_type_name.12408, @object
 .L.managed_type_name.12408:
-	.asciz	"Xamarin.KotlinX.Coroutines.EventLoop_commonKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12408, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.EventLoopKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12408, 76
 
 	.type	.L.managed_type_name.12409, @object
 .L.managed_type_name.12409:
-	.asciz	"Xamarin.KotlinX.Coroutines.ExceptionsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12409, 77
+	.asciz	"Xamarin.KotlinX.Coroutines.EventLoop_commonKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12409, 83
 
 	.type	.L.managed_type_name.12410, @object
 .L.managed_type_name.12410:
-	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorCoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12410, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.ExceptionsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12410, 77
 
 	.type	.L.managed_type_name.12411, @object
 .L.managed_type_name.12411:
-	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorCoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12411, 99
+	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorCoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12411, 92
 
 	.type	.L.managed_type_name.12412, @object
 .L.managed_type_name.12412:
-	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12412, 76
+	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorCoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12412, 99
 
 	.type	.L.managed_type_name.12413, @object
 .L.managed_type_name.12413:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.FlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.asciz	"Xamarin.KotlinX.Coroutines.ExecutorsKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
 	.size	.L.managed_type_name.12413, 76
 
 	.type	.L.managed_type_name.12414, @object
 .L.managed_type_name.12414:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12414, 75
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.FlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12414, 76
 
 	.type	.L.managed_type_name.12415, @object
 .L.managed_type_name.12415:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowCollector, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12415, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12415, 75
 
 	.type	.L.managed_type_name.12416, @object
 .L.managed_type_name.12416:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowCollectorInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12416, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowCollector, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12416, 84
 
 	.type	.L.managed_type_name.12417, @object
 .L.managed_type_name.12417:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12417, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowCollectorInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12417, 91
 
 	.type	.L.managed_type_name.12418, @object
 .L.managed_type_name.12418:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12418, 88
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12418, 82
 
 	.type	.L.managed_type_name.12419, @object
 .L.managed_type_name.12419:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12419, 95
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12419, 88
 
 	.type	.L.managed_type_name.12420, @object
 .L.managed_type_name.12420:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12420, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12420, 95
 
 	.type	.L.managed_type_name.12421, @object
 .L.managed_type_name.12421:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12421, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12421, 87
 
 	.type	.L.managed_type_name.12422, @object
 .L.managed_type_name.12422:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12422, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12422, 94
 
 	.type	.L.managed_type_name.12423, @object
 .L.managed_type_name.12423:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharedFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12423, 88
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12423, 81
 
 	.type	.L.managed_type_name.12424, @object
 .L.managed_type_name.12424:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharingStarted, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12424, 85
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharedFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12424, 88
 
 	.type	.L.managed_type_name.12425, @object
 .L.managed_type_name.12425:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharingStartedInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12425, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharingStarted, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12425, 85
 
 	.type	.L.managed_type_name.12426, @object
 .L.managed_type_name.12426:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12426, 80
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.ISharingStartedInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12426, 92
 
 	.type	.L.managed_type_name.12427, @object
 .L.managed_type_name.12427:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IStateFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12427, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12427, 80
 
 	.type	.L.managed_type_name.12428, @object
 .L.managed_type_name.12428:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.LintKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12428, 76
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.IStateFlowInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12428, 87
 
 	.type	.L.managed_type_name.12429, @object
 .L.managed_type_name.12429:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharedFlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12429, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.LintKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12429, 76
 
 	.type	.L.managed_type_name.12430, @object
 .L.managed_type_name.12430:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingCommand, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12430, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharedFlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12430, 82
 
 	.type	.L.managed_type_name.12431, @object
 .L.managed_type_name.12431:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStarted, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingCommand, Xamarin.KotlinX.Coroutines.Core.Jvm"
 	.size	.L.managed_type_name.12431, 84
 
 	.type	.L.managed_type_name.12432, @object
 .L.managed_type_name.12432:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedCompanion, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12432, 93
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStarted, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12432, 84
 
 	.type	.L.managed_type_name.12433, @object
 .L.managed_type_name.12433:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedConsts, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12433, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedCompanion, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12433, 93
 
 	.type	.L.managed_type_name.12434, @object
 .L.managed_type_name.12434:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12434, 86
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedConsts, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12434, 90
 
 	.type	.L.managed_type_name.12435, @object
 .L.managed_type_name.12435:
-	.asciz	"Xamarin.KotlinX.Coroutines.Flow.StateFlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12435, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.SharingStartedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12435, 86
 
 	.type	.L.managed_type_name.12436, @object
 .L.managed_type_name.12436:
-	.asciz	"Xamarin.KotlinX.Coroutines.GlobalScope, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12436, 76
+	.asciz	"Xamarin.KotlinX.Coroutines.Flow.StateFlowKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12436, 81
 
 	.type	.L.managed_type_name.12437, @object
 .L.managed_type_name.12437:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12437, 89
+	.asciz	"Xamarin.KotlinX.Coroutines.GlobalScope, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12437, 76
 
 	.type	.L.managed_type_name.12438, @object
 .L.managed_type_name.12438:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICancellableContinuationInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12438, 96
+	.asciz	"Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12438, 89
 
 	.type	.L.managed_type_name.12439, @object
 .L.managed_type_name.12439:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12439, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.ICancellableContinuationInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12439, 96
 
 	.type	.L.managed_type_name.12440, @object
 .L.managed_type_name.12440:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThreadContextElementInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12440, 101
+	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12440, 94
 
 	.type	.L.managed_type_name.12441, @object
 .L.managed_type_name.12441:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThrowable, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12441, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThreadContextElementInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12441, 101
 
 	.type	.L.managed_type_name.12442, @object
 .L.managed_type_name.12442:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThrowableInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12442, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThrowable, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12442, 83
 
 	.type	.L.managed_type_name.12443, @object
 .L.managed_type_name.12443:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandler, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12443, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.ICopyableThrowableInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12443, 90
 
 	.type	.L.managed_type_name.12444, @object
 .L.managed_type_name.12444:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandlerInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12444, 98
+	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandler, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12444, 91
 
 	.type	.L.managed_type_name.12445, @object
 .L.managed_type_name.12445:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineScope, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12445, 80
+	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandlerInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12445, 98
 
 	.type	.L.managed_type_name.12446, @object
 .L.managed_type_name.12446:
-	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineScopeInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12446, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineScope, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12446, 80
 
 	.type	.L.managed_type_name.12447, @object
 .L.managed_type_name.12447:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDelay, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12447, 71
+	.asciz	"Xamarin.KotlinX.Coroutines.ICoroutineScopeInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12447, 87
 
 	.type	.L.managed_type_name.12448, @object
 .L.managed_type_name.12448:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDelayInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12448, 78
+	.asciz	"Xamarin.KotlinX.Coroutines.IDelay, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12448, 71
 
 	.type	.L.managed_type_name.12449, @object
 .L.managed_type_name.12449:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12449, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.IDelayInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12449, 78
 
 	.type	.L.managed_type_name.12450, @object
 .L.managed_type_name.12450:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12450, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12450, 87
 
 	.type	.L.managed_type_name.12451, @object
 .L.managed_type_name.12451:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDisposableHandle, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12451, 82
+	.asciz	"Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12451, 94
 
 	.type	.L.managed_type_name.12452, @object
 .L.managed_type_name.12452:
-	.asciz	"Xamarin.KotlinX.Coroutines.IDisposableHandleInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12452, 89
+	.asciz	"Xamarin.KotlinX.Coroutines.IDisposableHandle, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12452, 82
 
 	.type	.L.managed_type_name.12453, @object
 .L.managed_type_name.12453:
-	.asciz	"Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12453, 91
+	.asciz	"Xamarin.KotlinX.Coroutines.IDisposableHandleInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12453, 89
 
 	.type	.L.managed_type_name.12454, @object
 .L.managed_type_name.12454:
-	.asciz	"Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12454, 98
+	.asciz	"Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12454, 91
 
 	.type	.L.managed_type_name.12455, @object
 .L.managed_type_name.12455:
-	.asciz	"Xamarin.KotlinX.Coroutines.IFlowPreview, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12455, 77
+	.asciz	"Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12455, 98
 
 	.type	.L.managed_type_name.12456, @object
 .L.managed_type_name.12456:
-	.asciz	"Xamarin.KotlinX.Coroutines.IFlowPreviewInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12456, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.IFlowPreview, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12456, 77
 
 	.type	.L.managed_type_name.12457, @object
 .L.managed_type_name.12457:
-	.asciz	"Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12457, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.IFlowPreviewInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12457, 84
 
 	.type	.L.managed_type_name.12458, @object
 .L.managed_type_name.12458:
-	.asciz	"Xamarin.KotlinX.Coroutines.IInternalCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12458, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12458, 87
 
 	.type	.L.managed_type_name.12459, @object
 .L.managed_type_name.12459:
-	.asciz	"Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12459, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.IInternalCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12459, 94
 
 	.type	.L.managed_type_name.12460, @object
 .L.managed_type_name.12460:
-	.asciz	"Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12460, 94
+	.asciz	"Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12460, 87
 
 	.type	.L.managed_type_name.12461, @object
 .L.managed_type_name.12461:
-	.asciz	"Xamarin.KotlinX.Coroutines.IThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12461, 86
+	.asciz	"Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApiInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12461, 94
 
 	.type	.L.managed_type_name.12462, @object
 .L.managed_type_name.12462:
-	.asciz	"Xamarin.KotlinX.Coroutines.IThreadContextElementInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12462, 93
+	.asciz	"Xamarin.KotlinX.Coroutines.IThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12462, 86
 
 	.type	.L.managed_type_name.12463, @object
 .L.managed_type_name.12463:
-	.asciz	"Xamarin.KotlinX.Coroutines.InterruptibleKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12463, 80
+	.asciz	"Xamarin.KotlinX.Coroutines.IThreadContextElementInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12463, 93
 
 	.type	.L.managed_type_name.12464, @object
 .L.managed_type_name.12464:
-	.asciz	"Xamarin.KotlinX.Coroutines.Intrinsics.CancellableKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12464, 89
+	.asciz	"Xamarin.KotlinX.Coroutines.InterruptibleKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12464, 80
 
 	.type	.L.managed_type_name.12465, @object
 .L.managed_type_name.12465:
-	.asciz	"Xamarin.KotlinX.Coroutines.Intrinsics.UndispatchedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12465, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.Intrinsics.CancellableKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12465, 89
 
 	.type	.L.managed_type_name.12466, @object
 .L.managed_type_name.12466:
-	.asciz	"Xamarin.KotlinX.Coroutines.JobKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12466, 70
+	.asciz	"Xamarin.KotlinX.Coroutines.Intrinsics.UndispatchedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12466, 90
 
 	.type	.L.managed_type_name.12467, @object
 .L.managed_type_name.12467:
-	.asciz	"Xamarin.KotlinX.Coroutines.JobSupport, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12467, 75
+	.asciz	"Xamarin.KotlinX.Coroutines.JobKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12467, 70
 
 	.type	.L.managed_type_name.12468, @object
 .L.managed_type_name.12468:
-	.asciz	"Xamarin.KotlinX.Coroutines.JobSupportKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12468, 77
+	.asciz	"Xamarin.KotlinX.Coroutines.JobSupport, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12468, 75
 
 	.type	.L.managed_type_name.12469, @object
 .L.managed_type_name.12469:
-	.asciz	"Xamarin.KotlinX.Coroutines.MainCoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12469, 88
+	.asciz	"Xamarin.KotlinX.Coroutines.JobSupportKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12469, 77
 
 	.type	.L.managed_type_name.12470, @object
 .L.managed_type_name.12470:
-	.asciz	"Xamarin.KotlinX.Coroutines.MainCoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12470, 95
+	.asciz	"Xamarin.KotlinX.Coroutines.MainCoroutineDispatcher, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12470, 88
 
 	.type	.L.managed_type_name.12471, @object
 .L.managed_type_name.12471:
-	.asciz	"Xamarin.KotlinX.Coroutines.NonCancellable, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12471, 79
+	.asciz	"Xamarin.KotlinX.Coroutines.MainCoroutineDispatcherInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12471, 95
 
 	.type	.L.managed_type_name.12472, @object
 .L.managed_type_name.12472:
-	.asciz	"Xamarin.KotlinX.Coroutines.NonDisposableHandle, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12472, 84
+	.asciz	"Xamarin.KotlinX.Coroutines.NonCancellable, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12472, 79
 
 	.type	.L.managed_type_name.12473, @object
 .L.managed_type_name.12473:
-	.asciz	"Xamarin.KotlinX.Coroutines.RunnableKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12473, 75
+	.asciz	"Xamarin.KotlinX.Coroutines.NonDisposableHandle, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12473, 84
 
 	.type	.L.managed_type_name.12474, @object
 .L.managed_type_name.12474:
-	.asciz	"Xamarin.KotlinX.Coroutines.SchedulerTaskKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12474, 80
+	.asciz	"Xamarin.KotlinX.Coroutines.RunnableKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12474, 75
 
 	.type	.L.managed_type_name.12475, @object
 .L.managed_type_name.12475:
-	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.CoroutineSchedulerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12475, 96
+	.asciz	"Xamarin.KotlinX.Coroutines.SchedulerTaskKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12475, 80
 
 	.type	.L.managed_type_name.12476, @object
 .L.managed_type_name.12476:
-	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.TasksKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12476, 83
+	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.CoroutineSchedulerKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12476, 96
 
 	.type	.L.managed_type_name.12477, @object
 .L.managed_type_name.12477:
-	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.WorkQueueKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12477, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.TasksKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12477, 83
 
 	.type	.L.managed_type_name.12478, @object
 .L.managed_type_name.12478:
-	.asciz	"Xamarin.KotlinX.Coroutines.Selects.SelectKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12478, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.Scheduling.WorkQueueKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12478, 87
 
 	.type	.L.managed_type_name.12479, @object
 .L.managed_type_name.12479:
-	.asciz	"Xamarin.KotlinX.Coroutines.Selects.SelectUnbiasedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12479, 89
+	.asciz	"Xamarin.KotlinX.Coroutines.Selects.SelectKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12479, 81
 
 	.type	.L.managed_type_name.12480, @object
 .L.managed_type_name.12480:
-	.asciz	"Xamarin.KotlinX.Coroutines.Selects.WhileSelectKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12480, 86
+	.asciz	"Xamarin.KotlinX.Coroutines.Selects.SelectUnbiasedKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12480, 89
 
 	.type	.L.managed_type_name.12481, @object
 .L.managed_type_name.12481:
-	.asciz	"Xamarin.KotlinX.Coroutines.SupervisorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12481, 77
+	.asciz	"Xamarin.KotlinX.Coroutines.Selects.WhileSelectKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12481, 86
 
 	.type	.L.managed_type_name.12482, @object
 .L.managed_type_name.12482:
-	.asciz	"Xamarin.KotlinX.Coroutines.Sync.ISemaphore, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12482, 80
+	.asciz	"Xamarin.KotlinX.Coroutines.SupervisorKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12482, 77
 
 	.type	.L.managed_type_name.12483, @object
 .L.managed_type_name.12483:
-	.asciz	"Xamarin.KotlinX.Coroutines.Sync.ISemaphoreInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12483, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.Sync.ISemaphore, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12483, 80
 
 	.type	.L.managed_type_name.12484, @object
 .L.managed_type_name.12484:
-	.asciz	"Xamarin.KotlinX.Coroutines.Sync.MutexKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12484, 77
+	.asciz	"Xamarin.KotlinX.Coroutines.Sync.ISemaphoreInvoker, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12484, 87
 
 	.type	.L.managed_type_name.12485, @object
 .L.managed_type_name.12485:
-	.asciz	"Xamarin.KotlinX.Coroutines.Sync.SemaphoreKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12485, 81
+	.asciz	"Xamarin.KotlinX.Coroutines.Sync.MutexKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12485, 77
 
 	.type	.L.managed_type_name.12486, @object
 .L.managed_type_name.12486:
-	.asciz	"Xamarin.KotlinX.Coroutines.Test.TestCoroutineContext, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12486, 90
+	.asciz	"Xamarin.KotlinX.Coroutines.Sync.SemaphoreKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12486, 81
 
 	.type	.L.managed_type_name.12487, @object
 .L.managed_type_name.12487:
-	.asciz	"Xamarin.KotlinX.Coroutines.Test.TestCoroutineContextKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12487, 92
+	.asciz	"Xamarin.KotlinX.Coroutines.Test.TestCoroutineContext, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12487, 90
 
 	.type	.L.managed_type_name.12488, @object
 .L.managed_type_name.12488:
-	.asciz	"Xamarin.KotlinX.Coroutines.ThreadContextElementDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12488, 97
+	.asciz	"Xamarin.KotlinX.Coroutines.Test.TestCoroutineContextKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12488, 92
 
 	.type	.L.managed_type_name.12489, @object
 .L.managed_type_name.12489:
-	.asciz	"Xamarin.KotlinX.Coroutines.ThreadContextElementKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12489, 87
+	.asciz	"Xamarin.KotlinX.Coroutines.ThreadContextElementDefaultImpls, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12489, 97
 
 	.type	.L.managed_type_name.12490, @object
 .L.managed_type_name.12490:
-	.asciz	"Xamarin.KotlinX.Coroutines.ThreadPoolDispatcherKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.asciz	"Xamarin.KotlinX.Coroutines.ThreadContextElementKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
 	.size	.L.managed_type_name.12490, 87
 
 	.type	.L.managed_type_name.12491, @object
 .L.managed_type_name.12491:
-	.asciz	"Xamarin.KotlinX.Coroutines.TimeoutCancellationException, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12491, 93
+	.asciz	"Xamarin.KotlinX.Coroutines.ThreadPoolDispatcherKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12491, 87
 
 	.type	.L.managed_type_name.12492, @object
 .L.managed_type_name.12492:
-	.asciz	"Xamarin.KotlinX.Coroutines.TimeoutKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12492, 74
+	.asciz	"Xamarin.KotlinX.Coroutines.TimeoutCancellationException, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12492, 93
 
 	.type	.L.managed_type_name.12493, @object
 .L.managed_type_name.12493:
+	.asciz	"Xamarin.KotlinX.Coroutines.TimeoutKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
+	.size	.L.managed_type_name.12493, 74
+
+	.type	.L.managed_type_name.12494, @object
+.L.managed_type_name.12494:
 	.asciz	"Xamarin.KotlinX.Coroutines.YieldKt, Xamarin.KotlinX.Coroutines.Core.Jvm"
-	.size	.L.managed_type_name.12493, 72
+	.size	.L.managed_type_name.12494, 72
 
 	/*  Managed type names: END */

@@ -264,3 +264,5 @@ C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-ios\
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-ios\iossimulator-x64\MusicBrainzMauiApp.pdb
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-ios\iossimulator-x64\MusicBrainzMauiApp.genruntimeconfig.cache
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-ios\iossimulator-x64\ref\MusicBrainzMauiApp.dll
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-ios\iossimulator-x64\libextension-dotnet.a

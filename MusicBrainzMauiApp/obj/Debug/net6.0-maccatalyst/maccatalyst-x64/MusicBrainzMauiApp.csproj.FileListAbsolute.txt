@@ -255,3 +255,4 @@ C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-macc
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\MusicBrainzMauiApp.pdb
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\MusicBrainzMauiApp.genruntimeconfig.cache
 C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\MusicBrainzMauiApp.dll
+C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png

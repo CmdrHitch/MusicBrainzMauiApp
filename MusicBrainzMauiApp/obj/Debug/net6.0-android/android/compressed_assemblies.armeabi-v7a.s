@@ -24,7 +24,7 @@
 	.section	.data, "aw", %progbits
 
 	@
-	@ Generated from instance of: Xamarin.Android.Tasks.CompressedAssembliesNativeAssemblyGenerator+CompressedAssemblies, Xamarin.Android.Build.Tasks, Version=12.3.99.45, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	@ Generated from instance of: Xamarin.Android.Tasks.CompressedAssembliesNativeAssemblyGenerator+CompressedAssemblies, Xamarin.Android.Build.Tasks, Version=12.3.99.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	@
 	.type	compressed_assemblies, %object
 	.global	compressed_assemblies
@@ -36,4 +36,4 @@ compressed_assemblies:
 	.long	0	@ descriptors
 	.size	compressed_assemblies, 8
 
-	.ident	"Xamarin.Android remotes/origin/release/6.0.3xx-rc3 @ 7548ad8f243f8a0b3366bf64fcea1f766f541255"
+	.ident	"Xamarin.Android remotes/origin/release/6.0.3xx @ 4c460a89cb070ee8dfd731842f36bc3dc68dc75c"

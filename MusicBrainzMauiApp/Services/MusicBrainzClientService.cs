@@ -35,10 +35,11 @@ namespace MusicBrainzMauiApp.Services
             foreach(var item in response)
             {
                 Artist artist = new Artist();
+                artist.MBID = item.Id;
                 artist.Name = item.Name;
                 artist.Type = item.Type;
                 
-                artist.MBID = item.Id;
+                artist.Country = item.Country;
                 artist.Genres = await GetGenres(item.Id);
 
                 artistList.Add(artist);

@@ -67,12 +67,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "MusicBrainzAPI": {
@@ -132,12 +132,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "MusicBrainzAPI": {
@@ -188,12 +188,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "MusicBrainzAPI": {
@@ -245,12 +245,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.3.5667, )",
+              "version": "[6.0.312, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {

@@ -23,7 +23,8 @@
             Placeholder="Search Text..." PlaceholderColor="Grey"
             BackgroundColor="LightGrey"
             TextColor="Black"
-            Margin="0,10,10,0"
+            HeightRequest="40"
+            Margin="10,10,10,10"
             SearchCommand="{Binding ArtistSearchCommand}"
             SearchCommandParameter="{Binding Text, Source={x:Reference searchbar}}"/>
 
@@ -33,17 +34,21 @@
             SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Artist">
-                    <Grid Padding="10">
-                        <Frame HeightRequest="100" Style="{StaticResource CardView}">
+                    <Grid Padding="0">
+                        <Frame  Margin="10,2,10,2"  Style="{StaticResource CardView}">
+                      
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer 
                                     Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ArtistsViewModel}},Path=NavToArtistPageCommand}"
                                     CommandParameter="{Binding .}"/>
                             </Frame.GestureRecognizers>
-                            <VerticalStackLayout>                         
-                                <Label Text="{Binding Name}" HorizontalOptions="Start" Margin=" 4,0,0,0" Style="{StaticResource MediumLabel}"/>
-                                <Label Text="{Binding Type}" HorizontalOptions="Start" Margin="6,0,0,0" Style="{StaticResource SmallLabel}" />
-                                <Label Text="{Binding Genres}" HorizontalOptions="Start" Margin="6,0,0,0" Style="{StaticResource SmallLabel}" />
+                            <VerticalStackLayout>
+                                <Grid ColumnDefinitions="*,*">
+                                    <Label Text="{Binding Name}"    HorizontalOptions="Start" Margin=" 10,5,0,0" Style="{StaticResource MediumLabel}" Grid.Column="0"/>
+                                    <Label Text="{Binding Country}" HorizontalOptions="Start" Margin="10,5,0,0" Style="{StaticResource SmallLabel}"   Grid.Column="1" />
+                                </Grid>
+                                    <Label Text="{Binding Type}"   HorizontalOptions="Start" Margin="10,0,0,0"   Style="{StaticResource SmallLabel}"  />
+                                    <Label Text="{Binding Genres}" HorizontalOptions="Start" Margin="10,0,0,5" Style="{StaticResource SmallLabel}" TextColor="Gray" />
                             </VerticalStackLayout>
                         </Frame>
                     </Grid>
@@ -52,7 +57,9 @@
         </CollectionView>
 
         <Button HorizontalOptions="Center" Grid.Row="2"
+                Margin="0,0,0,10"
                 Text="Go Back"
+                Style="{StaticResource ButtonOutline}"
                 Command="{Binding BackCommand}"/>
 
 
@@ -60,7 +67,8 @@
         HorizontalOptions="FillAndExpand"
         IsRunning="{Binding  IsBusy}"
         IsVisible="{Binding IsBusy}"
-        VerticalOptions="CenterAndExpand" />
+        VerticalOptions="CenterAndExpand" 
+        Grid.Row="1"/>
 
     </Grid>
 </ContentPage>

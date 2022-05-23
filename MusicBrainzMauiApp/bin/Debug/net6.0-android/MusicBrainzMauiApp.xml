@@ -31,6 +31,9 @@
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.Artist">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.artist"/>
         </member>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.IsRefreshing">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.isRefreshing"/>
+        </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.BaseViewModel.isBusy"/>
         </member>
