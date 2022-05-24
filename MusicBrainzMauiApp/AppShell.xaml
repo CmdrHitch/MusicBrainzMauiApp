@@ -8,7 +8,7 @@
 
     <ShellContent
         Title="Music Brainz"
-        ContentTemplate="{DataTemplate view:MainPageView}"
+        ContentTemplate="{DataTemplate view:ArtistsView}"
         Route="MainPage"
      />
 

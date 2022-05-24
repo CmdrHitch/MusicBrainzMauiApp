@@ -18,7 +18,7 @@ public partial class ArtistsViewModel : BaseViewModel
     MusicBrainzClientService client;
 
     SearchQuery searchQuery;
-    private static int limit = 5;
+    private static int limit = 10;
 
     [ObservableProperty]
     private string searchName;

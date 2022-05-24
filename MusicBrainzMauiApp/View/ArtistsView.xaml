@@ -9,7 +9,7 @@
 
 
 
-    <Grid
+    <Grid Margin="10,0,10,10"
         RowSpacing="0"
         BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
         <Grid.RowDefinitions>
@@ -28,7 +28,7 @@
             SearchCommand="{Binding ArtistSearchCommand}"
             SearchCommandParameter="{Binding Text, Source={x:Reference searchbar}}"/>
 
-        <CollectionView Grid.Row="1"
+        <CollectionView Grid.Row="1" 
             ItemsSource="{Binding Artists}"
             BackgroundColor="Transparent"
             SelectionMode="None">
@@ -44,11 +44,25 @@
                             </Frame.GestureRecognizers>
                             <VerticalStackLayout>
                                 <Grid ColumnDefinitions="*,*">
-                                    <Label Text="{Binding Name}"    HorizontalOptions="Start" Margin=" 10,5,0,0" Style="{StaticResource MediumLabel}" Grid.Column="0"/>
-                                    <Label Text="{Binding Country}" HorizontalOptions="Start" Margin="10,5,0,0" Style="{StaticResource SmallLabel}"   Grid.Column="1" />
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height ="*"/>
+                                        <RowDefinition Height ="*"/>
+                                        <RowDefinition Height ="*"/>
+                                    </Grid.RowDefinitions>
+
+                                        <Label Text="{Binding Name}" Grid.ColumnSpan="2" Grid.Row="0"
+                                               HorizontalOptions="Start" Margin=" 10,5,0,0" 
+                                               Style="{StaticResource MediumLabel}"/>
+                                        <Label Text="{Binding Country}" Grid.Column="1" Grid.Row="0"
+                                               HorizontalOptions="Start" Margin="10,5,0,0" 
+                                               Style="{StaticResource SubtleSmallLabel}"/>
+                                        <Label Text="{Binding Type}"  Grid.Column="0" Grid.Row="1"
+                                               HorizontalOptions="Start" Margin="10,0,0,0"   
+                                               Style="{StaticResource SmallLabel}"/>
+                                        <Label Text="{Binding Genres}" Grid.ColumnSpan="2" Grid.Row="2"
+                                               HorizontalOptions="Start" Margin="10,0,0,5" 
+                                               Style="{StaticResource SubtleSmallLabel}"/>
                                 </Grid>
-                                    <Label Text="{Binding Type}"   HorizontalOptions="Start" Margin="10,0,0,0"   Style="{StaticResource SmallLabel}"  />
-                                    <Label Text="{Binding Genres}" HorizontalOptions="Start" Margin="10,0,0,5" Style="{StaticResource SmallLabel}" TextColor="Gray" />
                             </VerticalStackLayout>
                         </Frame>
                     </Grid>
@@ -57,7 +71,7 @@
         </CollectionView>
 
         <Button HorizontalOptions="Center" Grid.Row="2"
-                Margin="0,0,0,10"
+                Margin="0,20,0,10"
                 Text="Go Back"
                 Style="{StaticResource ButtonOutline}"
                 Command="{Binding BackCommand}"/>

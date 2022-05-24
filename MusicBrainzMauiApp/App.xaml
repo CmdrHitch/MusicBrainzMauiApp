@@ -17,6 +17,7 @@
 
             <Color x:Key="LabelText">#1F1F1F</Color>
             <Color x:Key="LabelTextDark">White</Color>
+            <Color x:Key="LabelTextSubtle">Gray</Color>
 
             <Style ApplyToDerivedTypes="True" TargetType="Page">
                 <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}" />
@@ -47,6 +48,10 @@
 
             <Style x:Key="LargeLabel" BasedOn="{StaticResource BaseLabel}" TargetType="Label">
                 <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+            <Style x:Key="SubtleSmallLabel" BasedOn="{StaticResource SmallLabel}" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource LabelTextSubtle}"/>
             </Style>
 
             <Style ApplyToDerivedTypes="True" TargetType="RefreshView">
