@@ -1,5 +1,6 @@
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
 appiconLargeTile.scale-150.png
@@ -35,6 +36,11 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+header_logo.scale-100.png
+header_logo.scale-125.png
+header_logo.scale-150.png
+header_logo.scale-200.png
+header_logo.scale-400.png
 logo.scale-100.png
 musicbrainz_logo.scale-100.png
 musicbrainz_logo.scale-125.png

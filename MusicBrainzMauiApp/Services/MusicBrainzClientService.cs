@@ -53,7 +53,6 @@ namespace MusicBrainzMauiApp.Services
 
             //List<Hqub.MusicBrainz.API.Entities.Genre> 
 
-            
             var response = await musicBrainzClient.Artists.GetAsync(mbid, "genres");
             string outGenres = "";
   
@@ -78,7 +77,7 @@ namespace MusicBrainzMauiApp.Services
                 { "arid", artist.MBID },
                 //{   "release" album},
                 { "type", "album" },
-                { "status", "official" }
+                { "status", "official" },
             };
 
 
@@ -98,11 +97,27 @@ namespace MusicBrainzMauiApp.Services
                 Release release = new();
                 release.Title = item.Title;
                 release.MBID = item.Id;
+                release.Date = item.Date;
+                release.Media = GetMediumTypes(item.Media);
 
                 releaseList.Add(release);
             }
 
             return releaseList;
         }
+
+        private string GetMediumTypes(List<Hqub.MusicBrainz.API.Entities.Medium> release)
+        {
+            string medium = "";
+            
+            foreach(var item in release)
+            {
+                medium += $"{item.Format}, ";
+            }
+
+            return medium;
+        }
+
+
     }
 }
