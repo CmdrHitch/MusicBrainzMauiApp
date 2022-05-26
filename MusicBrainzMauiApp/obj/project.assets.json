@@ -20905,11 +20905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
+      "projectUniqueName": "E:\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
       "projectName": "MusicBrainzMauiApp",
-      "projectPath": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
+      "projectPath": "E:\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
       "packagesPath": "C:\\Users\\andyc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\obj\\",
+      "outputPath": "E:\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

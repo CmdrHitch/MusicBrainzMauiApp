@@ -7,33 +7,39 @@ build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicBrainzMauiApp
-build_property.ProjectDir = C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\
+build_property.ProjectDir = E:\source\repos\MusicBrainz\MusicBrainzMauiApp\
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/App.xaml]
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/AppShell.xaml]
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/ArtistsView.xaml]
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/View/AlbumView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.AlbumView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AlbumView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AlbumView.xaml
+
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/View/ArtistsView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.ArtistsView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ArtistsView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ArtistsView.xaml
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/ArtistView.xaml]
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/View/ArtistView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.ArtistView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ArtistView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ArtistView.xaml
 
-[C:/Users/andyc/source/repos/MusicBrainz/MusicBrainzMauiApp/View/MainPageView.xaml]
+[E:/source/repos/MusicBrainz/MusicBrainzMauiApp/View/MainPageView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MusicBrainzMauiApp.View.MainPageView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPageView.xaml

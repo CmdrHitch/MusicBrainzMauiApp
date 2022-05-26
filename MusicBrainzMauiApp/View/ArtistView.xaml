@@ -19,9 +19,9 @@
                
                 BackgroundColor="Transparent"
                 SelectionMode="None">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate x:DataType="viewmodel:ArtistViewModel">
-                        <Grid Padding="5">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="viewmodel:ArtistViewModel">
+                    <Grid Padding="5">
                         <Frame  Margin="10,2,10,2"  Style="{StaticResource CardView}">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer
@@ -32,11 +32,10 @@
                                 <Label Style="{StaticResource MediumLabel}"  Text="{Binding .}" TextColor="Black"  HorizontalOptions="Start" />
                             </VerticalStackLayout>
                         </Frame>
-                        </Grid>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
         <Button HorizontalOptions="Center" Grid.Row="2"
                 Margin="0,20,0,10"
                 Text="Go Back"

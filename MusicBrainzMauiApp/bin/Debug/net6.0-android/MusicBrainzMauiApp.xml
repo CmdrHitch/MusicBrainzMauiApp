@@ -4,6 +4,12 @@
         <name>MusicBrainzMauiApp</name>
     </assembly>
     <members>
+        <member name="P:MusicBrainzMauiApp.ViewModel.AlbumViewModel.Albums">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.AlbumViewModel.albums"/>
+        </member>
+        <member name="P:MusicBrainzMauiApp.ViewModel.AlbumViewModel.AlbumTitle">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.AlbumViewModel.albumTitle"/>
+        </member>
         <member name="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.backCommand">
             <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.BackCommand"/>.</summary>
         </member>
@@ -27,6 +33,18 @@
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.IsRefreshing">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.isRefreshing"/>
+        </member>
+        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.backCommand">
+            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.navToRealeaseCommand">
+            <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.NavToRealeaseCommand"/>.</summary>
+        </member>
+        <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.NavToRealeaseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MusicBrainzMauiApp.ViewModel.ArtistViewModel.NavToRealease(System.String)"/>.</summary>
         </member>
         <member name="P:MusicBrainzMauiApp.ViewModel.ArtistViewModel.Artist">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.ArtistViewModel.artist"/>

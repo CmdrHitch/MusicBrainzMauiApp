@@ -23,15 +23,17 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+        builder.Services.AddSingleton<MusicBrainzClientService>();
 
-		//Is order important ?? 
-		builder.Services.AddSingleton<MusicBrainzClientService>();
+        builder.Services.AddSingleton<MainPageView>();
         builder.Services.AddSingleton<MainPageViewModel>();
         builder.Services.AddTransient<ArtistsViewModel>();
 		builder.Services.AddTransient<ArtistsView>();
         builder.Services.AddTransient<ArtistViewModel>();
         builder.Services.AddTransient<ArtistView>();
-        builder.Services.AddSingleton<MainPageView>(); // Do not Forget!! 
+        builder.Services.AddTransient<AlbumViewModel>();
+        builder.Services.AddTransient<AlbumView>();
+     
 
 #if WINDOWS
             builder.ConfigureLifecycleEvents(events =>

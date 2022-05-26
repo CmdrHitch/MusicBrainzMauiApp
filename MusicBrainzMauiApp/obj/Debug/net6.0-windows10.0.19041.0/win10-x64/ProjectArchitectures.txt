@@ -1,1 +1,1 @@
-C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\MusicBrainzMauiApp.csproj;x64
+E:\source\repos\MusicBrainz\MusicBrainzMauiApp\MusicBrainzMauiApp.csproj;x64

@@ -2,10 +2,12 @@
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Linq;
 
 
 using MusicBrainzMauiApp.Model;
 using MusicBrainzMauiApp.Services;
+using MusicBrainzMauiApp.View;
 
 namespace MusicBrainzMauiApp.ViewModel
 {
@@ -35,7 +37,20 @@ namespace MusicBrainzMauiApp.ViewModel
         [ICommand]
         private async Task NavToRealease(string title)
         {
-            await Task.Run(() => Debug.WriteLine("Tapped Title", title));
+            if (string.IsNullOrEmpty(title))
+                return;
+
+            IEnumerable<Release> albumReleases = Releases.Where(rel => rel.Title == title);
+
+            List<Release> albums = new();
+            foreach (Release release in albumReleases)
+                albums.Add(release);
+            //Need to filter albums
+            await Shell.Current.GoToAsync(nameof(AlbumView),true, new Dictionary<string,object>
+            {
+                ["Albums"] = albums
+            });
+
         }
 
         [ObservableProperty]

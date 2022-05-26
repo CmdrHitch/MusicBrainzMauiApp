@@ -14,10 +14,15 @@ public partial class ArtistView : ContentPage
         
     }
 
-    protected override void OnAppearing()
+    protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {
-        base.OnAppearing();
+        base.OnNavigatedTo(args);
         Task.Run(() => viewModel.LoadRealeases());
     }
+    //protected override void On()
+    //{
+    //    base.OnAppearing();
+    //    Task.Run(() => viewModel.LoadRealeases());
+    //}
 
 }	 

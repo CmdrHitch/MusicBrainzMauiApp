@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>CFB88970-5105-407F-93A4-8165585F79BA</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>E:\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>351701D19CE279A60525E954178AC44C8B43D71E91FAF73E2C823C9AAF2AFB66</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>CFB88970-5105-407F-93A4-8165585F79BA_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>CFB88970-5105-407F-93A4-8165585F79BA_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-24T21:47:32.044</Modified>
+      <Modified>2022-05-26T16:44:15.342</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-24T21:47:31.801</Modified>
+      <Modified>2022-05-26T16:44:15.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.runtimeconfig.json">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.runtimeconfig.json">
       <PackagePath>MusicBrainzMauiApp.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-23T19:35:09.940</Modified>
+      <Modified>2022-05-25T12:18:23.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.dll">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.dll">
       <PackagePath>MusicBrainzMauiApp.dll</PackagePath>
-      <Modified>2022-05-24T21:47:31.222</Modified>
+      <Modified>2022-05-26T16:44:14.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MusicBrainzMauiApp.exe</PackagePath>
-      <Modified>2022-05-24T21:47:31.227</Modified>
+      <Modified>2022-05-26T16:44:14.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andyc\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.5\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1058,9 +1058,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-04-15T16:56:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.deps.json">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MusicBrainzMauiApp.deps.json">
       <PackagePath>MusicBrainzMauiApp.deps.json</PackagePath>
-      <Modified>2022-05-24T21:47:31.961</Modified>
+      <Modified>2022-05-26T16:44:15.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.312\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1082,243 +1082,243 @@
       <PackagePath>Microsoft.Maui.Essentials.pri</PackagePath>
       <Modified>2022-05-15T01:30:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-05-09T17:18:04.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
       <Modified>2022-05-23T19:35:08.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
       <Modified>2022-05-23T19:35:08.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
       <Modified>2022-05-23T19:35:08.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
       <Modified>2022-05-23T19:35:08.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
       <Modified>2022-05-23T19:35:08.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2022-05-09T17:18:04.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-05-09T17:18:04.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2022-05-24T19:28:14.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:15.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:15.087</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:15.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:15.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:15.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:14.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:14.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:14.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:14.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:15.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:15.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:15.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:15.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:14.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:14.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:14.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:14.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:14.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:14.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:14.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:14.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:15.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:15.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:15.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:15.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:15.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:14.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:14.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:14.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:15.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-100.png">
       <PackagePath>header_logo.scale-100.png</PackagePath>
       <Modified>2022-05-24T19:28:14.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-125.png">
       <PackagePath>header_logo.scale-125.png</PackagePath>
       <Modified>2022-05-24T19:28:14.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-150.png">
       <PackagePath>header_logo.scale-150.png</PackagePath>
       <Modified>2022-05-24T19:28:14.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-200.png">
       <PackagePath>header_logo.scale-200.png</PackagePath>
       <Modified>2022-05-24T19:28:14.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\header_logo.scale-400.png">
       <PackagePath>header_logo.scale-400.png</PackagePath>
       <Modified>2022-05-24T19:28:14.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
       <Modified>2022-05-19T07:50:08.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-100.png">
       <PackagePath>musicbrainz_logo.scale-100.png</PackagePath>
       <Modified>2022-05-19T07:50:08.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-125.png">
       <PackagePath>musicbrainz_logo.scale-125.png</PackagePath>
       <Modified>2022-05-12T07:25:07.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-150.png">
       <PackagePath>musicbrainz_logo.scale-150.png</PackagePath>
       <Modified>2022-05-12T07:25:07.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-200.png">
       <PackagePath>musicbrainz_logo.scale-200.png</PackagePath>
       <Modified>2022-05-12T07:25:07.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo.scale-400.png">
       <PackagePath>musicbrainz_logo.scale-400.png</PackagePath>
       <Modified>2022-05-12T07:25:07.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-100.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-100.png">
       <PackagePath>musicbrainz_logo2.scale-100.png</PackagePath>
       <Modified>2022-05-19T12:01:28.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-125.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-125.png">
       <PackagePath>musicbrainz_logo2.scale-125.png</PackagePath>
       <Modified>2022-05-19T12:01:28.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-150.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-150.png">
       <PackagePath>musicbrainz_logo2.scale-150.png</PackagePath>
       <Modified>2022-05-19T12:01:28.901</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-200.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-200.png">
       <PackagePath>musicbrainz_logo2.scale-200.png</PackagePath>
       <Modified>2022-05-19T12:01:28.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyc\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-400.png">
+    <AppxPackagedFile Include="E:\source\repos\MusicBrainz\MusicBrainzMauiApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicbrainz_logo2.scale-400.png">
       <PackagePath>musicbrainz_logo2.scale-400.png</PackagePath>
       <Modified>2022-05-19T12:01:28.908</Modified>
     </AppxPackagedFile>

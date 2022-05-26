@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qrmeGw0gqNrUavuWT/H1/+JgHvyqVSme93koBROFYTwPx+P2WMX8bbDtcfPZz6x4Kg/l/r/cOIJpMk6Y2g8gjw==",
+  "dgSpecHash": "xZAiWxP+eh/6AwLTCRceqAVU9lpoDmMVTWaeePqUCmXnoTXyx3HKdiGbTeP4v2eShckAzQmX7NjopXFASgoU7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andyc\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
+  "projectFilePath": "E:\\source\\repos\\MusicBrainz\\MusicBrainzMauiApp\\MusicBrainzMauiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andyc\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0-preview3\\communitytoolkit.mvvm.8.0.0-preview3.nupkg.sha512",
     "C:\\Users\\andyc\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
