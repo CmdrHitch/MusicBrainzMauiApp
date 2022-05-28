@@ -15,21 +15,26 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <CollectionView
-                ItemsSource="{Binding Titles}"
+                ItemsSource="{Binding Releases}"
                
                 BackgroundColor="Transparent"
                 SelectionMode="None">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="viewmodel:ArtistViewModel">
+                <DataTemplate x:DataType="model:Release">
                     <Grid Padding="5">
                         <Frame  Margin="10,2,10,2"  Style="{StaticResource CardView}">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer
                                     Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ArtistViewModel}},Path=NavToRealeaseCommand}"
-                                    CommandParameter="{Binding .}"/>
+                                    CommandParameter="{Binding Title}"/>
                             </Frame.GestureRecognizers>
                             <VerticalStackLayout>
-                                <Label Style="{StaticResource MediumLabel}"  Text="{Binding .}" TextColor="Black"  HorizontalOptions="Start" />
+                                <Label Style="{StaticResource MediumLabel}"  Text="{Binding Title}" TextColor="Black"  HorizontalOptions="Start" />
+                                <!-- <Image 
+                                    Source="{Binding CoverArtFront}"
+                                    HeightRequest="125"
+                                    WidthRequest="125"
+                                    /> --> 
                             </VerticalStackLayout>
                         </Frame>
                     </Grid>

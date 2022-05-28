@@ -30,14 +30,16 @@ namespace MusicBrainzMauiApp.Services
         {
             var releases = new List<Release>();
 
+            string testUri = "https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/bluemonkey.jpg";
+
             await Task.Run(() =>
             {
-                var release1 = new Release { MBID = "1", Title = "release One" };
-                var release2 = new Release { MBID = "2", Title = "release Two" };
-                var release3 = new Release { MBID = "3", Title = "release Three" };
-                var release4 = new Release { MBID = "4", Title = "release Four" };
-                var release5 = new Release { MBID = "5", Title = "release Five" };
-                var release6 = new Release { MBID = "6", Title = "release Six" };
+                var release1 = new Release { MBID = "1", Title = "release One", CoverArtFront = testUri };
+                var release2 = new Release { MBID = "2", Title = "release Two", CoverArtFront = testUri };
+                var release3 = new Release { MBID = "3", Title = "release Three", CoverArtFront = testUri };
+                var release4 = new Release { MBID = "4", Title = "release Four", CoverArtFront = testUri };
+                var release5 = new Release { MBID = "5", Title = "release Five", CoverArtFront = testUri };
+                var release6 = new Release { MBID = "6", Title = "release Six", CoverArtFront = testUri };
 
                 releases.Add(release1);
                 releases.Add(release2);

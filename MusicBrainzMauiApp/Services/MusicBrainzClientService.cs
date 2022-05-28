@@ -5,9 +5,9 @@ namespace MusicBrainzMauiApp.Services
 {
     public class MusicBrainzClientService // Make Static ?
     {
-        private static bool testmode = false;
+        private static bool testmode = true;
 
-        private MusicBrainzClient musicBrainzClient;
+        public MusicBrainzClient musicBrainzClient;
 
         public MusicBrainzClientService MusicBrainzClient
         {
@@ -75,7 +75,6 @@ namespace MusicBrainzMauiApp.Services
             var query = new QueryParameters<Hqub.MusicBrainz.API.Entities.Release>()
             {
                 { "arid", artist.MBID },
-                //{   "release" album},
                 { "type", "album" },
                 { "status", "official" },
             };
@@ -99,6 +98,7 @@ namespace MusicBrainzMauiApp.Services
                 release.MBID = item.Id;
                 release.Date = item.Date;
                 release.Media = GetMediumTypes(item.Media);
+                release.CoverArtFront = await CoverArtService.GetCoverArtUri(musicBrainzClient, item.Id);
 
                 releaseList.Add(release);
             }
@@ -117,7 +117,6 @@ namespace MusicBrainzMauiApp.Services
 
             return medium;
         }
-
 
     }
 }

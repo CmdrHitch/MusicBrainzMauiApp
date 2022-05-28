@@ -7,8 +7,8 @@
         <member name="P:MusicBrainzMauiApp.ViewModel.AlbumViewModel.Albums">
             <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.AlbumViewModel.albums"/>
         </member>
-        <member name="P:MusicBrainzMauiApp.ViewModel.AlbumViewModel.AlbumTitle">
-            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.AlbumViewModel.albumTitle"/>
+        <member name="P:MusicBrainzMauiApp.ViewModel.AlbumViewModel.Blah">
+            <inheritdoc cref="F:MusicBrainzMauiApp.ViewModel.AlbumViewModel.blah"/>
         </member>
         <member name="F:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.backCommand">
             <summary>The backing field for <see cref="P:MusicBrainzMauiApp.ViewModel.ArtistsViewModel.BackCommand"/>.</summary>
